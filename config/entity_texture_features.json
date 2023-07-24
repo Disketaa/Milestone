@@ -20,7 +20,7 @@
   "skinFeaturesEnableFullTransparency": false,
   "tryETFTransparencyForAllSkins": false,
   "enableEnemyTeamPlayersSkinFeatures": true,
-  "enableBlinking": true,
+  "enableBlinking": false,
   "blinkFrequency": 150,
   "blinkLength": 1,
   "enableTridents": false,

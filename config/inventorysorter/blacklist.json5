@@ -5,7 +5,6 @@
 	"doNotSortList": [],
 	// Neither the opened inventory, nor your player inventory will be sortable when this inventory is opened
 	"hideSortBtnsList": [
-		"etcetera:prickly_can",
 		"automated_crafting:auto_crafter"
 	]
 }

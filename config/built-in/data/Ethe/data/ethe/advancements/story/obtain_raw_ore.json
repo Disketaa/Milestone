@@ -1,14 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate"
+      "item": "minecraft:reinforced_deepslate"
     },
     "title": {
-      "translate": "advancements.ethe.story.obtain_deepslate.title"
+      "translate": "advancements.ethe.story.obtain_raw_ore.title"
     },
     "description": {
-      "translate": "advancements.ethe.story.obtain_deepslate.description"
+      "translate": "advancements.ethe.story.obtain_raw_ore.description"
     },
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },
@@ -19,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:deepslates"
+            "tag": "c:raw_ores"
           }
         ]
       }

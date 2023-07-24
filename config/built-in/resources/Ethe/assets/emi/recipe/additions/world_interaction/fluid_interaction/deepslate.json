@@ -2,5 +2,12 @@
   "type": "emi:world_interaction",
   "left": "fluid:minecraft:water",
   "right": "fluid:minecraft:lava",
-  "output": "item:minecraft:deepslate"
+  "output": [
+    "item:minecraft:deepslate",
+    {
+    "type": "item",
+    "id": "minecraft:reinforced_deepslate",
+    "chance": 0.01
+    }
+  ]
 }

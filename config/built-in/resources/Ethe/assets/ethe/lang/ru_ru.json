@@ -34,8 +34,8 @@
     "advancements.ethe.story.enter_the_end.description": "Войдите в портал Энда",
     "advancements.ethe.story.obtain_cobblestone.title": "Камень преткновения",
     "advancements.ethe.story.obtain_cobblestone.description": "Смешайте воду и лаву в булыжник",
-    "advancements.ethe.story.obtain_deepslate.title": "Ниже нуля",
-    "advancements.ethe.story.obtain_deepslate.description": "Смешайте воду и лаву в глубинный сланец на отрицательной высоте",
+    "advancements.ethe.story.obtain_raw_ore.title": "Ниже нуля",
+    "advancements.ethe.story.obtain_raw_ore.description": "Найдите руду, смешав определённым образом воду и лаву на отрицательной высоте",
 //  Husbandry
     "advancements.ethe.husbandry.root.title": "Хозяйство",
     "advancements.ethe.husbandry.root.description": "Мир друзей, добра и еды",
@@ -98,9 +98,11 @@
     "advancements.ethe.redstone.craft_filter_hopper.title": "Медный регулировщик",
     "advancements.ethe.redstone.craft_filter_hopper.description": "Сделайте фильтрующую воронку",
     "advancements.ethe.redstone.craft_lodestone.title": "Внеземное притяжение",
-    "advancements.ethe.redstone.craft_lodestone.description": "Создайте магнетит",
+    "advancements.ethe.redstone.craft_lodestone.description": "Сделайте магнетит",
     "advancements.ethe.redstone.strike_lodestone.title": "Заряжен на 100%",
     "advancements.ethe.redstone.strike_lodestone.description": "Зарядите магнетит ударом молнии в громоотвод, стоящий на нём",
+    "advancements.ethe.redstone.craft_wrench.title": "Медный ключик",
+    "advancements.ethe.redstone.craft_wrench.description": "Сделайте ключ",
 //  Items
     "item.minecraft.music_disc_13.desc": "C418 - 13",
     "item.minecraft.music_disc_cat.desc": "C418 - Cat",
