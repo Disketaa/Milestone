@@ -5,9 +5,9 @@ fancymenu_setups/
 logs/
 saves/
 screenshots/
-
 fabricDefaultResourcePacks.dat
 instance.json
+emi.json
 options.txt
 realms_persistence.json
 servers.dat
