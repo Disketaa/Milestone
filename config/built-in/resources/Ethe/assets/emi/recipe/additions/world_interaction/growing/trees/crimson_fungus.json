@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": [ 
+    "item:minecraft:crimson_fungus",
+    "item:minecraft:crimson_nylium"
+  ],
+  "right": "item:minecraft:bone_meal",
+  "output": [
+    "item:minecraft:crimson_stem",
+    "item:minecraft:nether_wart_block",
+    "item:minecraft:shroomlight",
+    "item:minecraft:weeping_vines"
+  ]
+}

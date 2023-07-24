@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:jungle_sapling",
+    "amount": 4
+    },
+  "right": "item:minecraft:bone_meal",
+  "output": [
+    "item:minecraft:jungle_log",
+    "item:minecraft:jungle_leaves",
+    "item:minecraft:vine"
+  ]
+}

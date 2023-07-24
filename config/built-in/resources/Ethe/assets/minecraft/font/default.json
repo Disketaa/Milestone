@@ -1,0 +1,45 @@
+{
+  "providers": [
+    // #Indents
+    {
+      "type": "bitmap",
+      "file": "ethe:glyphs/indent.png",
+      "ascent": 1,
+      "height": 1,
+      "chars": ["\uE000"]
+    },
+
+    // #Small Icons
+    {
+      "type": "bitmap",
+      "file": "ethe:glyphs/recipe_arrow.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": ["\uE010"]
+    },
+
+    // #Icons
+    {
+      "type": "bitmap",
+      "file": "ethe:glyphs/icons/wandering_trader.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": ["\uE100"]
+    },
+    {
+      "type": "bitmap",
+      "file": "ethe:glyphs/icons/piglin.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": ["\uE101"]
+    },
+
+    {
+      "type": "bitmap",
+      "file": "ethe:glyphs/icons/fishing.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": ["\uE200"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "redstonebits:counter",
+    "redstonebits:adder",
+    "redstonebits:resistor",
+    "redstonebits:inverter"
+  ]
+}

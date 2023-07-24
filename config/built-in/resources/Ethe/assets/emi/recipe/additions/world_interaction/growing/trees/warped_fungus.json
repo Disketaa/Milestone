@@ -1,0 +1,13 @@
+{
+  "type": "emi:world_interaction",
+  "left": [ 
+    "item:minecraft:warped_fungus",
+    "item:minecraft:warped_nylium"
+  ],
+  "right": "item:minecraft:bone_meal",
+  "output": [
+    "item:minecraft:warped_stem",
+    "item:minecraft:warped_wart_block",
+    "item:minecraft:shroomlight"
+  ]
+}

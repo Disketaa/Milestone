@@ -1,0 +1,15 @@
+.fabric/
+crash-reports/
+fancymenu_data/
+fancymenu_setups/
+logs/
+saves/
+screenshots/
+
+instance.json
+options.txt
+realms_persistence.json
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json

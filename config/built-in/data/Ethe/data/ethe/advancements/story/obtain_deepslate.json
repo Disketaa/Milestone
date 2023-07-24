@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "advancements.ethe.story.obtain_deepslate.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.story.obtain_deepslate.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:story/obtain_cobblestone",
+  "criteria": {
+    "obtain_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:deepslates"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

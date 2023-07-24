@@ -1,0 +1,24 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:minecraft:fire_coral_block",
+    "item:minecraft:brain_coral_block",
+    "item:minecraft:bubble_coral_block",
+    "item:minecraft:tube_coral_block",
+    "item:minecraft:horn_coral_block",
+    "item:minecraft:dripstone_block",
+    "item:minecraft:sand",
+    "item:minecraft:red_sand",
+    "item:minecraft:dead_bush",
+    "item:minecraft:sea_pickle",    
+    "item:minecraft:small_dripleaf",
+    "item:minecraft:spore_blossom",
+    "item:minecraft:fern",
+    "item:minecraft:lily_pad",
+    "item:minecraft:kelp",
+    "item:minecraft:sugar_cane",
+    "item:minecraft:nautilus_shell",
+    "item:minecraft:heart_of_the_sea"
+  ],
+  "text": "emi.info.trading.wandering_trader.sea_goods"
+}

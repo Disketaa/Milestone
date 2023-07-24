@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.ethe.story.obtain_gold.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.story.obtain_gold.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:story/kill_a_mob",
+    "criteria": {
+    "obtain_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,10 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:minecraft:cod",
+    "item:minecraft:salmon",
+    "item:minecraft:tropical_fish",
+    "item:minecraft:pufferfish"
+  ],
+  "text": "emi.info.fishing_fish"
+}

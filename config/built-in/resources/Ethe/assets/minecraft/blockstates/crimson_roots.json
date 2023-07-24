@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/crimson_roots", "weight": 19 },
+            { "model": "block/sprouts/crimson_roots1", "weight": 14 },
+            { "model": "block/sprouts/crimson_roots2", "weight": 19 },
+            { "model": "block/sprouts/crimson_roots3", "weight": 19 },
+            { "model": "block/sprouts/crimson_roots4", "weight": 14 },
+            { "model": "block/sprouts/crimson_roots5", "weight": 12 },
+            { "model": "block/sprouts/crimson_roots6", "weight": 3 }
+        ]
+    }
+}

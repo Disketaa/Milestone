@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "copperhopper:copper_hopper"
+    },
+    "title": {
+      "translate": "advancements.ethe.redstone.craft_filter_hopper.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.redstone.craft_filter_hopper.description"
+    },
+
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:redstone/logistics",
+  "criteria": {
+    "craft_filter_hopper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "copperhopper:copper_hopper"
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

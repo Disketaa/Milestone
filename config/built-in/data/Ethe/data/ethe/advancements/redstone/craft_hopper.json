@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:hopper"
+    },
+    "title": {
+      "translate": "advancements.ethe.redstone.craft_hopper.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.redstone.craft_hopper.description"
+    },
+
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:redstone/root",
+  "criteria": {
+    "hopper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:hopper"
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

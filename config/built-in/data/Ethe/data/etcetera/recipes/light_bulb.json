@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "#",
+    "G"
+  ],
+  "result": {
+    "item": "etcetera:light_bulb"
+  },
+  "show_notification": true
+}

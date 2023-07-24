@@ -1,0 +1,13 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:mangrove_propagule",
+  "right": "item:minecraft:bone_meal",
+  "output": [
+    "item:minecraft:mangrove_roots",
+    "item:minecraft:mangrove_log",
+    "item:minecraft:mangrove_leaves",
+    "item:minecraft:moss_carpet",
+    "item:minecraft:vine",
+    "item:minecraft:mangrove_propagule"
+  ]
+}

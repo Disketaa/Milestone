@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ccc",
+        "RCQ",
+        "ccc"
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:copper_ingot"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "C": {
+            "item": "minecraft:comparator"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "redstonebits:checker"
+    }
+}

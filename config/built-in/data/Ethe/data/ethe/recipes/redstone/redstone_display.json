@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "RCQ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:tinted_glass"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "C": {
+            "item": "minecraft:comparator"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "redstonebits:redstone_display"
+    }
+}

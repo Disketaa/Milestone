@@ -1,0 +1,9 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:spruce_sapling",
+  "right": "item:minecraft:bone_meal",
+  "output": [
+    "item:minecraft:spruce_log",
+    "item:minecraft:spruce_leaves"
+  ]
+}

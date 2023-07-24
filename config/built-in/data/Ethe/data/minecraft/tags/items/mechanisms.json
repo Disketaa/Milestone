@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "redstonebits:breaker",
+    "redstonebits:placer",
+    "redstonebits:checker",
+    "redstonebits:rotator"
+  ]
+}

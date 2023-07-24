@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "redstonebits:checker"
+    },
+    "title": {
+      "translate": "advancements.ethe.redstone.mechanisms.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.redstone.mechanisms.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:redstone/logistics",
+  "criteria": {
+    "obtain_mechanisms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:mechanisms"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

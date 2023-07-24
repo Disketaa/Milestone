@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "Q#Q",
+    "cCc"
+  ],
+  "key": {
+    "R" : {
+      "item": "minecraft:redstone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "#" : {
+      "item": "minecraft:crafting_table"
+    },
+    "c" : {
+      "item": "minecraft:copper_ingot"
+    },
+    "C" : {
+      "item": "redstonebits:checker"
+    }    
+  },
+  "result": {
+    "item": "automated_crafting:auto_crafter"
+  }
+}

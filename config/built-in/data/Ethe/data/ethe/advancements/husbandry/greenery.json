@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jungle_sapling"
+    },
+    "title": {
+      "translate": "advancements.ethe.husbandry.greenery.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.husbandry.greenery.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:husbandry/root",
+  "criteria": {
+    "greenery": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:saplings"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+		 { "model": "block/poppy", "weight": 12 },
+		 { "model": "block/flowers/poppy1", "weight": 8 }
+		 ]
+    }
+}

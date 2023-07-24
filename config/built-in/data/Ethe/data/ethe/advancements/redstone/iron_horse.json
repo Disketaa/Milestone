@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "advancements.ethe.redstone.iron_horse.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.redstone.iron_horse.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:redstone/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:minecart"
+          }
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

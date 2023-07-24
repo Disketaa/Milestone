@@ -1,0 +1,6 @@
+{
+	"parent": "block/foliage_notint/t_foliage_notint5",
+	"textures": {
+		"0": "block/small_amethyst_bud"
+	}
+}

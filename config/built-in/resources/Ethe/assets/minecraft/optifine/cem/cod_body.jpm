@@ -1,0 +1,16 @@
+{
+	"texture": "textures/entity/fish/fish_parts",
+	"textureSize": [32, 32],
+	"credit": "Made with Blockbench",
+	"boxes": [
+		{
+			"coordinates": [0, -3, -1, 0, 6, 9],
+			"uvNorth": [9, 0, 9, 6],
+			"uvEast": [0, 0, 9, 6],
+			"uvSouth": [18, 0, 18, 6],
+			"uvWest": [9, 0, 18, 6],
+			"uvUp": [9, 0, 9, -9],
+			"uvDown": [9, -9, 9, 0]
+		}
+	]
+}

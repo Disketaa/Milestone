@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.ethe.story.trade_a_tool.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.story.trade_a_tool.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:story/cure_zombie_villager",
+  "criteria": {
+    "trade_tool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:diamond_tools"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

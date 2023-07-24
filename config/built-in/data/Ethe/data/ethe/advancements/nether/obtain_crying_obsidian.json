@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "advancements.ethe.nether.obtain_crying_obsidian.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.nether.obtain_crying_obsidian.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:nether/root",
+  "criteria": {
+    "obtain_crying_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crying_obsidian"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

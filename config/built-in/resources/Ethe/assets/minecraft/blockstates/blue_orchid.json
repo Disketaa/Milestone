@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+		 { "model": "block/blue_orchid", "weight": 12 },
+		 { "model": "block/flowers/blue_orchid1", "weight": 8 }
+		 ]
+    }
+}

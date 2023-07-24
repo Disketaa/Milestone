@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:weeping_vines",
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:weeping_vines"
+}

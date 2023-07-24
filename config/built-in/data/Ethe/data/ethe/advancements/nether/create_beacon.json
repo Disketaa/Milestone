@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "advancements.ethe.nether.create_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.ethe.nether.create_beacon.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ethe:nether/obtain_crying_obsidian",
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beacon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "emi:item/half_item",
+  "textures": {
+    "first": "minecraft:block/oak_sapling",
+    "second": "minecraft:block/birch_sapling"
+  }
+}

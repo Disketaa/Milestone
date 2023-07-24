@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GSG",
+    "CCC"
+  ],
+  "result": {
+    "item": "minecraft:beacon"
+  },
+  "show_notification": true
+}

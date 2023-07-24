@@ -1,0 +1,10 @@
+{
+  "values": [
+    "redstonebits:breaker",
+    "redstonebits:placer",
+    "redstonebits:checker",
+    "minecraft:lightning_rod",
+    "automated_crafting:auto_crafter",
+    "copperhopper:copper_hopper"
+  ]
+}
