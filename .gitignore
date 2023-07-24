@@ -6,6 +6,7 @@ logs/
 saves/
 screenshots/
 
+fabricDefaultResourcePacks.dat
 instance.json
 options.txt
 realms_persistence.json
