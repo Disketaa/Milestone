@@ -1,9 +1,0 @@
-{
-  "type": "emi:world_interaction",
-  "left": "item:minecraft:acacia_sapling",
-  "right": "item:minecraft:bone_meal",
-  "output": [
-    "item:minecraft:acacia_log",
-    "item:minecraft:acacia_leaves"
-  ]
-}

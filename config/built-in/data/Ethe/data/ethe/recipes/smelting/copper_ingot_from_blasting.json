@@ -4,24 +4,6 @@
   "experience": 0.1,
   "ingredient": [
     {
-      "tag": "ethe:copper/blocks"
-    },
-    {
-      "tag": "ethe:copper/slabs"
-    },
-    {
-      "tag": "ethe:copper/stairs"
-    },
-    {
-      "tag": "ethe:copper/mechanisms"
-    },
-    {
-      "tag": "redstonebits:copper_pressure_plates"
-    },
-    {
-      "tag": "redstonebits:copper_buttons"
-    },
-    {
       "item": "minecraft:brush"
     },
     {

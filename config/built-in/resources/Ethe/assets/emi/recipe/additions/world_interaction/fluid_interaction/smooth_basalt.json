@@ -1,0 +1,16 @@
+{
+  "type": "emi:world_interaction",
+  "left": "fluid:minecraft:lava",
+  "right": [
+    "item:minecraft:soul_soil",
+    "item:minecraft:crying_obsidian"
+  ],
+  "output": [
+    "item:minecraft:smooth_basalt",
+    {
+    "type": "item",
+    "id": "minecraft:ancient_debris",
+    "chance": 0.005
+    }
+  ]
+}

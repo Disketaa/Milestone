@@ -1,9 +1,0 @@
-{
-  "type": "emi:world_interaction",
-  "left": "item:minecraft:birch_sapling",
-  "right": "item:minecraft:bone_meal",
-  "output": [
-    "item:minecraft:birch_log",
-    "item:minecraft:birch_leaves"
-  ]
-}

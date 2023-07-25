@@ -1,9 +1,11 @@
 {
   "replace": true,
   "values": [
+    "automated_crafting:auto_crafter",
+    "copperhopper:copper_hopper",
     "redstonebits:breaker",
-    "redstonebits:placer",
     "redstonebits:checker",
+    "redstonebits:placer",
     "redstonebits:rotator"
   ]
 }

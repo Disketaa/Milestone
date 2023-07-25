@@ -19,7 +19,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:mechanisms"
+            "tag": "c:mechanisms"
           }
         ]
       }

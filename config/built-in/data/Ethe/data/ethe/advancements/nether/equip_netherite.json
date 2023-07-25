@@ -14,7 +14,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "ethe:nether/obtain_netherite_scrap",
+  "parent": "ethe:nether/obtain_ancient_debris",
   "criteria": {
     "equip_netherite": {
       "trigger": "minecraft:inventory_changed",
