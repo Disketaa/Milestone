@@ -1,0 +1,28 @@
+type = menu
+
+customization-meta {
+  identifier = com.ninni.etcetera.client.gui.screen.PricklyCanScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=568422%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=568422%
+  orientation = mid-centered
+  x = 61
+  action = movebutton
+  y = -78
+}
+

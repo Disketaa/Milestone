@@ -6,3 +6,12 @@ net.minecraft.class_446 {
 net.minecraft.class_442 {
 }
 
+net.minecraft.class_490 {
+}
+
+com.ninni.etcetera.client.gui.screen.PricklyCanScreen {
+}
+
+com.illusivesoulworks.diet.client.screen.DietScreen {
+}
+
