@@ -4,8 +4,7 @@
     "item:minecraft:leather",
     "item:minecraft:bone",
     "item:minecraft:ink_sac",
-    "item:minecraft:iron_nugget",
-    "item:minecraft:gold_nugget",
+    "item:coppernugget:copper_nugget",
     "item:minecraft:prismarine_crystals"
   ],
   "text": "emi.info.fishing_junk"

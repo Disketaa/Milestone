@@ -15,3 +15,6 @@ com.ninni.etcetera.client.gui.screen.PricklyCanScreen {
 com.illusivesoulworks.diet.client.screen.DietScreen {
 }
 
+net.minecraft.class_433 {
+}
+

@@ -23,12 +23,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:iron_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:gold_nugget"
+          "name": "coppernugget:copper_nuugget"
         },
         {
           "type": "minecraft:item",
