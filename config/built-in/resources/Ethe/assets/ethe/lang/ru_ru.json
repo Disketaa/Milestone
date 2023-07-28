@@ -301,10 +301,6 @@
     "msg.freecam.disable": "§7Свободный полёт отключён",
     "msg.freecam.enable": "Свободный полёт включён",
 
-// Peek
-    "tooltip.peek.beehive.bee_count": "Пчёл внутри: %s",
-    "tooltip.peek.beehive.honey_level": "Количество мёда: %s",
-
 // Redstone-Bits
 //  Blocks
     "block.redstonebits.adder": "Редстоуновый сумматор",
