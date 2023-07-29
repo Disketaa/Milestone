@@ -15,5 +15,3 @@ required = [ "config/built-in/resources/" ]
 
 [datapacks]
 required = [ "config/built-in/data/" ]
-
-optional = [ "global_packs/optional_data/" ]

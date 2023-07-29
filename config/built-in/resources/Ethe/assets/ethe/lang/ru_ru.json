@@ -295,7 +295,7 @@
     "tag.item.redstonebits.waxed_copper_pressure_plates": "Вощёные среднегрузные весовые пластины",
 
 // Etcetera
-      "item.etcetera.etcetera": "Эфир",
+    "item.etcetera.etcetera": "Эфир",
 
 // Fabric
     "fabric.gui.creativeTabPage": "Страница %d из %d",
