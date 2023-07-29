@@ -59,6 +59,10 @@
     {
       "stack": "item:diamond_nuggets:diamond_nugget",
       "after": "item:minecraft:amethyst_shard"
+    },
+    {
+      "stack": "item:etcetera:etcetera",
+      "after": "item:minecraft:nether_star"
     }
   ]  
 }

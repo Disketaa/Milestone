@@ -20,9 +20,9 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 2
-  width = 157
+  width = 214
   action = deep_customization_element:title_screen_branding
   actionid = cd9a8a2b-8608-4c1d-a407-dc2fa1a32b131690034458225
   y = 497
@@ -62,5 +62,24 @@ customization {
   actionid = e8adfaec-738a-4099-be72-40d379cbffda1690034458237
   y = 0
   height = 30
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = a12
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 52
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1d3e4c14-95db-43cb-8fc7-65e6a19251ff1690589119695
+  y = -12
+  alignment = left
+  height = 15
 }
 
