@@ -9,8 +9,8 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/customguis/backgrounds/background.png
-  action = texturizebackground
+  name = default
+  action = setbackgroundpanorama
 }
 
 customization {
@@ -42,7 +42,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 343
   width = 274
   action = deep_customization_element:title_screen_logo
@@ -80,6 +80,28 @@ customization {
   actionid = 1d3e4c14-95db-43cb-8fc7-65e6a19251ff1690589119695
   y = -12
   alignment = left
+  height = 15
+}
+
+customization {
+  path = config/fancymenu/customguis/logotype/title.png
+  orientation = top-centered
+  x = -62
+  width = 125
+  action = addtexture
+  actionid = 84e8869f-210b-4bf8-9b8a-c2ca7860639e1690616332149
+  y = 39
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/customguis/logotype/version_alpha.png
+  orientation = top-centered
+  x = -25
+  width = 50
+  action = addtexture
+  actionid = f75979dc-4a8c-4792-9332-14e1ba1838af1690616696141
+  y = 78
   height = 15
 }
 
