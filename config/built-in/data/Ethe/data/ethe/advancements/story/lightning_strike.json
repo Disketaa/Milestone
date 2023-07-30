@@ -4,12 +4,12 @@
       "item": "minecraft:lightning_rod"
     },
     "title": {
-      "translate": "advancements.ethe.story.lightning_strike_slime.title"
+      "translate": "advancements.ethe.story.lightning_strike.title"
     },
     "description": {
-      "translate": "advancements.ethe.story.lightning_strike_slime.description"
+      "translate": "advancements.ethe.story.lightning_strike.description"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true
   },

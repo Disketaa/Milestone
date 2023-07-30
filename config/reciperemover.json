@@ -1,0 +1,10 @@
+{
+  "printErrorMessage": true,
+  "printRecipesAndAdvancements": true,
+  "removeAllVanillaAdvancements": false,
+  "removeAllAdvancements": false,
+  "recipeList": [],
+  "advancementList": [
+    "attraction"
+  ]
+}

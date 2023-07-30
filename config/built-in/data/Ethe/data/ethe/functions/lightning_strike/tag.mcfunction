@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:lightning_bolt] as @e[type=minecraft:slime,distance=..6] run tag @e[type=minecraft:slime,distance=..6] add striked
