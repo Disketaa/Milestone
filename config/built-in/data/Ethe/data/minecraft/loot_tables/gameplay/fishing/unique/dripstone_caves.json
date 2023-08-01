@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pointed_dripstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/unique/dripstone_caves"
+}

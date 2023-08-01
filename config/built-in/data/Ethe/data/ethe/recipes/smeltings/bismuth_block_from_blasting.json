@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "etcetera:raw_bismuth_block"
+    },
+    "result": "etcetera:bismuth_block",
+    "experience": 1.5,
+    "cookingtime": 500
+}

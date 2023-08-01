@@ -7,17 +7,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 5,
           "name": "minecraft:warped_nylium"
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 5,
           "name": "minecraft:crimson_nylium"
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 10,
           "name": "minecraft:netherrack",
           "functions": [
             {
@@ -32,7 +32,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 10,
           "name": "minecraft:soul_sand",
           "functions": [
             {
@@ -48,7 +48,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 20,
           "name": "minecraft:blackstone",
           "functions": [
             {
@@ -64,7 +64,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 20,
+          "name": "minecraft:suspicious_gravel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"archaeology/gravel\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
           "name": "minecraft:gravel",
           "functions": [
             {
@@ -80,7 +91,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:nether_wart",
           "functions": [
             {
@@ -95,7 +106,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:leather",
           "functions": [
             {
@@ -110,7 +121,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:glowstone_dust",
           "functions": [
             {
@@ -125,20 +136,15 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:glistering_melon_slice"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:quartz",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5,
-                "max": 12
+                "min": 2,
+                "max": 4
               },
               "add": false
             }
@@ -154,7 +160,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
-                "max": 6
+                "max": 4
               }
             }
           ]

@@ -1,6 +1,0 @@
-{
-  "type": "emi:world_interaction",
-  "left": "item:minecraft:twisting_vines",
-  "right": "item:minecraft:bone_meal",
-  "output": "item:minecraft:twisting_vines"
-}

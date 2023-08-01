@@ -1,0 +1,29 @@
+{
+  "entries": {
+    "minecraft:tube_coral": "minecraft:tube_coral_fan",
+    "minecraft:brain_coral": "minecraft:brain_coral_fan",
+    "minecraft:bubble_coral": "minecraft:bubble_coral_fan",
+    "minecraft:fire_coral": "minecraft:fire_coral_fan",
+    "minecraft:horn_coral": "minecraft:horn_coral_fan",
+    "minecraft:dead_tube_coral": "minecraft:dead_tube_coral_fan",
+    "minecraft:dead_brain_coral": "minecraft:dead_brain_coral_fan",
+    "minecraft:dead_bubble_coral": "minecraft:dead_bubble_coral_fan",
+    "minecraft:dead_fire_coral": "minecraft:dead_fire_coral_fan",
+    "minecraft:dead_horn_coral": "minecraft:dead_horn_coral_fan",
+    "minecraft:polished_blackstone": "minecraft:chiseled_polished_blackstone",
+    "minecraft:sandstone": "minecraft:chiseled_sandstone",
+    "minecraft:red_sandstone": "minecraft:chiseled_red_sandstone",
+    "minecraft:infested_stone_bricks": "minecraft:infested_chiseled_stone_bricks",
+    "minecraft:stone_bricks": "minecraft:chiseled_stone_bricks",
+    "minecraft:cobbled_deepslate": "minecraft:chiseled_deepslate",
+    "minecraft:nether_bricks": "minecraft:chiseled_nether_bricks",
+    "minecraft:quartz_block": "minecraft:chiseled_quartz_block",
+    "etcetera:iridescent_lantern": "minecraft:sea_lantern",
+    "etcetera:iridescent_terracotta": "minecraft:light_gray_terracotta",
+    "etcetera:iridescent_glazed_terracotta": "minecraft:light_gray_glazed_terracotta",
+    "etcetera:iridescent_concrete": "minecraft:light_gray_concrete",
+    "etcetera:iridescent_wool": "minecraft:light_gray_wool",
+    "etcetera:iridescent_glass": "minecraft:glass",
+    "etcetera:iridescent_glass_pane": "minecraft:glass_pane"
+  }
+}

@@ -3,7 +3,7 @@
   "displayDebugData": false,
   "enabled": true,
   "leafSize": 5,
-  "leafLifespan": 200,
+  "leafLifespan": 100,
   "leafSpawnRate": 10,
   "coniferLeafSpawnRate": 5,
   "snowflakeSpawnRate": 15,

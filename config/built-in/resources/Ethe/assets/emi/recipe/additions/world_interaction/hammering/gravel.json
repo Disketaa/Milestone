@@ -1,6 +1,0 @@
-{
-  "type": "emi:world_interaction",
-  "left": "item:minecraft:cobblestone",
-  "right": "item:etcetera:hammer",
-  "output": "item:minecraft:gravel"
-}

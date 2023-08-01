@@ -1,6 +1,0 @@
-{
-  "type": "emi:world_interaction",
-  "left": "item:minecraft:magma_block",
-  "right": "item:etcetera:hammer",
-  "output": "fluid:minecraft:lava"
-}

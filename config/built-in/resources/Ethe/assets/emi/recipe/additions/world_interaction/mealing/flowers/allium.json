@@ -1,6 +1,0 @@
-{
-  "type": "emi:world_interaction",
-  "left": "item:minecraft:allium",
-  "right": "item:minecraft:bone_meal",
-  "output": "item:minecraft:allium"
-}

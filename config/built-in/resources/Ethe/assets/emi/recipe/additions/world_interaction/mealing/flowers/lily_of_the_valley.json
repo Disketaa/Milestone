@@ -1,6 +1,0 @@
-{
-  "type": "emi:world_interaction",
-  "left": "item:minecraft:lily_of_the_valley",
-  "right": "item:minecraft:bone_meal",
-  "output": "item:minecraft:lily_of_the_valley"
-}

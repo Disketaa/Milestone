@@ -1,6 +1,15 @@
 {
   "type": "emi:world_interaction",
-  "left": "item:minecraft:lodestone",
-  "right": "item:minecraft:lightning_rod",
-  "output": "item:attraction:charged_lodestone"
+  "left": {
+    "type": "item",
+    "id": "minecraft:lodestone",
+  },
+  "right": {
+    "type": "item",
+    "id": "minecraft:lodestone",
+  },
+  "output": {
+    "type": "item",
+    "id": "minecraft:lodestone",
+  }
 }
