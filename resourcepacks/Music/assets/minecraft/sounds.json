@@ -1,0 +1,27 @@
+{
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/scott-buckley/a-kind-of-hope",
+        "volume": 0.1,
+        "stream": true
+      },
+      {
+        "name": "music/game/scott-buckley/midvinter",
+        "volume": 0.1,
+        "stream": true
+      },
+      {
+        "name": "music/game/scott-buckley/undertow",
+        "volume": 0.1,
+        "stream": true
+      },
+      {
+        "name": "music/game/punch-deck/ethereal",
+        "volume": 0.1,
+        "stream": true
+      }
+    ]
+  }
+}

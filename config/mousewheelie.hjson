@@ -46,7 +46,7 @@
 		enable: true
 		// Invert the scroll direction when scrolling items.
 		// default: false
-		invert: false
+		invert: true
 		// If enabled, items will be moved based on the visual position on the screen:
 		// When scrolling up, items will be sent to the upper inventory, when scrolling down to the lower inventory.
 		// If disabled, scrolling will instead affect the amount of items:
