@@ -2,13 +2,13 @@
 crash-reports/
 emi.json
 ethe/config/iris
-ethe/options.txt
 fabricDefaultResourcePacks.dat
 fancymenu_data/
 fancymenu_setups/
 instance.json
 logs/
-options.amecsapi
+options.amecsapi.txt
+options.txt
 realms_persistence.json
 saves/
 screenshots/
@@ -16,3 +16,4 @@ servers.dat
 servers.dat_old
 usercache.json
 usernamecache.json
+config/iris.properties

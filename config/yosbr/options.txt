@@ -4,7 +4,10 @@ darkMojangStudiosBackground:true
 guiScale:2
 resourcePacks:["vanilla","fabric","Ethe","file/Brush Up","file/Entities","file/Music"]
 tutorialStep:none
+skipMultiplayerWarning:true
+skipRealms32bitWarning:true
 allowServerListing:false
+onboardAccessibility:false
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.clickthrough.toggle:key.keyboard.unknown
@@ -13,7 +16,7 @@ key_key.hotbarcycle.cycle:key.mouse.5
 key_key.hotbarcycle.single_cycle:key.mouse.4
 key_key.modmenu.open_menu:key.keyboard.right.bracket
 key_key.mousewheelie.sort_inventory:key.keyboard.space
-key_key.mousewheelie.whole_stack_modifier:key.keyboard.unknown
+key_key.mousewheelie.whole_stack_modifier:key.keyboard.left.shift
 key_key.mousewheelie.all_of_kind_modifier:key.keyboard.unknown
 key_key.mousewheelie.drop_modifier:key.keyboard.unknown
 key_key.mousewheelie.deposit_modifier:key.keyboard.unknown
