@@ -3,22 +3,57 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/game/scott-buckley/a-kind-of-hope",
+        "name": "music/game/keys-of-moon_after-the-rain",
         "volume": 0.1,
         "stream": true
       },
       {
-        "name": "music/game/scott-buckley/midvinter",
+        "name": "music/game/keys-of-moon_spatium",
         "volume": 0.1,
         "stream": true
       },
       {
-        "name": "music/game/scott-buckley/undertow",
+        "name": "music/game/keys-of-moon_enchanted",
         "volume": 0.1,
         "stream": true
       },
       {
-        "name": "music/game/punch-deck/ethereal",
+        "name": "music/game/scott-buckley_a-kind-of-hope",
+        "volume": 0.1,
+        "stream": true
+      },
+      {
+        "name": "music/game/scott-buckley_midsommar",
+        "volume": 0.1,
+        "stream": true
+      },
+      {
+        "name": "music/game/scott-buckley_midvinter",
+        "volume": 0.1,
+        "stream": true
+      },
+      {
+        "name": "music/game/scott-buckley_jul",
+        "volume": 0.1,
+        "stream": true
+      },
+      {
+        "name": "music/game/scott-buckley_reverie",
+        "volume": 0.1,
+        "stream": true
+      },
+      {
+        "name": "music/game/scott-buckley_undertow",
+        "volume": 0.1,
+        "stream": true
+      }
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/menu/scott-buckley_horizons",
         "volume": 0.1,
         "stream": true
       }
