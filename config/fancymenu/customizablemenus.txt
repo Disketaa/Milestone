@@ -21,3 +21,9 @@ net.minecraft.class_433 {
 de.dafuqs.paginatedadvancements.client.PaginatedAdvancementScreen {
 }
 
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_8219 {
+}
+
