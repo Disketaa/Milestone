@@ -69,7 +69,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = a12
+  source = alpha-20
   text_border = 0
   case_mode = normal
   source_mode = direct
