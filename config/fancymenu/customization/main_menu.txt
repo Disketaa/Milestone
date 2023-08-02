@@ -76,13 +76,36 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/customguis/logotype/version_alpha.png
-  orientation = top-centered
-  x = -25
-  width = 50
-  action = addtexture
-  actionid = f75979dc-4a8c-4792-9332-14e1ba1838af1690616696141
-  y = 86
-  height = 10
+  orientation = bottom-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = ⚠ {"placeholder":"local","values":{"key":"ethe.text.beta"}} ⚠
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 815f1290-0048-4841-8f4b-cce6d827dc1f1690993917620
+  y = -44
+  alignment = centered
+  base_color = FFAA00
+  height = 15
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/Disketaa/Ethe/issues%btnaction_splitter_fm%
+  x = -80
+  width = 160
+  action = addbutton
+  actionid = 929ab9b1-0d10-403a-bab6-9ae1d5a27bd11690994291819
+  y = -28
+  label = {"placeholder":"local","values":{"key":"ethe.button.report"}}
+  height = 20
 }
 

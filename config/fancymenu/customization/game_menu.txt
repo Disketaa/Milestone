@@ -1,0 +1,35 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  buttonaction = openlink;https://github.com/Disketaa/Ethe/issues%btnaction_splitter_fm%
+  x = 0
+  width = 98
+  action = addbutton
+  actionid = f4799743-e272-448d-868b-733bcf7c63111690961216236
+  y = 24
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"net.minecraft.class_433:button_compatibility_id:mc_pausescreen_feedback_button"}}
+  height = 20
+}
+

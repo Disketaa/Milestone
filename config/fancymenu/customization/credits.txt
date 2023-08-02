@@ -39,20 +39,20 @@ customization {
 
 customization {
   orientation = mid-centered
-  enable_scrolling = true
+  enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = {"placeholder":"json","values":{"source":"config/fancymenu/custom_locals/texts/credits.json","json_path":"$.['authors'].*"}}
+  source = {"placeholder":"local","values":{"key":"ethe.text.credits"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = -219
-  width = 356
+  x = -452
+  width = 905
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 87d84915-42e4-4800-a7dd-d05840f3780b1690890633069
-  y = -159
-  alignment = left
-  height = 210
+  y = -9
+  alignment = centered
+  height = 18
 }
 
