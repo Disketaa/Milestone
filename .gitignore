@@ -1,6 +1,4 @@
-*.mrpack
 .fabric/
-config/iris.properties
 crash-reports/
 emi.json
 ethe/config/iris
