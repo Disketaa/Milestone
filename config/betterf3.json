@@ -18,7 +18,7 @@
 		{
 			"name": "system",
 			"name_color": 16777215,
-			"value_color": 11184810,
+			"value_color": 13027014,
 			"lines": {
 				"opengl_version": true,
 				"allocation_rate": true,
@@ -66,7 +66,7 @@
 		{
 			"name": "minecraft",
 			"name_color": 16777215,
-			"value_color": 11184810,
+			"value_color": 13027014,
 			"lines": {
 				"minecraft": true
 			},
@@ -85,7 +85,7 @@
 		{
 			"name": "server",
 			"name_color": 16777215,
-			"value_color": 11184810,
+			"value_color": 13027014,
 			"lines": {
 				"server_tick": true,
 				"packets_sent": false,
@@ -118,7 +118,7 @@
 		{
 			"name": "location",
 			"name_color": 16777215,
-			"value_color": 11184810,
+			"value_color": 13027014,
 			"lines": {
 				"light": true,
 				"biome": true,
@@ -146,7 +146,7 @@
 		{
 			"name": "entity",
 			"name_color": 16777215,
-			"value_color": 11184810,
+			"value_color": 13027014,
 			"total_entities_color": 7201763,
 			"lines": {
 				"entities": true,
@@ -174,7 +174,7 @@
 			"enabled_color": 7201645,
 			"name": "help",
 			"name_color": 16777215,
-			"value_color": 11184810,
+			"value_color": 13027014,
 			"disabled_color": 14904685,
 			"lines": {
 				"help": true,
