@@ -16,17 +16,8 @@
     "hidden": false
   },
   "criteria": {
-    "obtain_sapling": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:oak_sapling"
-            ]
-          }
-        ]
-      }
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "sends_telemetry_event": false

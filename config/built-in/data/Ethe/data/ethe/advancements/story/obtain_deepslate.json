@@ -4,10 +4,10 @@
       "item": "minecraft:reinforced_deepslate"
     },
     "title": {
-      "translate": "advancements.ethe.story.obtain_raw_ore.title"
+      "translate": "advancements.ethe.story.obtain_deepslate.title"
     },
     "description": {
-      "translate": "advancements.ethe.story.obtain_raw_ore.description"
+      "translate": "advancements.ethe.story.obtain_deepslate.description"
     },
     "frame": "goal",
     "show_toast": true,
@@ -20,7 +20,10 @@
       "conditions": {
         "items": [
           {
-            "tag": "c:raw_ores"
+            "items": [
+              "minecraft:deepslate",
+              "minecraft:cobbled_deepslate"
+            ]
           }
         ]
       }
