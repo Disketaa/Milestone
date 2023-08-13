@@ -1,4 +1,5 @@
 .fabric/
+data/
 crash-reports/
 emi.json
 ethe/config/iris
