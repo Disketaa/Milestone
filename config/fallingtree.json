@@ -39,7 +39,8 @@
   "enchantment": {
     "registerEnchant": false,
     "registerSpecificEnchant": false,
-    "hideEnchant": false
+    "hideEnchant": false,
+    "requireEnchantment": false
   },
   "sneakMode": "IGNORE",
   "breakInCreative": false,
