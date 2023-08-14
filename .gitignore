@@ -1,8 +1,9 @@
 .fabric/
-data/
 crash-reports/
+data/seasons_compat_warn.nbt
 emi.json
 ethe/config/iris
+ethe/data/
 fabricDefaultResourcePacks.dat
 fancymenu_data/
 fancymenu_setups/
