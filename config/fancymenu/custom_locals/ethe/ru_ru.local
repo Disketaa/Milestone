@@ -1,4 +1,5 @@
 ethe.text.credits = • Основное: Disketaa; • Текстуры: Disketaa, Merp, Stridey; • Анимации: FreshLX;  • Музыка: Scott Buckley, Keys of Moon.
-
 ethe.text.beta = Бета Версия
-ethe.button.report = Сообщить об ошибках
+
+ethe.button.report = Нашли ошибку?
+ethe.button.quit = Выйти

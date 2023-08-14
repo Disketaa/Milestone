@@ -3,9 +3,6 @@ type = customizablemenus
 net.minecraft.class_446 {
 }
 
-net.minecraft.class_442 {
-}
-
 net.minecraft.class_490 {
 }
 
@@ -25,5 +22,8 @@ net.minecraft.class_429 {
 }
 
 net.minecraft.class_8219 {
+}
+
+net.minecraft.class_442 {
 }
 

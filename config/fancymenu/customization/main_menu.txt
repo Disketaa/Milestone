@@ -19,6 +19,69 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -101
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = &7{"placeholder":"local","values":{"key":"ethe.button.quit"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 2
@@ -31,7 +94,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 583
   width = 13
   action = deep_customization_element:title_screen_realms_notification
@@ -71,40 +134,40 @@ customization {
   width = 125
   action = addtexture
   actionid = 84e8869f-210b-4bf8-9b8a-c2ca7860639e1690616332149
-  y = 39
+  y = 40
   height = 50
 }
 
 customization {
-  orientation = bottom-centered
+  orientation = bottom-left
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = ⚠ {"placeholder":"local","values":{"key":"ethe.text.beta"}} ⚠
+  source = ⚠ {"placeholder":"local","values":{"key":"ethe.text.beta"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = -100
-  width = 200
+  x = 1
+  width = 100
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 815f1290-0048-4841-8f4b-cce6d827dc1f1690993917620
-  y = -44
-  alignment = centered
+  y = -13
+  alignment = left
   base_color = FFAA00
-  height = 15
+  height = 13
 }
 
 customization {
-  orientation = bottom-centered
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://github.com/Disketaa/Ethe/issues%btnaction_splitter_fm%
-  x = -80
-  width = 160
+  x = 2
+  width = 98
   action = addbutton
   actionid = 929ab9b1-0d10-403a-bab6-9ae1d5a27bd11690994291819
-  y = -28
+  y = 2
   label = {"placeholder":"local","values":{"key":"ethe.button.report"}}
   height = 20
 }
