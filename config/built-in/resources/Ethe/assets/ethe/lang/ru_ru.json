@@ -37,9 +37,11 @@
 
 // Husbandry
   "advancements.ethe.husbandry.breed_an_animal.title": "Романтический ужин",
-  "advancements.ethe.husbandry.breed_an_animal.description": "Сведите пару животных",  
+  "advancements.ethe.husbandry.breed_an_animal.description": "Сведите пару животных",
   "advancements.ethe.husbandry.craft_dirt.title": "Почва для размышлений",
   "advancements.ethe.husbandry.craft_dirt.description": "Сделайте каменистую землю",
+  "advancements.ethe.husbandry.craft_heater.title": "Холод не по чём",
+  "advancements.ethe.husbandry.craft_heater.description": "Сделайте обогреватель",
   "advancements.ethe.husbandry.fishy_business.title": "Время большой рыбалки",
   "advancements.ethe.husbandry.fishy_business.description": "Поймайте рыбу удочкой",
   "advancements.ethe.husbandry.form_clay.title": "Из грязи в князи",
