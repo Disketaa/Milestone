@@ -39,7 +39,7 @@
   "tooltip.seasonsextras.tester_result_disabled_1": "Здесь посевы будут расти",
   "tooltip.seasonsextras.tester_result_disabled_2": "с обычной скоростью",
   "tooltip.seasonsextras.tester_result_enabled_1": "Здесь посевы будут расти",
-  "tooltip.seasonsextras.tester_result_enabled_2": "когда наступит %s",
+  "tooltip.seasonsextras.tester_result_enabled_2": "словно сейчас %s",
   "tooltip.seasonsextras.tester_result_crop_1": "Скорость роста: %sx",
   "tooltip.seasonsextras.tester_result_crop_2": "(%s)",
   "tooltip.seasonsextras.not_enabled": "Эта функция недоступна",
