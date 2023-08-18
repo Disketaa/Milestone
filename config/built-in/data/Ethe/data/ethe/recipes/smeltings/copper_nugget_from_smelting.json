@@ -8,6 +8,9 @@
     },
     {
       "item": "minecraft:spyglass"
+    },
+    {
+      "item": "seasonsextras:crop_season_tester"
     }
   ],
   "result": "coppernugget:copper_nugget"
