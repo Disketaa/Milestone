@@ -7,7 +7,8 @@
       "automated_crafting:powered_block",
       "automated_crafting:powered_icon",
       "flat_shulker_icons",
-      "minecraft:supporteatinganimation"
+      "minecraft:supporteatinganimation",
+      "seasons:seasonal_lush_caves"
     ],
     "$1": {
       "hidden": true
