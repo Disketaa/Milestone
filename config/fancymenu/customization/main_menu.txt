@@ -34,7 +34,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = -101
+  x = -100
   action = movebutton
   y = 27
 }
