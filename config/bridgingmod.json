@@ -1,5 +1,6 @@
 {
   "enableBridgingAssist": true,
+  "enableSlabAssist": true,
   "showCrosshair": true,
   "showDebugHighlight": false,
   "showDebugTrace": false
