@@ -9,6 +9,7 @@
     "description": {
       "translate": "advancements.ethe.nether.summon_wither.description"
     },
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true
   },
