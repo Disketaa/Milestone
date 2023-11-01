@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:comparator"
+    },
+    "title": {
+      "translate": "advancements.milestone.redstone.logistics.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.redstone.logistics.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:redstone/root",
+  "criteria": {
+    "obtain_logistics": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:logistics"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

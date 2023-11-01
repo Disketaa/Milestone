@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "advancements.milestone.nether.root.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.nether.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ],  
+  "sends_telemetry_event": false
+}

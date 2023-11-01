@@ -2,7 +2,7 @@ version:3465
 realmsNotifications:false
 darkMojangStudiosBackground:true
 guiScale:2
-resourcePacks:["vanilla","fabric","Ethe","file/Brush Up","file/Entities","file/Music"]
+resourcePacks:["vanilla","fabric","Milestone","file/Brush Up","file/Entities","file/Music"]
 tutorialStep:none
 skipMultiplayerWarning:true
 skipRealms32bitWarning:true

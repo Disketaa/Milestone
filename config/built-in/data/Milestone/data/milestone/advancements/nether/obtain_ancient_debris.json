@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ancient_debris"
+    },
+    "title": {
+      "translate": "advancements.milestone.nether.obtain_ancient_debris.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.nether.obtain_ancient_debris.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:nether/obtain_crying_obsidian",
+  "criteria": {
+    "obtain_ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ancient_debris"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

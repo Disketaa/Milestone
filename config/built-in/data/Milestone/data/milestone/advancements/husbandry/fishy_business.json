@@ -1,0 +1,30 @@
+
+
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fishing_rod",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.milestone.husbandry.fishy_business.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.husbandry.fishy_business.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:husbandry/root",
+  "criteria": {
+    "hooked_fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:fishes"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

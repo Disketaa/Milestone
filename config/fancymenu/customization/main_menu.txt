@@ -27,6 +27,28 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = &7{"placeholder":"local","values":{"key":"milestone.button.quit"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -48
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
@@ -40,30 +62,8 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = mid-centered
-  x = 2
-  action = movebutton
-  y = 27
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  action = setbuttonlabel
-  value = &7{"placeholder":"local","values":{"key":"ethe.button.quit"}}
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -48
 }
 
 customization {
@@ -143,7 +143,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = ⚠ {"placeholder":"local","values":{"key":"ethe.text.beta"}}
+  source = ⚠ {"placeholder":"local","values":{"key":"milestone.text.beta"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -162,13 +162,13 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink;https://github.com/Disketaa/Ethe/issues%btnaction_splitter_fm%
+  buttonaction = openlink;https://github.com/Disketaa/Milestone/issues%btnaction_splitter_fm%
   x = 2
   width = 98
   action = addbutton
   actionid = 929ab9b1-0d10-403a-bab6-9ae1d5a27bd11690994291819
   y = 2
-  label = {"placeholder":"local","values":{"key":"ethe.button.report"}}
+  label = {"placeholder":"local","values":{"key":"milestone.button.report"}}
   height = 20
 }
 

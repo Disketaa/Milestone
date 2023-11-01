@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "etcetera:wrench"
+    },
+    "title": {
+      "translate": "advancements.milestone.redstone.craft_wrench.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.redstone.craft_wrench.description"
+    },
+
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:redstone/root",
+  "criteria": {
+    "wrench": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "etcetera:wrench"
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}
