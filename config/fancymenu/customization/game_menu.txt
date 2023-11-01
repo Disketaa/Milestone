@@ -23,7 +23,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
-  buttonaction = openlink;https://github.com/Disketaa/Ethe/issues%btnaction_splitter_fm%
+  buttonaction = openlink;https://github.com/Disketaa/Milestone/issues%btnaction_splitter_fm%
   x = 0
   width = 98
   action = addbutton

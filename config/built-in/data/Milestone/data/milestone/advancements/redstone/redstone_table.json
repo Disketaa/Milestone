@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "automated_crafting:auto_crafter"
+    },
+    "title": {
+      "translate": "advancements.milestone.redstone.redstone_table.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.redstone.redstone_table.description"
+    },
+
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:redstone/mechanisms",
+  "criteria": {
+    "craft_redstone_table": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "automated_crafting:auto_crafter"
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

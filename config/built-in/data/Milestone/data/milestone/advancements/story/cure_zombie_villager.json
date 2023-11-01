@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "advancements.milestone.story.cure_zombie_villager.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.story.cure_zombie_villager.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:story/obtain_gold",
+  "criteria": {
+    "cured_zombie": {
+      "conditions": {},
+      "trigger": "minecraft:cured_zombie_villager"
+    }
+  },
+  "requirements": [
+    [
+      "cured_zombie"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

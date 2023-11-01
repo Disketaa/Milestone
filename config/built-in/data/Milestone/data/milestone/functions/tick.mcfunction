@@ -1,0 +1,4 @@
+function milestone:lightning_strike/tag
+function milestone:lightning_strike/selecting/small
+function milestone:lightning_strike/selecting/medium
+function milestone:lightning_strike/selecting/big

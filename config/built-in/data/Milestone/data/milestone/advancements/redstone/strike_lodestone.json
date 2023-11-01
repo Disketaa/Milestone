@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "attraction:charged_lodestone"
+    },
+    "title": {
+      "translate": "advancements.milestone.redstone.strike_lodestone.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.redstone.strike_lodestone.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:redstone/craft_lodestone",
+  "criteria": {
+    "strike_lodestone": {
+      "trigger": "attraction:strike_lodestone"
+    }
+  },
+  "requirements": [
+    [
+      "strike_lodestone"
+    ]
+  ]
+}

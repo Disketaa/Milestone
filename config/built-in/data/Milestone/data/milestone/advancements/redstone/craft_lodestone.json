@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lodestone"
+    },
+    "title": {
+      "translate": "advancements.milestone.redstone.craft_lodestone.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.redstone.craft_lodestone.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:redstone/root",
+  "criteria": {
+    "craft_lodestone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lodestone"
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}
