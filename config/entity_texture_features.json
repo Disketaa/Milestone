@@ -3,7 +3,6 @@
   "enableCustomTextures": false,
   "enableCustomBlockEntities": true,
   "textureUpdateFrequency_V2": "Never",
-  "restrictUpdateProperties": true,
   "restrictBiome": true,
   "restrictHeight": true,
   "restrictBlock": true,
@@ -35,12 +34,7 @@
   "removePixelsUnderEmissiveBlockEntity": true,
   "dontPatchPBRTextures": true,
   "dontPatchAnimatedTextures": true,
-  "ignoredConfigs": [
-    "FIGURA",
-    "ENHANCED_BLOCK_ENTITIES",
-    "QUARK",
-    "IRIS"
-  ],
+  "ignoredConfigs2": [],
   "hideConfigButton": true,
   "disableVanillaDirectoryVariantTextures": false,
   "use3DSkinLayerPatch": true,

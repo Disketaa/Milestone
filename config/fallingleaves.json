@@ -18,43 +18,53 @@
   "leafSettings": {
     "minecraft:jungle_leaves": {
       "spawnRateFactor": 0.0,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:flowering_azalea_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:mangrove_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:azalea_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:birch_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:cherry_leaves": {
       "spawnRateFactor": 0.2,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:acacia_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:oak_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:dark_oak_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": false
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
     },
     "minecraft:spruce_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": true
+      "isConiferBlock": true,
+      "spawnBreakingLeaves": false
     }
   },
   "leafSpawners": [],
