@@ -1,18 +1,12 @@
 {
-	// Fade the background slightly gray when hovering over an advancement
-	"FadeOutBackgroundOnAdvancementHover": true,
-	// List of pinned Tabs (root advancement identifier)
-	"PinnedTabs": [],
-	// Save and restore the last selected tab
-	"SaveLastSelectedTab": true,
-	// The identifier of the last opened tab
-	"LastSelectedTab": "milestone:husbandry/root",
-	// Spacing between horizontal tabs (vanilla default: 4)
-	"SpacingBetweenHorizontalTabs": 2,
-	// Spacing between pinned tabs
-	"SpacingBetweenPinnedTabs": 2,
-	// Max displayed advancement criterion entries when not pressing shift
+	"PinningEnabled": false,
+	"ShowAdvancementIDInDebugTooltip": true,
+	"ShowDebugInfo": "NEVER",
 	"MaxCriterionEntries": 0,
-	// Show Debug Info on advancement hover (possible values: 'always', 'never', 'debug_tooltips_enabled')
-	"ShowDebugInfo": "NEVER"
+	"FadeOutBackgroundOnAdvancementHover": true,
+	"SaveLastSelectedTab": false,
+	"PinnedTabs": [],
+	"LastSelectedTab": "milestone:story/root",
+	"SpacingBetweenHorizontalTabs": 2,
+	"SpacingBetweenPinnedTabs": 2
 }

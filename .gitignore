@@ -8,6 +8,7 @@
 /servers.dat_old
 /usercache.json
 /usernamecache.json
+command_history.txt
 crash-reports/
 data/seasons_compat_warn.nbt
 fabricDefaultResourcePacks.dat
