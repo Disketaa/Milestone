@@ -143,7 +143,7 @@
 		}
 		// Plays a sound after refilling a stack.
 		// default: true
-		play-sound: true
+		play-sound: false
 	}
 	// Configure when and how picking the correct tool for the currently faced block will work.
 	// By default tool picking will be triggered when middle clicking, that may be changed through the Vanilla Controls menu.
