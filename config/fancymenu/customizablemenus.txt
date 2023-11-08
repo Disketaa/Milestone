@@ -27,3 +27,6 @@ net.minecraft.class_8219 {
 net.minecraft.class_442 {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+

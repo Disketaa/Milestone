@@ -49,7 +49,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  identifier = %id=604382%
   action = hidebutton
 }
 
@@ -62,7 +62,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  identifier = %id=376382%
   action = hidebutton
 }
 
