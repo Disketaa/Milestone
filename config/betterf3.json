@@ -5,6 +5,7 @@
 		"shadow_text": false,
 		"auto_start": false,
 		"animationSpeed": 3.0,
+		"always_show_ping": false,
 		"hide_debug_crosshair": false,
 		"background_color": 1347440720,
 		"space_modules": false,
@@ -70,7 +71,7 @@
 			"lines": {
 				"minecraft": true
 			},
-			"enabled": true
+			"enabled": false
 		}, 
 		{
 			"color_high": 16777215,
@@ -178,8 +179,9 @@
 			"disabled_color": 14904685,
 			"lines": {
 				"help": true,
-				"pie_graph": true,
-				"fps_tps": true
+				"fps_tps_new": true,
+				"ping": true,
+				"pie_graph_new": true
 			},
 			"enabled": false
 		}
