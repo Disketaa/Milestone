@@ -55,13 +55,13 @@ customization {
   bar_texture = config/fancymenu/customguis/loading_screen/inline.png
   progress_for_element_orientation = false
   background_color = #ABC8F7
-  x = -237
-  width = 475
+  x = -190
+  width = 380
   bar_color = #5295FF
   action = custom_layout_element:drippy_custom_loading_bar
   actionid = 05d16d4a-1da6-4a5b-b0a9-fa1d2494e9b71699419517231
-  y = -25
+  y = -20
   direction = right
-  height = 50
+  height = 40
 }
 
