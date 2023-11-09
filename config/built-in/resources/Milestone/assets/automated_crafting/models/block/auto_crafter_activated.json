@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "top": "automated_crafting:block/auto_crafter_top",
-    "bottom": "automated_crafting:block/auto_crafter_bottom",
-    "side": "automated_crafting:block/auto_crafter_side"
-  }
-}

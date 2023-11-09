@@ -1,0 +1,56 @@
+{
+  "minecraft:crafting": {
+    "order": 0
+  },
+  "minecraft:smelting": {
+    "order": 1
+  },
+  "minecraft:blasting": {
+    "order": 2
+  },
+  "minecraft:smoking": {
+    "order": 3
+  },
+  "minecraft:campfire_cooking": {
+    "order": 4
+  },
+  "minecraft:stonecutting": {
+    "order": 5
+  },
+  "minecraft:smithing": {
+    "order": 6
+  },
+  "emi:anvil_repairing": {
+    "order": 7
+  },
+  "emi:grinding": {
+    "order": 8
+  },
+  "minecraft:brewing": {
+    "order": 9
+  },
+  "emi:world_interaction": {
+    "order": 11
+  },
+  "emi:composting": {
+    "order": 96
+  },
+  "emi:info": {
+    "order": 97,
+    "icon": {
+      "stack": "item:minecraft:knowledge_book"
+    }
+  },
+  "emi:fuel": {
+    "order": 98,
+    "icon": {
+      "stack": "item:minecraft:magma_block"
+    }
+  },
+  "emi:tag": {
+    "order": 99,
+    "icon": {
+      "stack": "item:minecraft:chiseled_bookshelf"
+    }
+  }
+}

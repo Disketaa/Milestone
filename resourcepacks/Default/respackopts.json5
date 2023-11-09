@@ -1,0 +1,17 @@
+{
+  id: "Default",
+  version: 9,
+  capabilities: [ "FileFilter", "DirFilter", "DirFilterAdditive" ],
+  conf: {
+    BlockModels: true,
+    ItemModels: true,
+    BlockTextures: true,
+    ItemTextures: true,
+    ParticleTextures: true,
+    Entities: true,
+    Misc: true,
+    GUI: true,
+    Music: true,
+    Sounds: true
+  }
+}

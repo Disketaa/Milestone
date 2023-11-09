@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "top": "redstonebits:block/basement_top",
-    "front": "redstonebits:block/breaker_front",
-    "side": "redstonebits:block/basement_side"
-  }
-}
