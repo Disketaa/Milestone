@@ -1,6 +1,6 @@
 {
   id: "Default",
-  version: 9,
+  version: 12,
   capabilities: [ "FileFilter", "DirFilter", "DirFilterAdditive" ],
   conf: {
     BlockModels: true,
