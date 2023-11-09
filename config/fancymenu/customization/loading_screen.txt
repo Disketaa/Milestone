@@ -51,8 +51,8 @@ customization {
 
 customization {
   orientation = mid-centered
-  background_texture = config/fancymenu/customguis/loading_screen/outline.png
-  bar_texture = config/fancymenu/customguis/loading_screen/inline.png
+  background_texture = config/fancymenu/assets/loading_screen/outline.png
+  bar_texture = config/fancymenu/assets/loading_screen/inline.png
   progress_for_element_orientation = false
   background_color = #ABC8F7
   x = -190
