@@ -60,8 +60,8 @@
     "soundEvent": "minecraft:block.note_block.hat"
   },
   "itemDropSoundEffect": {
-    "pitch": 1.4,
-    "volume": 0.2,
+    "pitch": 2.0,
+    "volume": 0.1,
     "id": "itemDrop",
     "shouldPlay": true,
     "enabledDynamic": true,
@@ -71,8 +71,8 @@
     "pitch": 1.8000001,
     "volume": 0.1,
     "id": "itemCopy",
-    "shouldPlay": true,
-    "enabledDynamic": true,
+    "shouldPlay": false,
+    "enabledDynamic": false,
     "soundEvent": "minecraft:block.note_block.hat"
   },
   "itemDeleteSoundEffect": {

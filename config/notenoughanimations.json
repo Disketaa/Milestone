@@ -1,6 +1,6 @@
 {
   "configVersion": 9,
-  "animationSmoothingSpeed": 25.0,
+  "animationSmoothingSpeed": 29.9,
   "holdingItems": [
     "minecraft:clock",
     "minecraft:recovery_compass",
@@ -15,7 +15,7 @@
   "enableAnimationSmoothing": true,
   "enableInWorldMapRendering": true,
   "enableOffhandHiding": true,
-  "enableRotationLocking": true,
+  "enableRotationLocking": false,
   "enableLadderAnimation": true,
   "ladderAnimationAmplifier": 0.35,
   "ladderAnimationArmHeight": 1.7,
@@ -38,7 +38,7 @@
   ],
   "enableCrawlingAnimation": true,
   "holdUpItemsMode": "CONFIG",
-  "holdUpItemOffset": 0.0,
+  "holdUpItemOffset": -0.2,
   "itemSwapAnimation": true,
   "tweakElytraAnimation": true,
   "petAnimation": true,
