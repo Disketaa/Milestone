@@ -39,8 +39,6 @@
     "item:minecraft:suspicious_stew{Effects:[{EffectDuration:180,EffectId:18}]}",
     "item:minecraft:suspicious_stew{Effects:[{EffectDuration:240,EffectId:19}]}",
     "item:minecraft:suspicious_stew{Effects:[{EffectDuration:160,EffectId:20}]}",
-    "item:coppernugget:copper_nugget",
-    "item:diamond_nuggets:diamond_nugget",
     "fluid:minecraft:water",
     "fluid:minecraft:lava"
   ],
@@ -51,18 +49,5 @@
     "/_spawn_egg/"
   ],
 
-  "added": [
-    {
-      "stack": "item:coppernugget:copper_nugget",
-      "after": "item:minecraft:iron_nugget"
-    },
-    {
-      "stack": "item:diamond_nuggets:diamond_nugget",
-      "after": "item:minecraft:amethyst_shard"
-    },
-    {
-      "stack": "item:etcetera:etcetera",
-      "after": "item:minecraft:nether_star"
-    }
-  ]  
+  "added": []  
 }
