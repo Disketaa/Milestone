@@ -11,7 +11,7 @@
 		"alwaysCheck": false
 	},
 	"visual": {
-		"perspective": "INSIDE",
+		"perspective": "FIRST_PERSON",
 		"showPlayer": true,
 		"showHand": false,
 		"fullBright": false,
