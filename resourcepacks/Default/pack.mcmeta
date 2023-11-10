@@ -1,6 +1,22 @@
 {
   "pack": {
     "pack_format": 18,
-    "description": "§7The default look of \nMilestone (built-in)"
+    "description": {
+      "translate": "resourcePack.vanilla.description",
+      "color": "#AAAAAA",
+      "extra": [
+        {
+          "text": " ("
+        },
+        {
+          "translate": "pack.source.builtin",
+          "extra": [
+            {
+              "text": ")"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
