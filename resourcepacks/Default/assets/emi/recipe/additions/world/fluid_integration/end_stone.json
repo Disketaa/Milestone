@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "fluid:minecraft:water",
+  "right": "fluid:minecraft:lava",
+  "output": "item:minecraft:end_stone"
+}

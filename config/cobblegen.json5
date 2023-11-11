@@ -1,53 +1,27 @@
 {
-// Cobblestone
-	"cobbleGen": [
-		{
-			"id": "minecraft:cobblestone",
-			"minY": 0
-		},	
-		{
-			"id": "minecraft:cobbled_deepslate",
-			"maxY": 0
-		}	
-	],
-	"stoneGen": [
-		{
-			"id": "minecraft:stone",
-			"weight": 100.0,
-			"minY": 0
-		},	
-		{
-			"id": "minecraft:deepslate",
-			"weight": 99.0,
-			"maxY": 0
-		},
-		{
-			"id": "minecraft:reinforced_deepslate",
-			"weight": 1.0,
-			"maxY": 0
-		}
-	],
-	"advanced": {
-		"minecraft:lava": {
-			"b:minecraft:crying_obsidian": {
-		    "results": {
-		      "minecraft:soul_soil": [
-		        {
-		          "id": "minecraft:smooth_basalt",
-		          "weight": 199.0,
-		          "maxY": 6
-		        },
-		        {
-			      "id": "minecraft:ancient_debris",
-			      "weight": 1.0,
-			      "maxY": 6,
-			      "dimensions": [
-			          "minecraft:the_nether"
-				      ]
-				    }
-		      ]
-		    }
-		  }
-		}
-	}
+  "cobbleGen": [
+    {
+      "id": "minecraft:cobbled_deepslate",
+      "weight": 100.0,
+      "maxY": 0
+    },
+    {
+      "id": "minecraft:end_stone",
+      "weight": 100.0,
+      "dimensions":["minecraft:the_end"]
+    }
+  ],
+
+  "stoneGen": [
+    {
+      "id": "minecraft:deepslate",
+      "weight": 100.0,
+      "maxY": 0
+    },
+    {
+      "id": "minecraft:end_stone",
+      "weight": 100.0,
+      "dimensions":["minecraft:the_end"]
+    }
+  ]
 }
