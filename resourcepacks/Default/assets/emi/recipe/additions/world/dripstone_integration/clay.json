@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:mud",
+  "right": "item:minecraft:pointed_dripstone",
+  "output": "item:minecraft:clay"
+}
