@@ -25,7 +25,7 @@
   },
   "render_settings": {
     "fog_distance": 0,
-    "fog_start": 70,
+    "fog_start": 50,
     "multi_dimension_fog_control": true,
     "dimensionFogDistance": {
       "minecraft:overworld": 0,
@@ -50,8 +50,8 @@
     "show_coords": false,
     "reduce_resolution_on_mac": true,
     "use_adaptive_sync": false,
-    "cloud_height": 176,
-    "cloud_distance": 100,
+    "cloud_height": 100,
+    "cloud_distance": 300,
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,
