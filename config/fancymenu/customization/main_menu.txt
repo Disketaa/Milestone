@@ -3,18 +3,18 @@ type = menu
 customization-meta {
   identifier = net.minecraft.class_442
   randomgroup = 1
-  renderorder = foreground
+  renderorder = background
   randommode = false
   randomonlyfirsttime = false
 }
 
 customization {
-  name = default
-  action = setbackgroundpanorama
+  path = config/fancymenu/assets/main_menu/background_solid.png
+  action = texturizebackground
 }
 
 customization {
-  keepaspectratio = false
+  keepaspectratio = true
   action = backgroundoptions
 }
 
@@ -23,7 +23,7 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = -23
+  y = -22
 }
 
 customization {
@@ -31,13 +31,7 @@ customization {
   orientation = mid-centered
   x = 2
   action = movebutton
-  y = 27
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  action = setbuttonlabel
-  value = &7{"placeholder":"local","values":{"key":"milestone.button.quit"}}
+  y = 26
 }
 
 customization {
@@ -45,7 +39,7 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = -48
+  y = -46
 }
 
 customization {
@@ -58,11 +52,16 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = 27
+  y = 26
 }
 
 customization {
   identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   action = hidebutton
 }
 
@@ -128,14 +127,23 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/customguis/logotype/title.png
-  orientation = top-centered
-  x = -62
-  width = 125
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} + 128"}}
+  orientation = top-left
+  delayappearanceseconds = 0.0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"mouseposx"} / 32 - {"placeholder":"elementwidth","values":{"id":"1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971"}} / 8"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} + 150"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"mouseposy"} / 64 - {"placeholder":"elementheight","values":{"id":"1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971"}} / 8"}}
+  path = config/fancymenu/assets/main_menu/background.png
+  fadein = true
+  fadeinspeed = 8.0
+  x = 0
+  width = 1110
   action = addtexture
-  actionid = 84e8869f-210b-4bf8-9b8a-c2ca7860639e1690616332149
-  y = 40
-  height = 50
+  actionid = 1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971
+  y = 0
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 637
 }
 
 customization {
@@ -169,6 +177,32 @@ customization {
   actionid = 929ab9b1-0d10-403a-bab6-9ae1d5a27bd11690994291819
   y = 2
   label = {"placeholder":"local","values":{"key":"milestone.button.report"}}
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/main_menu/title.png
+  orientation = top-centered
+  x = -80
+  width = 160
+  action = addtexture
+  actionid = 66ac5db9-4ca7-45a3-bed7-bd50cadc99781699698993275
+  y = 32
+  [loading_requirement:fancymenu_loading_requirement_is_window_height_bigger_than][requirement_mode:if][req_id:bc086436-ef30-41e5-9c23-932dacc5d9c11699809410331] = 240
+  height = 32
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://modrinth.com/modpack/milestone%btnaction_splitter_fm%
+  x = -100
+  width = 98
+  action = addbutton
+  actionid = 7c5021db-58fc-4cee-8aa7-54ab1f4972aa1699813585238
+  y = 2
+  label = {"placeholder":"local","values":{"key":"milestone.button.support"}}
   height = 20
 }
 

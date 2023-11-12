@@ -1,4 +1,8 @@
 {
+//
+// Minecraft
+  "menu.options": "Настройки",
+
 // Advancements
 // Story
   "advancements.milestone.story.craft_cauldron.title": "Великий котёл",

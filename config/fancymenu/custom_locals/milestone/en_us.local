@@ -1,5 +1,3 @@
-milestone.text.credits = • Main: Disketaa; • Brush Up Resource Pack: Disketaa, Merp, Stridey; • Entities Animation Pack: FreshLX;  • Music Pack: Scott Buckley, Keys of Moon.
 milestone.text.beta = Beta Version
-
-milestone.button.quit = Quit
-milestone.button.report = Report an Issue
+milestone.button.report = Issues
+milestone.button.support = §eSupport

@@ -1,6 +1,10 @@
 {
+//
+// Minecraft
+  "menu.options": "Options",
+
 // Advancements  
-// Story    
+// Story
   "advancements.milestone.story.craft_cauldron.title": "Grand Cauldron",
   "advancements.milestone.story.craft_cauldron.description": "Not for good weather",
   "advancements.milestone.story.craft_diamond.title": "Unequal Exchange",

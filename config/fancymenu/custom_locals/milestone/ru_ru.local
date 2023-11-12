@@ -1,5 +1,3 @@
-milestone.text.credits = • Основное: Disketaa; • Текстуры: Disketaa, Merp, Stridey; • Анимации: FreshLX;  • Музыка: Scott Buckley, Keys of Moon.
 milestone.text.beta = Бета Версия
-
-milestone.button.report = Нашли ошибку?
-milestone.button.quit = Выйти
+milestone.button.report = Баг-трекер
+milestone.button.support = §eПоддержать
