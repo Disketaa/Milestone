@@ -1,51 +1,29 @@
 {
 	"removed": [
-		"item:minecraft:cobweb",
 		"item:minecraft:bedrock",
 		"item:minecraft:white_banner{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}",
 		"item:minecraft:end_portal_frame",
     "item:minecraft:spawner",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:kebab\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:aztec\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:sea\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:courbet\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:skeleton\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:donkey_kong\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:pointer\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:sunset\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:creebet\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:pigscene\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:alban\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:aztec2\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:match\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:burning_skull\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:bust\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:bomb\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:plant\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:stage\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:wasteland\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:void\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:wanderer\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:skull_and_roses\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:graham\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:wither\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:fighters\"}}",
-    "item:minecraft:painting{EntityTag:{variant:\"minecraft:pool\"}}",
-    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:120,EffectId:8}]}",
-    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:160,EffectId:10}]}",
-    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:80,EffectId:12}]}",
-    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:160,EffectId:15}]}",
-    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:100,EffectId:16}]}",
-    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:180,EffectId:18}]}",
-    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:240,EffectId:19}]}",
-    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:160,EffectId:20}]}",
     "fluid:minecraft:water",
     "fluid:minecraft:lava"
   ],
   
 	"filters": [
-		"/_anvil/",
-		"/minecraft:infested/",
-    "/_spawn_egg/"
+    "/_anvil/",
+    "/_spawn_egg/",
+    "/minecraft:infested/",
+    "/painting/",
+    "/suspicious_stew/"
+  ],
+
+  "added": [
+    {
+      "stack": "item:minecraft:painting",
+      "after": "item:minecraft:glow_item_frame"
+    },
+    {
+      "stack": "item:minecraft:suspicious_stew",
+      "after": "item:minecraft:rabbit_stew"
+    }
   ]
 }
