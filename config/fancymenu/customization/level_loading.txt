@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_3928
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/animations/loading.gif
+  orientation = bottom-right
+  x = -30
+  width = 16
+  action = addtexture
+  actionid = 149990ff-6284-4d0e-9164-9bd320a303841699794617192
+  y = -30
+  height = 16
+}
+
