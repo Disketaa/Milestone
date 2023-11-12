@@ -26,7 +26,7 @@ customization {
 }
 
 customization {
-  custom_color_hex = #1E8E73
+  custom_color_hex = #000000
   orientation = top-left
   hidden = false
   x = -1000000
@@ -55,13 +55,24 @@ customization {
   bar_texture = config/fancymenu/assets/loading_screen/inline.png
   progress_for_element_orientation = false
   background_color = #ABC8F7
-  x = -190
-  width = 380
+  x = -140
+  width = 280
   bar_color = #5295FF
   action = custom_layout_element:drippy_custom_loading_bar
   actionid = 05d16d4a-1da6-4a5b-b0a9-fa1d2494e9b71699419517231
-  y = -20
+  y = -15
   direction = right
-  height = 40
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/animations/loading.gif
+  orientation = bottom-right
+  x = -30
+  width = 16
+  action = addtexture
+  actionid = 149990ff-6284-4d0e-9164-9bd320a303841699794617192
+  y = -30
+  height = 16
 }
 
