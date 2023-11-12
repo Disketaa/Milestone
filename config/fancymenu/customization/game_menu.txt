@@ -29,7 +29,7 @@ customization {
   action = addbutton
   actionid = f4799743-e272-448d-868b-733bcf7c63111690961216236
   y = 24
-  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"net.minecraft.class_433:button_compatibility_id:mc_pausescreen_feedback_button"}}
+  label = {"placeholder":"local","values":{"key":"milestone.button.report"}}
   height = 20
 }
 

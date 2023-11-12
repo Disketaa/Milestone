@@ -55,7 +55,7 @@ B:show_world_icons = 'true';
 
 ##[layouteditor]
 
-I:gridsize = '10';
+I:gridsize = '5';
 B:editordeleteconfirmation = 'true';
 B:showgrid = 'true';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
