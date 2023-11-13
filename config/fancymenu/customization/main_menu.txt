@@ -127,12 +127,12 @@ customization {
 }
 
 customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} + 128"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} + 256"}}
   orientation = top-left
   delayappearanceseconds = 0.0
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"mouseposx"} / 32 - {"placeholder":"elementwidth","values":{"id":"1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971"}} / 8"}}
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} + 150"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"mouseposy"} / 64 - {"placeholder":"elementheight","values":{"id":"1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971"}} / 8"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"mouseposx"} / 64 * (-1) - {"placeholder":"elementwidth","values":{"id":"1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971"}} / 8"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} + 256"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"mouseposy"} / 64 * (-1) - {"placeholder":"elementheight","values":{"id":"1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971"}} / 8"}}
   path = config/fancymenu/assets/main_menu/background.png
   fadein = true
   fadeinspeed = 8.0
@@ -189,7 +189,7 @@ customization {
   actionid = 66ac5db9-4ca7-45a3-bed7-bd50cadc99781699698993275
   y = 32
   [loading_requirement:fancymenu_loading_requirement_is_window_height_bigger_than][requirement_mode:if][req_id:bc086436-ef30-41e5-9c23-932dacc5d9c11699809410331] = 240
-  height = 32
+  height = 48
 }
 
 customization {
