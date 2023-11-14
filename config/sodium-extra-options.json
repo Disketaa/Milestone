@@ -40,7 +40,7 @@
     "beacon_beam": true,
     "enchanting_table_book": true,
     "item_frame_name_tag": true,
-    "player_name_tag": true
+    "player_name_tag": false
   },
   "extra_settings": {
     "overlay_corner": "TOP_LEFT",
@@ -60,7 +60,7 @@
     "instant_sneak": false,
     "prevent_shaders": false,
     "steady_debug_hud": true,
-    "steady_debug_hud_refresh_interval": 1
+    "steady_debug_hud_refresh_interval": 20
   },
   "super_secret_settings": {
     "fetch_sodium_extra_crowdin_translations": false,
