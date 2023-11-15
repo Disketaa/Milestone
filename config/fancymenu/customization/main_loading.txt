@@ -26,7 +26,7 @@ customization {
 }
 
 customization {
-  custom_color_hex = #000000
+  custom_color_hex = #1d1820
   orientation = top-left
   hidden = false
   x = -1000000
