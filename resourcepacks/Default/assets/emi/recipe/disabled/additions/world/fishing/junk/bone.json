@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:fishing_rod",
+  "right": "fluid:minecraft:water",
+  "output": {
+    "type": "item",
+    "id": "minecraft:bone",
+    "chance": 0.2
+  }
+}

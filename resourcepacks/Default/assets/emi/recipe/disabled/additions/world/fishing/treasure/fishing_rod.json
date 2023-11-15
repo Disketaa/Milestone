@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:fishing_rod",
+  "right": [
+    "fluid:minecraft:water",
+    "fluid:minecraft:water"
+  ],
+  "output": {
+    "type": "item",
+    "id": "minecraft:fishing_rod",
+    "nbt": "{Damage:51, Enchantments:[{}]}",
+    "chance": 0.1
+  }
+}
