@@ -49,10 +49,10 @@
 			"value_color": 7201645,
 			"lines": {
 				"id_fluid": true,
-				"fluid_tags": true,
+				"fluid_tags": false,
 				"block_states": true,
 				"targeted_block": true,
-				"block_tags": true,
+				"block_tags": false,
 				"id_block": true,
 				"nothing": true,
 				"nothing2": true,
