@@ -4,6 +4,9 @@
 		"item:minecraft:white_banner{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}",
 		"item:minecraft:end_portal_frame",
     "item:minecraft:spawner",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:2s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_flame\",lvl:1s}]}",  
     "fluid:minecraft:water",
     "fluid:minecraft:lava"
   ],
@@ -24,6 +27,18 @@
     {
       "stack": "item:minecraft:suspicious_stew",
       "after": "item:minecraft:rabbit_stew"
+    },
+    {
+      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:1s}]}",
+      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
+    },
+    {
+      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:2s}]}",
+      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:1s}]}"
+    },
+    {
+      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_flame\",lvl:1s}]}",
+      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
     }
   ]
 }
