@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "advancements.milestone.story.craft_cauldron.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.story.craft_cauldron.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "milestone:story/obtain_iron",
+  "criteria": {
+    "craft_cauldron": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cauldron"
+      }
+    }
+  }
+}

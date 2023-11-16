@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "advancements.milestone.story.root.title"
+    },
+    "description": {
+      "translate": "advancements.milestone.story.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/story.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

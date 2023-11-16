@@ -1,0 +1,10 @@
+{
+  "resourcePacks": {
+    "enabled": true,
+    "additionalFolders": ["./config/openloader/resources/"]
+  },
+  "dataPacks": {
+    "enabled": true,
+    "additionalFolders": []
+  }
+}

@@ -1,1 +1,0 @@
-execute if entity @p[advancements={milestone:story/lightning_strike=false}] run advancement grant @p only milestone:story/lightning_strike
