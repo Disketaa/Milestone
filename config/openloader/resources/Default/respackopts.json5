@@ -1,5 +1,5 @@
 {
-  id: "Milestone",
+  id: "Default",
   version: 12,
   capabilities: [ "FileFilter", "DirFilter", "DirFilterAdditive" ],
   conf: {
