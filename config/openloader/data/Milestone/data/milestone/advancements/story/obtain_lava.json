@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:barrier"
     },
     "title": {
       "translate": "advancements.milestone.story.obtain_lava.title"
@@ -15,17 +15,9 @@
   },
   "parent": "milestone:story/lightning_strike",
   "criteria": {
-    "obtain_lava": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:lava_bucket"
-            ]
-          }
-        ]
-      }
+    "impossible": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
 }

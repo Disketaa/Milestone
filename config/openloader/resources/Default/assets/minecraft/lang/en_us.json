@@ -1,8 +1,9 @@
 {
 //
 // Minecraft
-  "menu.options": "Options",
   "dataPack.milestone.description": "The default data for Milestone",
+  "item.milestone.unobtainable": "Currently obtainable on start",
+  "menu.options": "Options",
 
 // Advancements  
 // Story

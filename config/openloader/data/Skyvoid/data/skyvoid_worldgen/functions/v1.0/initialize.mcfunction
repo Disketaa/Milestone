@@ -8,3 +8,6 @@ setblock 0 0 0 oak_sapling
 
 #effect
 effect give @a minecraft:blindness 4 1 true
+
+#lava
+item replace entity @p hotbar.4 with minecraft:lava_bucket{display:{Name:'[{"translate":"item.minecraft.lava_bucket", "italic":false, "color":"yellow"}]', Lore:['[{"translate":"item.milestone.unobtainable", "italic":false, "color":"gray"}]']}}

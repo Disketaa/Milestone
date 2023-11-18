@@ -1,8 +1,9 @@
 {
 //
 // Minecraft
-  "menu.options": "Настройки",
   "dataPack.milestone.description": "Стандартный набор данных Milestone",
+  "item.milestone.unobtainable": "Пока что выдаётся на старте",
+  "menu.options": "Настройки",
 
 // Advancements
 // Story
