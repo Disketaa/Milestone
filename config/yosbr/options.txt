@@ -5,15 +5,17 @@ skipMultiplayerWarning:true
 skipRealms32bitWarning:true
 allowServerListing:false
 onboardAccessibility:false
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.left.bracket
+key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_key.bridgingmod.toggle_bridging:key.keyboard.unknown
 key_key.freecam.toggle:key.keyboard.f6
 key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.right.bracket
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.spyglass-improvements.use:key.keyboard.c
-key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.unknown
-key_iris.keybind.shaderPackSelection:key.keyboard.left.bracket
+key_Reload Menu | CTRL + ALT + :key.keyboard.page.up
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.page.down
 soundCategory_music:0.25
 soundCategory_record:0.50
 soundCategory_weather:0.25
