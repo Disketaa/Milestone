@@ -6,16 +6,7 @@ net.minecraft.class_446 {
 net.minecraft.class_490 {
 }
 
-com.ninni.etcetera.client.gui.screen.PricklyCanScreen {
-}
-
-com.illusivesoulworks.diet.client.screen.DietScreen {
-}
-
 net.minecraft.class_433 {
-}
-
-de.dafuqs.paginatedadvancements.client.PaginatedAdvancementScreen {
 }
 
 net.minecraft.class_429 {

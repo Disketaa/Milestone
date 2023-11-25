@@ -27,6 +27,15 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 1.05
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 2
@@ -35,11 +44,29 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 1.15
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = -100
   action = movebutton
   y = -46
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
 }
 
 customization {
@@ -53,6 +80,15 @@ customization {
   x = -100
   action = movebutton
   y = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 1.15
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
 }
 
 customization {
@@ -135,74 +171,94 @@ customization {
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"mouseposy"} / 64 * (-1) - {"placeholder":"elementheight","values":{"id":"1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971"}} / 8"}}
   path = config/fancymenu/assets/main_menu/background.png
   fadein = true
-  fadeinspeed = 8.0
+  fadeinspeed = 1.0
   x = 0
-  width = 1110
+  width = 1216
   action = addtexture
   actionid = 1401305b-4e7e-49a0-b4a4-aab317e4d7ab1699809588971
   y = 0
   delayappearance = true
   delayappearanceeverytime = false
-  height = 637
+  height = 765
 }
 
 customization {
-  orientation = bottom-left
+  orientation = top-centered
   enable_scrolling = false
   shadow = true
+  delayappearanceseconds = 0.0
   scale = 1.0
-  source = ⚠ {"placeholder":"local","values":{"key":"milestone.text.beta"}}
+  source = §8§l{"placeholder":"local","values":{"key":"milestone.text.beta"}} 0.2.0
   text_border = 0
   case_mode = normal
+  fadein = true
   source_mode = direct
   line_spacing = 1
-  x = 1
+  fadeinspeed = 2.0
+  x = -50
   width = 100
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 815f1290-0048-4841-8f4b-cce6d827dc1f1690993917620
-  y = -13
-  alignment = left
+  y = 60
+  delayappearance = true
+  alignment = centered
   base_color = FFAA00
+  delayappearanceeverytime = true
   height = 13
 }
 
 customization {
   orientation = mid-centered
-  loopbackgroundanimations = true
   restartbackgroundanimations = true
+  delayappearanceseconds = 1.1
   buttonaction = openlink;https://github.com/Disketaa/Milestone/issues%btnaction_splitter_fm%
+  label = {"placeholder":"local","values":{"key":"milestone.button.report"}}
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 2.0
   x = 2
   width = 98
   action = addbutton
   actionid = 929ab9b1-0d10-403a-bab6-9ae1d5a27bd11690994291819
   y = 2
-  label = {"placeholder":"local","values":{"key":"milestone.button.report"}}
+  delayappearance = true
+  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
-  path = config/fancymenu/assets/main_menu/title.png
   orientation = top-centered
+  delayappearanceseconds = 0.0
+  [loading_requirement:fancymenu_loading_requirement_is_window_height_bigger_than][requirement_mode:if][req_id:bc086436-ef30-41e5-9c23-932dacc5d9c11699809410331] = 240
+  path = config/fancymenu/assets/main_menu/title.png
+  fadein = true
+  fadeinspeed = 2.0
   x = -80
   width = 160
   action = addtexture
   actionid = 66ac5db9-4ca7-45a3-bed7-bd50cadc99781699698993275
   y = 32
-  [loading_requirement:fancymenu_loading_requirement_is_window_height_bigger_than][requirement_mode:if][req_id:bc086436-ef30-41e5-9c23-932dacc5d9c11699809410331] = 240
-  height = 48
+  delayappearance = true
+  delayappearanceeverytime = true
+  height = 32
 }
 
 customization {
   orientation = mid-centered
-  loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink;https://modrinth.com/modpack/milestone%btnaction_splitter_fm%
+  delayappearanceseconds = 1.1
+  buttonaction = openlink;https://boosty.to/disketaa%btnaction_splitter_fm%
+  label = {"placeholder":"local","values":{"key":"milestone.button.support"}}
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 2.0
   x = -100
   width = 98
   action = addbutton
   actionid = 7c5021db-58fc-4cee-8aa7-54ab1f4972aa1699813585238
   y = 2
-  label = {"placeholder":"local","values":{"key":"milestone.button.support"}}
+  delayappearance = true
+  delayappearanceeverytime = false
   height = 20
 }
 
