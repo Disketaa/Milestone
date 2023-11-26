@@ -7,11 +7,11 @@ Milestone offers an experience that closely resembles vanilla skyblock gameplay.
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_1.png?raw=true)
 Download [**Modrinth App**](https://modrinth.com/app).\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_2.png?raw=true)
-Visit [**Milestone**](https://modrinth.com/modpack/milestone) page.\
+Download [**Milestone**](https://modrinth.com/modpack/milestone/versions).\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_3.png?raw=true)
-Download [**Milestone**](https://modrinth.com/modpack/milestone/versions) instance.\
+Open **Milestone.mrpack** file.\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_4.png?raw=true)
-Open **Milestone.mrpack** file.
+Click **PLAY** button.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/separator.png?raw=true)\
 ![Credits](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/title_credits.png?raw=true)\
