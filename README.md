@@ -4,7 +4,6 @@ Milestone offers an experience that closely resembles vanilla skyblock gameplay.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/separator.png?raw=true)\
 ![Install](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/title_install.png?raw=true)\
-**Modrinth:**\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_1.png?raw=true)
 Download [**Modrinth App**](https://modrinth.com/app).\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_2.png?raw=true)
@@ -12,21 +11,7 @@ Visit [**Milestone**](https://modrinth.com/modpack/milestone) page.\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_3.png?raw=true)
 Download [**Milestone**](https://modrinth.com/modpack/milestone/versions) instance.\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_4.png?raw=true)
-Open [**Milestone**](https://modrinth.com/modpack/milestone/versions) file.
-
-**Github:**\
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_1.png?raw=true)
-Click on **CODE** button in [**Milestone**](https://github.com/Disketaa/Milestone) repository.\
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_2.png?raw=true)
-Choose **Download ZIP** option.\
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_3.png?raw=true)
-Open **Milestone.zip** archieve.\
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_4.png?raw=true)
-Open **Milestone-beta** folder inside an archieve.\
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_5.png?raw=true)
-Delete then replace **MODS** and **CONFIG** folders in your Minecraft directory with the new ones from the archive.\
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_6.png?raw=true)
-Launch Minecraft with **1.20.2** [**Fabric Profile**](https://fabricmc.net/wiki/install).
+Open **Milestone.mrpack** file.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/separator.png?raw=true)\
 ![Credits](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/title_credits.png?raw=true)\
