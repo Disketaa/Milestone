@@ -1,1 +1,0 @@
-place template milestone:sky_island ~-1.5 ~-10 ~-1.5
