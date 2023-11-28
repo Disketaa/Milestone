@@ -1,8 +1,8 @@
 {
 	"movement": {
 		"flightMode": "CREATIVE",
-		"horizontalSpeed": 1.0,
-		"verticalSpeed": 1.0
+		"horizontalSpeed": 1.5,
+		"verticalSpeed": 1.5
 	},
 	"collision": {
 		"ignoreTransparent": true,
