@@ -26,8 +26,6 @@ I am Merp\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_pencil.png?raw=true)
 Kemiu\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_pencil.png?raw=true)
-Liahim8\
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_pencil.png?raw=true)
 Stridey\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_file.png?raw=true)
 Blue Psychoranger\
