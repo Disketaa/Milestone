@@ -8,7 +8,7 @@ onboardAccessibility:false
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.left.bracket
 key_iris.keybind.toggleShaders:key.keyboard.unknown
-key_key.bridgingmod.toggle_bridging:key.keyboard.unknown
+key_key.bridgingmod.toggle_bridging:key.keyboard.b
 key_key.freecam.toggle:key.keyboard.f6
 key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.right.bracket
