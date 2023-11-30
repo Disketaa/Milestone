@@ -47,10 +47,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coast_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:dune_armor_trim_smithing_template"
         },
         {
@@ -64,18 +60,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shaper_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tide_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:eye_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:spire_armor_trim_smithing_template"
         },
         {
           "type": "minecraft:item",

@@ -63,23 +63,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ward_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:silence_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:snout_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rib_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:host_armor_trim_smithing_template"
+          "name": "minecraft:coast_armor_trim_smithing_template"
         },
         {
           "type": "minecraft:item",
