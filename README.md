@@ -35,8 +35,7 @@ Create!
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/separator.png?raw=true)\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/title_support.png?raw=true)\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_heart.png?raw=true)
-You can support me on [**Boosty**](https://boosty.to/disketaa/)! This is the best way to motivate modpack development.
-
+You can support me on [**Boosty**](https://boosty.to/disketaa/)! This is the best way to motivate modpack development.\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_diamond.png?raw=true)
 [**1.99$ Subscription**](https://boosty.to/disketaa/purchase/705554?ssource=DIRECT&share=subscription_link) benefits:\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_number_1.png?raw=true)
