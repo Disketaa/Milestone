@@ -1,4 +1,4 @@
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/title_about.png?raw=true)
+![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/title_about.png?raw=true)\
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_list.png?raw=true)
 **Milestone** offers an experience that closely resembles vanilla skyblock gameplay. It boasts a clean and tasteful environment, where every addition seamlessly integrates with existing mechanics. Embark on a journey of advancements, steadily expanding your island. Explore diverse biomes, construct your dream house, and upgrade your tools. Whether you prefer a solitary adventure or to team up with your closest companions, **Milestone** ensures an enjoyable experience for all!
 
