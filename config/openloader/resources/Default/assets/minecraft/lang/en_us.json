@@ -2,8 +2,27 @@
 //
 // Minecraft
   "dataPack.milestone.description": "The default data for Milestone",
-  "item.milestone.unobtainable": "Currently obtainable on start",
   "menu.options": "Options",
+  "item.milestone.unobtainable": "Currently obtainable on start",
+  "item.minecraft.smithing_template.armor_trim.base_slot_description": "Add a piece of armor or a tool",
+  "item.minecraft.smithing_template.armor_trim.applies_to": "Armor, Tools",
+
+  "trim_pattern.minecraft.coast": "Coast Trim",
+  "trim_pattern.minecraft.dune": "Dune Trim",
+  "trim_pattern.minecraft.eye": "Eye Trim",
+  "trim_pattern.minecraft.host": "Host Trim",
+  "trim_pattern.minecraft.raiser": "Raiser Trim",
+  "trim_pattern.minecraft.rib": "Rib Trim",
+  "trim_pattern.minecraft.sentry": "Sentry Trim",
+  "trim_pattern.minecraft.shaper": "Shaper Trim",
+  "trim_pattern.minecraft.silence": "Silence Trim",
+  "trim_pattern.minecraft.snout": "Snout Trim",
+  "trim_pattern.minecraft.spire": "Spire Trim",
+  "trim_pattern.minecraft.tide": "Tide Trim",
+  "trim_pattern.minecraft.vex": "Vex Trim",
+  "trim_pattern.minecraft.ward": "Ward Trim",
+  "trim_pattern.minecraft.wayfinder": "Wayfinder Trim",
+  "trim_pattern.minecraft.wild": "Wild Trim",
 
 // Advancements  
 // Story
