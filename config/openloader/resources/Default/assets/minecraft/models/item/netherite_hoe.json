@@ -8,13 +8,13 @@
       }
     },
     {
-      "model": "item/netherite_hoe_iron_darker_trim",
+      "model": "item/netherite_hoe_iron_trim",
       "predicate": {
         "trim_type": 0.2
       }
     },
     {
-      "model": "item/netherite_hoe_netherite_trim",
+      "model": "item/netherite_hoe_netherite_darker_trim",
       "predicate": {
         "trim_type": 0.3
       }

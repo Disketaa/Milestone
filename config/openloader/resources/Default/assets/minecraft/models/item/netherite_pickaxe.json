@@ -8,13 +8,13 @@
       }
     },
     {
-      "model": "item/netherite_pickaxe_iron_darker_trim",
+      "model": "item/netherite_pickaxe_iron_trim",
       "predicate": {
         "trim_type": 0.2
       }
     },
     {
-      "model": "item/netherite_pickaxe_netherite_trim",
+      "model": "item/netherite_pickaxe_netherite_darker_trim",
       "predicate": {
         "trim_type": 0.3
       }
