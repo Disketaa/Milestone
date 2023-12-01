@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "item/wooden_axe",
+    "layer1": "trims/items/axe_trim_gold"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "item/diamond_hoe",
+    "layer1": "trims/items/hoe_trim_netherite"
+  }
+}

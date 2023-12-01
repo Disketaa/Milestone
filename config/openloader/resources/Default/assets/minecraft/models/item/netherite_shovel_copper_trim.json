@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "item/netherite_shovel",
+    "layer1": "trims/items/shovel_trim_copper"
+  }
+}
