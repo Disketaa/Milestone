@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:suspicious_sand",
+  "right": "item:minecraft:brush",
+  "output": {
+    "type": "item",
+    "id": "minecraft:raiser_armor_trim_smithing_template",
+    "chance": 0.05
+  }
+}
