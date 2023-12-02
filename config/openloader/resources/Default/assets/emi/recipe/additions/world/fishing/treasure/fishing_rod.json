@@ -1,0 +1,25 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "fluid",
+    "id": "minecraft:water",
+    "amount": 8100000,
+    "remainder": "fluid:minecraft:water"
+  },
+  "right": {
+    "type": "item",
+    "id": "minecraft:fishing_rod",
+    "nbt": "{display:{Name:'[{\"translate\": \"recipe.method.fishing\", \"italic\": false}]'}}",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:fishing_rod",
+      "nbt": "{Damage:1}"
+    }
+  },
+  "output": {
+    "type": "item",
+    "id": "minecraft:fishing_rod",
+    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.category\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.entry.treasure\", \"color\": \"gold\"}]']}, Damage:51, Enchantments:[{}]}",
+    "chance": 0.05
+  }
+}

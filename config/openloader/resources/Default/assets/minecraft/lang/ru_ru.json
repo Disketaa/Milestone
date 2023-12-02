@@ -118,7 +118,7 @@
   "rpo.Default.BlockModels": "Модели блоков",
   "rpo.Default.BlockModels.tooltip": "Изменённые модели некоторых блоков\n§7©Disketaa",
   "rpo.Default.ItemModels": "Модели предметов",
-  "rpo.Default.ItemModels.tooltip": "Лежащие плоской стороной предметы\n§7©Stridey",
+  "rpo.Default.ItemModels.tooltip": "Лежащие плоской стороной предметы, шаблоны для инструментов\n§7©Disketaa\n§7©Stridey",
   "rpo.Default.BlockTextures": "Текстуры блоков",
   "rpo.Default.BlockTextures.tooltip": "Изменённые спрайты некоторых блоков\n§7©Disketaa\n§7©I_Am_Merp\n§7©Kemiu",
   "rpo.Default.ItemTextures": "Текстуры предметов",
@@ -134,5 +134,17 @@
   "rpo.Default.Music": "Музыка",
   "rpo.Default.Music.tooltip": "Новые композиции\n§7©Scott Buckley\n§7©Keys of Moon",
   "rpo.Default.Sounds": "Звуки",
-  "rpo.Default.Sounds.tooltip": "Новые звуки\n§7©Disketaa"
+  "rpo.Default.Sounds.tooltip": "Новые звуки\n§7©Disketaa",
+
+  //
+  // EMI
+  "recipe.above_block": "Над блоком",  
+  "recipe.below_block": "Под блоком",
+  "recipe.biome_in": "Биом",
+  "recipe.category": "Категория",
+  "recipe.entry.fish": "Рыба",
+  "recipe.entry.junk": "Мусор",
+  "recipe.entry.treasure": "Сокровища",
+  "recipe.method.fishing": "Рыбалка",
+  "recipe.type": "Тип"
 }

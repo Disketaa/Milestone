@@ -1,0 +1,20 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "fluid",
+    "id": "minecraft:water",
+    "amount": 8100000,
+    "remainder": "fluid:minecraft:water"
+  },
+  "right": {
+    "type": "item",
+    "id": "minecraft:fishing_rod",
+    "nbt": "{display:{Name:'[{\"translate\": \"recipe.method.fishing\", \"italic\": false}]', Lore:['[{\"translate\": \"recipe.biome_in\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"biome.minecraft.warm_ocean\", \"color\": \"dark_green\"}]']}}",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:fishing_rod",
+      "nbt": "{Damage:1}"
+    }
+  },
+  "output": "item:minecraft:sea_pickle"
+}
