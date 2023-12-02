@@ -7,6 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 5,
           "name": "minecraft:bow",
           "functions": [
             {
@@ -27,18 +28,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle"
+          "weight": 5,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
+          "weight": 5,
           "name": "minecraft:fishing_rod",
           "functions": [
             {
@@ -59,35 +59,28 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:name_tag"
+          "weight": 15,
+          "name": "minecraft:golden_horse_armor"
         },
         {
           "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
           "name": "minecraft:nautilus_shell"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:luck"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:water_breathing"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
+          "weight": 15,
           "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:name_tag"
         }
       ]
     }

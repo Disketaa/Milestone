@@ -7,27 +7,38 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:bowl"
+          "weight": 5,
+          "name": "minecraft:ink_sac",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:rotten_flesh"
+          "weight": 5,
+          "name": "minecraft:stick"
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 10,
           "name": "minecraft:bone"
         },
         {
           "type": "minecraft:item",
-          "weight": 18,
+          "weight": 10,
+          "name": "minecraft:bowl"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:leather"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 10,
           "name": "minecraft:leather_boots",
           "functions": [
             {
@@ -39,6 +50,16 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:lily_pad"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:rotten_flesh"
         }
       ]
     }

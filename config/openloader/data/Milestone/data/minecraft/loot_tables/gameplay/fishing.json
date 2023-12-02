@@ -18,186 +18,10 @@
           "name": "minecraft:gameplay/fishing/junk"
         },
         {
-          "type": "minecraft:loot_table",
+          "type": "minecraft:item",
           "weight": 10,
           "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/river",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
-                "location": {
-                  "biome": "minecraft:river"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/warm_ocean",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
-                "location": {
-                  "biome": "minecraft:warm_ocean"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/ocean",
-          "conditions": [
-            {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:deep_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:frozen_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:deep_frozen_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:cold_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:deep_cold_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:lukewarm_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:deep_lukewarm_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:warm_ocean"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/deep_dark",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
-                "location": {
-                  "biome": "minecraft:deep_dark"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/dripstone_caves",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
-                "location": {
-                  "biome": "minecraft:dripstone_caves"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/swamp",
-          "conditions": [
-            {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:swamp"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:mangrove_swamp"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/lush_caves",
+          "name": "minecraft:amethyst_shard",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
@@ -215,20 +39,34 @@
           ]
         },
         {
-          "type": "minecraft:loot_table",
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bamboo",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:bamboo_jungle"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 10,
           "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/jungle",
+          "name": "minecraft:cocoa_beans",
           "conditions": [
             {
               "condition": "minecraft:any_of",
               "terms": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:bamboo_jungle"
-                  }
-                },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
@@ -246,10 +84,189 @@
           ]
         },
         {
-          "type": "minecraft:loot_table",
+          "type": "minecraft:item",
           "weight": 10,
           "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/badlands",
+          "name": "minecraft:dead_bush",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:desert"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "name": "minecraft:echo_shard",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:deep_dark"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "name": "minecraft:glow_lichen",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "position": {
+                    "y": {
+                      "max": 0
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "name": "minecraft:heart_of_the_sea",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:deep_cold_ocean"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:deep_frozen_ocean"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:deep_lukewarm_ocean"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:deep_ocean"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "name": "minecraft:kelp",
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:cold_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:deep_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:ocean"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "name": "minecraft:pointed_dripstone",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:dripstone_caves"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "name": "minecraft:raw_gold",
           "conditions": [
             {
               "condition": "minecraft:any_of",
@@ -277,10 +294,10 @@
           ]
         },
         {
-          "type": "minecraft:loot_table",
+          "type": "minecraft:item",
           "weight": 10,
           "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/desert",
+          "name": "minecraft:raw_iron",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
@@ -291,17 +308,17 @@
                   "in_open_water": true
                 },
                 "location": {
-                  "biome": "minecraft:desert"
+                  "biome": "minecraft:river"
                 }
               }
             }
           ]
         },
         {
-          "type": "minecraft:loot_table",
+          "type": "minecraft:item",
           "weight": 10,
           "quality": 1,
-          "name": "minecraft:gameplay/fishing/unique/mushroom_fields",
+          "name": "minecraft:sea_pickle",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
@@ -312,7 +329,33 @@
                   "in_open_water": true
                 },
                 "location": {
-                  "biome": "minecraft:mushroom_fields"
+                  "biome": "minecraft:deep_lukewarm_ocean"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:lukewarm_ocean"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                },
+                "location": {
+                  "biome": "minecraft:warm_ocean"
                 }
               }
             }
