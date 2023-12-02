@@ -22,7 +22,7 @@ Own world generation and structures.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.5**\
-Obtainables.
+Obtainable items.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.6**\
