@@ -14,14 +14,22 @@ Stable foundation and convenient structure.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.3**\
-Obtainable items and guide-book.
+Guide-book and trimmable items.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.4**\
-Building blocks and decorations.
+Own world generation and structures.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.5**\
+Obtainables.
+
+![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
+**0.6**\
+Building blocks and decorations.
+
+![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
+**0.7**\
 Skill tree and leveling.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
