@@ -7,6 +7,16 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:snout_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:rib_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:warped_nylium"
         },
