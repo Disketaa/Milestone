@@ -1,0 +1,16 @@
+{
+  "type": "emi:world_interaction",
+    "left": {
+    "type": "item",
+    "id": "minecraft:mud",
+    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.above_block\", \"italic\": false, \"color\": \"green\"}]']}}",
+    "remainder": "item:minecraft:clay"
+  },
+    "right": {
+    "type": "item",
+    "id": "minecraft:pointed_dripstone",
+    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.below_block\", \"italic\": false, \"color\": \"green\"}]']}}",
+      "remainder": "item:minecraft:pointed_dripstone"
+  },
+  "output": "item:minecraft:clay"
+}
