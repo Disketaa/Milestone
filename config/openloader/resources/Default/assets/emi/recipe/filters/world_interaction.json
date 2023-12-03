@@ -1,0 +1,8 @@
+{
+  "filters": [
+    {
+      "id": "/emi:/world/fluid_interaction/minecraft/",
+      "category": "emi:world_interaction"
+    }
+  ]
+}
