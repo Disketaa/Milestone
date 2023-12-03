@@ -9,7 +9,7 @@
   "right": {
     "type": "item",
     "id": "minecraft:fishing_rod",
-    "nbt": "{display:{Name:'[{\"translate\": \"recipe.method.fishing\", \"italic\": false}]'}}",
+    "nbt": "{display:{Name:'[{\"translate\": \"recipe.emi.method.fishing\", \"italic\": false}]'}}",
     "remainder": {
       "type": "item",
       "id": "minecraft:fishing_rod",
@@ -19,7 +19,7 @@
   "output": {
     "type": "item",
     "id": "minecraft:saddle",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.category\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.entry.treasure\", \"color\": \"gold\"}]']}}",
+    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.treasure\", \"color\": \"gold\"}]']}}",
     "chance": 0.15
   }
 }

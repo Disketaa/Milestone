@@ -3,12 +3,13 @@
   "left": {
     "type": "fluid",
     "id": "minecraft:water",
+    "amount": 81000,
     "remainder": "fluid:minecraft:water"
   },
   "right": {
     "type": "item",
     "id": "minecraft:fishing_rod",
-    "nbt": "{display:{Name:'[{\"translate\": \"recipe.method.fishing\", \"italic\": false}]'}}",
+    "nbt": "{display:{Name:'[{\"translate\": \"recipe.emi.method.fishing\", \"italic\": false}]'}}",
     "remainder": {
       "type": "item",
       "id": "minecraft:fishing_rod",
@@ -18,7 +19,7 @@
   "output": {
     "type": "item",
     "id": "minecraft:tropical_fish",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.category\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.entry.fish\", \"color\": \"gold\"}]']}}",
+    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.fish\", \"color\": \"gold\"}]']}}",
     "chance": 0.02
   }
 }

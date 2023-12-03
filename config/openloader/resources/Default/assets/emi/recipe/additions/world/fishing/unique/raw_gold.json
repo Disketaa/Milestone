@@ -9,7 +9,7 @@
   "right": {
     "type": "item",
     "id": "minecraft:fishing_rod",
-    "nbt": "{display:{Name:'[{\"translate\": \"recipe.method.fishing\", \"italic\": false}]', Lore:['[{\"translate\": \"recipe.biome_in\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"biome.minecraft.badlands\", \"color\": \"dark_green\"}]']}}",
+    "nbt": "{display:{Name:'[{\"translate\": \"recipe.emi.method.fishing\", \"italic\": false}]', Lore:['[{\"translate\": \"recipe.emi.condition.biome_in\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"biome.minecraft.badlands\", \"color\": \"dark_green\"}]']}}",
     "remainder": {
       "type": "item",
       "id": "minecraft:fishing_rod",
