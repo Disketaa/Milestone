@@ -136,15 +136,19 @@
   "rpo.Default.Sounds": "Звуки",
   "rpo.Default.Sounds.tooltip": "Новые звуки\n§7©Disketaa",
 
-  //
-  // EMI
-  "recipe.above_block": "Над блоком",  
-  "recipe.below_block": "Под блоком",
-  "recipe.biome_in": "Биом",
-  "recipe.category": "Категория",
-  "recipe.entry.fish": "Рыба",
-  "recipe.entry.junk": "Мусор",
-  "recipe.entry.treasure": "Сокровища",
-  "recipe.method.fishing": "Рыбалка",
-  "recipe.type": "Тип"
+//
+// EMI
+  "recipe.emi.condition.above_block": "Над блоком",
+  "recipe.emi.condition.below_block": "Под блоком",
+  "recipe.emi.condition.biome_in": "Биом",
+  "recipe.emi.entry.bartering": "Товарообмен",
+  "recipe.emi.entry.fish": "Рыба",
+  "recipe.emi.entry.gravel": "Гравий",
+  "recipe.emi.entry.junk": "Мусор",
+  "recipe.emi.entry.sand": "Песок",
+  "recipe.emi.entry.treasure": "Сокровища",
+  "recipe.emi.group": "Категория",
+  "recipe.emi.method.fishing": "Рыбалка",
+  "recipe.emi.placement": "Размещение",
+  "recipe.emi.type": "Тип"
 }

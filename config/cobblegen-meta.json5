@@ -1,10 +1,10 @@
 {
-	"enableRecipeViewer": true,
+	"enableRecipeViewer": false,
 	"enableExperimentalFeatures": false,
-	"mergeEMIRecipeCategory": true,
+	"mergeEMIRecipeCategory": false,
 	"emi": {
 		"addTooltip": false,
-		"removeOverlaps": true,
-		"invertInput": true
+		"removeOverlaps": false,
+		"invertInput": false
 	}
 }

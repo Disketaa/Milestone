@@ -1,0 +1,19 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "fluid",
+    "id": "minecraft:water",
+    "amount": 81000,
+    "remainder": "fluid:minecraft:water"
+  },
+  "right": {
+    "type": "fluid",
+    "id": "minecraft:lava",
+    "amount": 81000,
+    "remainder": "fluid:minecraft:lava"
+  },
+  "output": {
+    "type": "item",
+    "id": "minecraft:stone"
+  }
+}

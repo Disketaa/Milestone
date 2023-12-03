@@ -1,0 +1,24 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "fluid",
+    "id": "minecraft:lava",
+    "amount": 81000,
+    "remainder": "fluid:minecraft:lava"
+  },
+  "right": [
+    {
+      "type": "item",
+      "id": "minecraft:soul_soil",
+      "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.placement\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"tooltip.emi.fluid_interaction.basalt.soul_soil\", \"color\": \"dark_aqua\"}]']}}",
+      "remainder": "item:minecraft:soul_soil"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:blue_ice",
+      "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.placement\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"tooltip.emi.fluid_interaction.basalt.blue_ice\", \"color\": \"dark_aqua\"}]']}}",
+      "remainder": "item:minecraft:blue_ice"
+    }
+  ],
+  "output": "item:minecraft:basalt"
+}

@@ -153,15 +153,19 @@
   "rpo.Default.Sounds": "Sounds",
   "rpo.Default.Sounds.tooltip": "Changed sounds\n§7©Disketaa",
 
-  //
-  // EMI
-  "recipe.above_block": "Above Block",
-  "recipe.below_block": "Below Block",
-  "recipe.biome_in": "In",
-  "recipe.category": "Category",
-  "recipe.entry.fish": "Fish",
-  "recipe.entry.junk": "Junk",
-  "recipe.entry.treasure": "Treasure",
-  "recipe.method.fishing": "Fishing",
-  "recipe.type": "Type"
+//
+// EMI
+  "recipe.emi.condition.above_block": "Above Block",
+  "recipe.emi.condition.below_block": "Below Block",
+  "recipe.emi.condition.biome_in": "In",
+  "recipe.emi.entry.bartering": "Bartering",  
+  "recipe.emi.entry.fish": "Fish",
+  "recipe.emi.entry.gravel": "Gravel",
+  "recipe.emi.entry.junk": "Junk",
+  "recipe.emi.entry.sand": "Sand",
+  "recipe.emi.entry.treasure": "Treasure",
+  "recipe.emi.group": "Group",
+  "recipe.emi.method.fishing": "Fishing",
+  "recipe.emi.placement": "Placement",
+  "recipe.emi.type": "Type"
 }
