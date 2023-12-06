@@ -30,7 +30,8 @@
     "order": 9
   },
   "emi:world_interaction": {
-    "order": 11
+    "order": 11,
+    "sort": "input_then_output"
   },
   "emi:composting": {
     "order": 96
