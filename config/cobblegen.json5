@@ -19,7 +19,7 @@
       "maxY": 0
     },
     {
-      "id": "minecraft:end_stone_bricks",
+      "id": "minecraft:end_stone",
       "weight": 100.0,
       "dimensions":["minecraft:the_end"]
     }
