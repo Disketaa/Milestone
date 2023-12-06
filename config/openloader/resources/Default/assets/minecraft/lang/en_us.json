@@ -167,5 +167,6 @@
   "recipe.emi.group": "Group",
   "recipe.emi.method.fishing": "Fishing",
   "recipe.emi.placement": "Placement",
-  "recipe.emi.type": "Type"
+  "recipe.emi.type": "Type",
+  "tag.item.minecraft.grass_spawnable_on": "Grass Spreads"
 }

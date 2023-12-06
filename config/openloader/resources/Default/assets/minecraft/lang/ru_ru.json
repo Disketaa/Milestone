@@ -150,5 +150,6 @@
   "recipe.emi.group": "Категория",
   "recipe.emi.method.fishing": "Рыбалка",
   "recipe.emi.placement": "Размещение",
-  "recipe.emi.type": "Тип"
+  "recipe.emi.type": "Тип",
+  "tag.item.minecraft.grass_spawnable_on": "Растящие траву"
 }
