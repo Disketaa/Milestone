@@ -12,8 +12,5 @@
     "amount": 81000,
     "remainder": "fluid:minecraft:lava"
   },
-  "output": {
-    "type": "item",
-    "id": "minecraft:end_stone"
-  }
+  "output": "item:minecraft:end_stone"
 }
