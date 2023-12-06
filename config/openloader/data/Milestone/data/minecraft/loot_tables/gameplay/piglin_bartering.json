@@ -8,22 +8,27 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:snout_armor_trim_smithing_template"
+          "name": "minecraft:crimson_nylium"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:rib_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:warped_nylium"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:crimson_nylium"
+          "weight": 3,
+          "name": "minecraft:nether_wart",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -37,6 +42,83 @@
                 "min": 8,
                 "max": 16
               }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gravel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
             }
           ]
         },
@@ -58,7 +140,22 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 10,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
           "name": "minecraft:blackstone",
           "functions": [
             {
@@ -69,109 +166,6 @@
                 "max": 16
               },
               "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:suspicious_gravel",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{LootTable:\"archaeology/gravel\"}}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:gravel",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 8,
-                "max": 16
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:nether_wart",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:leather",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:glowstone_dust",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:quartz",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:string",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              }
             }
           ]
         }
