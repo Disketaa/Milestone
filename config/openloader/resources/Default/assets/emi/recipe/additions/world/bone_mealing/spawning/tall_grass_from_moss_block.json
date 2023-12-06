@@ -1,9 +1,9 @@
 {
   "type": "emi:world_interaction",
   "left": {
-    "type": "tag",
-    "registry": "item",
-    "id": "minecraft:grass_spawnable_on"
+    "type": "item",
+    "id": "minecraft:moss_block",
+    "remainder": "item:minecraft:moss_block"
   },
   "right": "item:minecraft:bone_meal",
   "output": "item:minecraft:tall_grass"

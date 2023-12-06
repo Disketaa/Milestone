@@ -1,6 +1,10 @@
 {
   "type": "emi:world_interaction",
-  "left": "item:minecraft:moss_block",
+  "left": {
+    "type": "item",
+    "id": "minecraft:moss_block",
+    "remainder": "item:minecraft:moss_block"
+  },
   "right": "item:minecraft:bone_meal",
   "output": "item:minecraft:flowering_azalea"
 }

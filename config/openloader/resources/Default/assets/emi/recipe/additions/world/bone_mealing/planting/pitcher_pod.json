@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:pitcher_pod",
+  "right": {
+    "type": "item",
+    "id": "minecraft:farmland",
+    "remainder": "item:minecraft:farmland"
+  },
+  "output": {
+    "type": "item",
+    "id": "minecraft:pitcher_pod",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.pitcher_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+  }
+}

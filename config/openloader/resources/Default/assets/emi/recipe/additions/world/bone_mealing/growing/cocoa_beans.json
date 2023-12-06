@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:cocoa_beans",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.cocoa\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": {
+    "type": "item",
+    "id": "minecraft:cocoa_beans",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.cocoa\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}"
+  }
+}

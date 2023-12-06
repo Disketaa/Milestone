@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:torchflower_seeds",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.torchflower_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:torchflower"
+}

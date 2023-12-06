@@ -1,0 +1,23 @@
+{
+  "type": "emi:world_interaction",
+  "left": [
+    {
+    "type": "item",
+    "id": "minecraft:sea_pickle",
+    "remainder": "item:minecraft:sea_pickle"
+    },
+    {
+    "type": "tag",
+    "registry": "item",
+    "id": "minecraft:coral_blocks"
+    },
+    {
+    "type": "fluid",
+    "id": "minecraft:water",
+    "amount": 162000,
+    "remainder": "fluid:minecraft:water"
+    }
+  ],
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:sea_pickle"
+}

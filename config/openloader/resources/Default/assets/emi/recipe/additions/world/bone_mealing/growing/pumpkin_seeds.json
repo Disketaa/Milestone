@@ -1,0 +1,19 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:pumpkin_seeds",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.pumpkin_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:pumpkin_seeds",
+      "nbt": "{display:{Name:'[{\"text\": \"\uE000\", \"italic\": false}]'}}"
+    }
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": {
+    "type": "item",
+    "id": "minecraft:pumpkin_seeds",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.pumpkin_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+  }
+}

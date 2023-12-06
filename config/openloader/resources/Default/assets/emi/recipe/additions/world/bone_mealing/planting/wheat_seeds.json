@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:wheat_seeds",
+  "right": {
+    "type": "item",
+    "id": "minecraft:farmland",
+    "remainder": "item:minecraft:farmland"
+  },
+  "output": {
+    "type": "item",
+    "id": "minecraft:wheat_seeds",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.wheat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+  }
+}

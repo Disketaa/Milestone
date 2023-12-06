@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:wheat_seeds",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.wheat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": {
+    "type": "item",
+    "id": "minecraft:wheat_seeds",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.wheat\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}"
+  }
+}

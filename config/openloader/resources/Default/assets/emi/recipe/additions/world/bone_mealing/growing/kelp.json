@@ -3,8 +3,17 @@
   "left": {
     "type": "item",
     "id": "minecraft:kelp",
-    "remainder": "item:minecraft:kelp"
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.kelp_plant\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:kelp",
+      "nbt": "{display:{Name:'[{\"text\": \"\uE000\", \"italic\": false}]'}}"
+    }
   },
   "right": "item:minecraft:bone_meal",
-  "output": "item:minecraft:kelp"
+  "output": {
+    "type": "item",
+    "id": "minecraft:kelp",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.kelp_plant\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+  }
 }

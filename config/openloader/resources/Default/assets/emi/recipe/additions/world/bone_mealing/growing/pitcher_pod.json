@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:pitcher_pod",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.pitcher_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:pitcher_plant"
+}

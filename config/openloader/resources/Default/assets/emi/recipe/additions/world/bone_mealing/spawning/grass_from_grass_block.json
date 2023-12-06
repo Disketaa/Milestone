@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:grass_block",
+    "remainder": "item:minecraft:grass_block"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:grass"
+}
