@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:bamboo",
+    "remainder": "item:minecraft:bamboo"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:bamboo"
+}

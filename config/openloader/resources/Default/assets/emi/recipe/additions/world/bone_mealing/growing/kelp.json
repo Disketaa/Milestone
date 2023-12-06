@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:kelp",
+    "remainder": "item:minecraft:kelp"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:kelp"
+}

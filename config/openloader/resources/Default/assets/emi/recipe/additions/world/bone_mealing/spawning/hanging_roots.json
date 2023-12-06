@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:rooted_dirt",
+    "remainder": "item:minecraft:rooted_dirt"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:hanging_roots"
+}

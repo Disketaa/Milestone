@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:glow_berries",
+    "remainder": "item:minecraft:glow_berries"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:glow_berries"
+}

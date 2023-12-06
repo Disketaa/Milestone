@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:glow_lichen",
+    "remainder": "item:minecraft:glow_lichen"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:glow_lichen"
+}

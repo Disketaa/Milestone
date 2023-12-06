@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:sweet_berries",
+    "remainder": "item:minecraft:sweet_berries"
+  },
+  "right": "item:minecraft:bone_meal",
+  "output": "item:minecraft:sweet_berries"
+}
