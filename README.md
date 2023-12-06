@@ -18,11 +18,11 @@ Guide-book and trimmable items.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.4**\
-Own world generation and structures.
+Custom world generation and structures.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.5**\
-Obtainable items.
+Obtainable items and advancements.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.6**\
@@ -30,11 +30,15 @@ Building blocks and decorations.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **0.7**\
-Skill tree and leveling.
+Skill tree and leveling. (?)
+
+![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
+**0.9**\
+Advanced multiplayer support.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **1.0**\
-Polish things up.
+Polishing up.
 
 ![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
 **1.1**\
