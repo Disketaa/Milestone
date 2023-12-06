@@ -2,8 +2,7 @@
   "type": "emi:world_interaction",
   "left": {
     "type": "item",
-    "id": "minecraft:mud",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.placement\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.condition.above_block\", \"color\": \"dark_aqua\"}]']}}"
+    "id": "minecraft:mud"
   },
   "right": {
     "type": "item",
