@@ -26,20 +26,28 @@
       "after": "item:minecraft:glow_item_frame"
     },
     {
+      "stack": "fluid:minecraft:water",
+      "after": "item:minecraft:warped_hanging_sign"
+    },
+    {
+      "stack": "fluid:minecraft:lava",
+      "after": "fluid:minecraft:water"
+    },
+    {
       "stack": "item:minecraft:suspicious_stew",
       "after": "item:minecraft:rabbit_stew"
     },
     {
-      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:1s}]}",
-      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
+      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\", lvl:1s}]}",
+      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:fire_aspect\", lvl:2s}]}"
     },
     {
-      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:2s}]}",
-      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:1s}]}"
+      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\", lvl:2s}]}",
+      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\", lvl:1s}]}"
     },
     {
-      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_flame\",lvl:1s}]}",
-      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_flame\", lvl:1s}]}",
+      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:flame\", lvl:1s}]}"
     },
     {
       "stack": "item:minecraft:netherite_upgrade_smithing_template",
@@ -108,6 +116,58 @@
     {
       "stack": "item:minecraft:spire_armor_trim_smithing_template",
       "after": "item:minecraft:eye_armor_trim_smithing_template"
+    },
+    {
+      "stack": "item:minecraft:torchflower_seeds{display:{Name:'[{\"translate\": \"block.minecraft.torchflower_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:lily_of_the_valley"
+    },
+    {
+      "stack": "item:minecraft:kelp{display:{Name:'[{\"translate\": \"block.minecraft.kelp_plant\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:sea_pickle"
+    },
+    {
+      "stack": "item:minecraft:bamboo{display:{Name:'[{\"translate\": \"block.minecraft.bamboo_sapling\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:spore_blossom"
+    },
+    {
+      "stack": "item:minecraft:sweet_berries{display:{Name:'[{\"translate\": \"block.minecraft.sweet_berry_bush\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:glow_berries"
+    },
+    {
+      "stack": "item:minecraft:glow_berries{display:{Name:'[{\"translate\": \"block.minecraft.cave_vines\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:pitcher_pod"
+    },
+    {
+      "stack": "item:minecraft:pitcher_pod{display:{Name:'[{\"translate\": \"block.minecraft.pitcher_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:peony"
+    },
+    {
+      "stack": "item:minecraft:wheat_seeds{display:{Name:'[{\"translate\": \"block.minecraft.wheat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:cactus"
+    },
+    {
+      "stack": "item:minecraft:carrot{display:{Name:'[{\"translate\": \"block.minecraft.carrots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:wheat_seeds{display:{Name:'[{\"translate\": \"block.minecraft.wheat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+    },
+    {
+      "stack": "item:minecraft:potato{display:{Name:'[{\"translate\": \"block.minecraft.potatoes\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:carrot{display:{Name:'[{\"translate\": \"block.minecraft.carrots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+    },
+    {
+      "stack": "item:minecraft:beetroot_seeds{display:{Name:'[{\"translate\": \"block.minecraft.beetroots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:potato{display:{Name:'[{\"translate\": \"block.minecraft.potatoes\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+    },
+    {
+      "stack": "item:minecraft:cocoa_beans{display:{Name:'[{\"translate\": \"block.minecraft.cocoa\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:pitcher_plant"
+    },
+    {
+      "stack": "item:minecraft:melon_seeds{display:{Name:'[{\"translate\": \"block.minecraft.melon_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:wet_sponge"
+    },
+    {
+      "stack": "item:minecraft:pumpkin_seeds{display:{Name:'[{\"translate\": \"block.minecraft.pumpkin_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:melon"
     }
   ]
 }
