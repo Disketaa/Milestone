@@ -9,6 +9,7 @@
   "output": {
     "type": "item",
     "id": "minecraft:carrot",
-    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.carrots\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}"
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.carrots\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}",
+    "remainder": "item:minecraft:carrot"
   }
 }

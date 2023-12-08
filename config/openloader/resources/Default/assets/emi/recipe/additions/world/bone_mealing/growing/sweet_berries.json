@@ -9,6 +9,7 @@
   "output": {
     "type": "item",
     "id": "minecraft:sweet_berries",
-    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.sweet_berry_bush\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}"
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.sweet_berry_bush\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}",
+    "remainder": "item:minecraft:sweet_berries"
   }
 }

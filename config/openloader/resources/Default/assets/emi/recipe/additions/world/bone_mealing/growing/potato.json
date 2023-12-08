@@ -9,6 +9,7 @@
   "output": {
     "type": "item",
     "id": "minecraft:potato",
-    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.potatoes\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}"
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.potatoes\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}",
+    "remainder": "item:minecraft:potato"
   }
 }

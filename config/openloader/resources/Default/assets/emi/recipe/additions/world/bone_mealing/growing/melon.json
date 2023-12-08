@@ -13,7 +13,8 @@
   "right": "item:minecraft:bone_meal",
   "output": {
     "type": "item",
-    "id": "minecraft:melon_seeds",
-    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.melon_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+    "id": "minecraft:melon",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.melon_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+    "remainder": "item:minecraft:melon"
   }
 }

@@ -13,7 +13,7 @@
   "right": "item:minecraft:bone_meal",
   "output": {
     "type": "item",
-    "id": "minecraft:pumpkin_seeds",
+    "id": "minecraft:pumpkin",
     "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.pumpkin_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
   }
 }

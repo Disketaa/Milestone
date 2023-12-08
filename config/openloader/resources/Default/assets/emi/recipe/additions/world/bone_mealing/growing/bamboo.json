@@ -9,6 +9,7 @@
   "output": {
     "type": "item",
     "id": "minecraft:bamboo",
-    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.bamboo\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}"
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.bamboo\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}",
+    "remainder": "item:minecraft:bamboo"
   }
 }

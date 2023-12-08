@@ -8,7 +8,8 @@
   "right": "item:minecraft:bone_meal",
   "output": {
     "type": "item",
-    "id": "minecraft:beetroot_seeds",
-    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.beetroots\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}"
+    "id": "minecraft:beetroot",
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.beetroots\", \"italic\": false}, {\"text\": \"\uE001\"}]'}}",
+    "remainder": "item:minecraft:beetroot"
   }
 }
