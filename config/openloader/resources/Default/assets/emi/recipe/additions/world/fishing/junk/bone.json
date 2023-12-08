@@ -16,10 +16,5 @@
       "nbt": "{Damage:1}"
     }
   },
-  "output": {
-    "type": "item",
-    "id": "minecraft:bone",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.junk\", \"color\": \"gold\"}]']}}",
-    "chance": 0.1
-  }
+  "output": "item:minecraft:bone"
 }

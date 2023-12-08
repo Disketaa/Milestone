@@ -16,10 +16,5 @@
       "nbt": "{Damage:1}"
     }
   },
-  "output": {
-    "type": "item",
-    "id": "minecraft:lily_pad",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.junk\", \"color\": \"gold\"}]']}}",
-    "chance": 0.25
-  }
+  "output": "item:minecraft:lily_pad"
 }

@@ -6,15 +6,21 @@
     "amount": 8100000,
     "remainder": "fluid:minecraft:water"
   },
-  "right": {
+  "right": [
+    {
     "type": "item",
     "id": "minecraft:fishing_rod",
-    "nbt": "{display:{Name:'[{\"translate\": \"recipe.emi.method.fishing\", \"italic\": false}]', Lore:['[{\"translate\": \"recipe.emi.condition.biome_in\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"biome.minecraft.jungle\", \"color\": \"dark_green\"}]']}}",
     "remainder": {
       "type": "item",
       "id": "minecraft:fishing_rod",
       "nbt": "{Damage:1}"
+      }
+    },
+    {
+    "type": "item",
+    "id": "minecraft:compass",
+    "nbt": "{display:{Name:'[{\"translate\": \"biome.minecraft.jungle\", \"italic\": false, \"color\": \"dark_aqua\"}]'}}"
     }
-  },
+  ],
   "output": "item:minecraft:cocoa_beans"
 }

@@ -16,10 +16,5 @@
       "nbt": "{Damage:1}"
     }
   },
-  "output": {
-    "type": "item",
-    "id": "minecraft:salmon",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.fish\", \"color\": \"gold\"}]']}}",
-    "chance": 0.25
-  }
+  "output": "item:minecraft:salmon"
 }

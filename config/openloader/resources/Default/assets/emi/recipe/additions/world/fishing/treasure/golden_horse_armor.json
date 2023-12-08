@@ -16,10 +16,5 @@
       "nbt": "{Damage:1}"
     }
   },
-  "output": {
-    "type": "item",
-    "id": "minecraft:golden_horse_armor",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.treasure\", \"color\": \"gold\"}]']}}",
-    "chance": 0.15
-  }
+  "output": "item:minecraft:golden_horse_armor"
 }

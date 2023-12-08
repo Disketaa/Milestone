@@ -19,7 +19,6 @@
   "output": {
     "type": "item",
     "id": "minecraft:leather_boots",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.junk\", \"color\": \"gold\"}]']}, Damage:43}",
-    "chance": 0.1
+    "nbt": "{Damage:43}"
   }
 }

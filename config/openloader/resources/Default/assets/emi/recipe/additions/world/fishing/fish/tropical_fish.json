@@ -16,10 +16,6 @@
       "nbt": "{Damage:1}"
     }
   },
-  "output": {
-    "type": "item",
-    "id": "minecraft:tropical_fish",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.fish\", \"color\": \"gold\"}]']}}",
-    "chance": 0.02
+  "output": "item:minecraft:tropical_fish"
   }
 }

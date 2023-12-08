@@ -16,11 +16,5 @@
       "nbt": "{Damage:1}"
     }
   },
-  "output": {
-    "type": "item",
-    "id": "minecraft:ink_sac",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.junk\", \"color\": \"gold\"}]']}}",
-    "amount": 4,
-    "chance": 0.05
-  }
+  "output": "item:minecraft:ink_sac"
 }

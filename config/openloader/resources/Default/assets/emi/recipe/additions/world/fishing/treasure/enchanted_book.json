@@ -19,7 +19,6 @@
   "output": {
     "type": "item",
     "id": "minecraft:enchanted_book",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.group\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.entry.treasure\", \"color\": \"gold\"}]']}, Damage:307, Enchantments:[{}]}",
-    "chance": 0.05
+    "nbt": "{Enchantments:[{}]}"
   }
 }
