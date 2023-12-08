@@ -118,6 +118,10 @@
       "after": "item:minecraft:eye_armor_trim_smithing_template"
     },
     {
+      "stack": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:sniffer_egg"
+    },
+    {
       "stack": "item:minecraft:torchflower_seeds{display:{Name:'[{\"translate\": \"block.minecraft.torchflower_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
       "after": "item:minecraft:lily_of_the_valley"
     },
@@ -156,6 +160,10 @@
     {
       "stack": "item:minecraft:beetroot_seeds{display:{Name:'[{\"translate\": \"block.minecraft.beetroots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
       "after": "item:minecraft:potato{display:{Name:'[{\"translate\": \"block.minecraft.potatoes\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+    },
+    {
+      "stack": "item:minecraft:nether_wart{display:{Name:'[{\"translate\": \"block.minecraft.nether_wart\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "after": "item:minecraft:beetroot_seeds{display:{Name:'[{\"translate\": \"block.minecraft.beetroots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
     },
     {
       "stack": "item:minecraft:cocoa_beans{display:{Name:'[{\"translate\": \"block.minecraft.cocoa\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
