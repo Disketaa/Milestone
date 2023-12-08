@@ -1,0 +1,22 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:cat_spawn_egg",
+    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:cat_spawn_egg",
+      "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+    }  
+  },
+  "right": [
+    "#item:minecraft:beds",
+    {
+    "type": "item",
+    "id": "minecraft:clock",
+    "nbt": "{display:{Name:'[{\"translate\": \"recipe.emi.method.cat_morning_gift\", \"italic\": false}]'}}"
+    }
+  ],
+  "output": "item:minecraft:phantom_membrane"
+}
