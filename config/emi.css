@@ -105,7 +105,7 @@
 	 * can be, and where the page switching buttons go. The default is 176, the width
 	 * of most screens.
 	 */
-	minimum-recipe-screen-width: 176;
+	minimum-recipe-screen-width: 182;
 
 	/**
 	 * Where to show workstations in the recipe screen
