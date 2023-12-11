@@ -1,22 +1,15 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "#item:minecraft:beds",
+  "right": {
     "type": "item",
     "id": "minecraft:cat_spawn_egg",
-    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}",
     "remainder": {
       "type": "item",
       "id": "minecraft:cat_spawn_egg",
-      "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
+      "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}"
     }  
   },
-  "right": [
-    "#item:minecraft:beds",
-    {
-    "type": "item",
-    "id": "minecraft:clock",
-    "nbt": "{display:{Name:'[{\"translate\": \"recipe.emi.method.cat_morning_gift\", \"italic\": false}]'}}"
-    }
-  ],
   "output": "item:minecraft:rotten_flesh"
 }
