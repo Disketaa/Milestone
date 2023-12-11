@@ -27,10 +27,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:lush_caves"
                 }
@@ -41,16 +37,13 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": 1,
           "name": "minecraft:bamboo",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:bamboo_jungle"
                 }
@@ -93,10 +86,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:desert"
                 }
@@ -114,10 +103,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:deep_dark"
                 }
@@ -135,10 +120,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "position": {
                     "y": {
@@ -251,10 +232,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:dripstone_caves"
                 }
@@ -303,10 +280,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:river"
                 }
@@ -324,10 +297,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:deep_lukewarm_ocean"
                 }
@@ -337,10 +306,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:lukewarm_ocean"
                 }
@@ -350,10 +315,6 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
-                },
                 "location": {
                   "biome": "minecraft:warm_ocean"
                 }
