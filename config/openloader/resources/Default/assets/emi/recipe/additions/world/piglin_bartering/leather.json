@@ -1,0 +1,12 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:gold_ingot",
+  "right": {
+    "type": "item",
+    "id": "minecraft:piglin_head",
+    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}",
+    "remainder": "item:minecraft:piglin_head"
+  },
+  "output": "item:minecraft:leather"
+  }
+}
