@@ -118,8 +118,16 @@
       "after": "item:minecraft:eye_armor_trim_smithing_template"
     },
     {
-      "stack": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
+      "stack": "item:minecraft:sniffer_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.sniffer\", \"italic\": false}]'}}",
       "after": "item:minecraft:sniffer_egg"
+    },
+    {
+      "stack": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}",
+      "after": "item:minecraft:sniffer_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.sniffer\", \"italic\": false}]'}}"
+    },
+    {
+      "stack": "item:minecraft:piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}",
+      "after": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}"
     },
     {
       "stack": "item:minecraft:torchflower_seeds{display:{Name:'[{\"translate\": \"block.minecraft.torchflower_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
