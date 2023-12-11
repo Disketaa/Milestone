@@ -12,7 +12,7 @@
   "right": {
     "type": "fluid",
     "id": "minecraft:water",
-    "amount": 8100000,
+    "amount": 81000,
     "remainder": "fluid:minecraft:water"
   },
   "output": {
