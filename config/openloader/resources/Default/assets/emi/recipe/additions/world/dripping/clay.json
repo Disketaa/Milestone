@@ -2,13 +2,12 @@
   "type": "emi:world_interaction",
   "left": {
     "type": "item",
-    "id": "minecraft:mud"
+    "id": "minecraft:pointed_dripstone",
+    "remainder": "item:minecraft:pointed_dripstone"
   },
   "right": {
     "type": "item",
-    "id": "minecraft:pointed_dripstone",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.placement\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"recipe.emi.condition.below_block\", \"color\": \"dark_aqua\"}]']}}",
-    "remainder": "item:minecraft:pointed_dripstone"
+    "id": "minecraft:mud"
   },
   "output": "item:minecraft:clay"
 }
