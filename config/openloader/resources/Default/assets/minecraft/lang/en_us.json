@@ -157,17 +157,6 @@
 // EMI
   "recipe.emi.condition.above_block": "Above Block",
   "recipe.emi.condition.below_block": "Below Block",
-  "recipe.emi.condition.biome_in": "In",
-  "recipe.emi.entry.bartering": "Bartering",  
-  "recipe.emi.entry.fish": "Fish",
-  "recipe.emi.entry.gravel": "Gravel",
-  "recipe.emi.entry.junk": "Junk",
-  "recipe.emi.entry.sand": "Sand",
-  "recipe.emi.entry.treasure": "Treasure",
-  "recipe.emi.group": "Group",
   "recipe.emi.method.cat_morning_gift": "Morning Gift",
-  "recipe.emi.method.fishing": "Fishing",
-  "recipe.emi.placement": "Placement",
-  "recipe.emi.type": "Type",
   "tag.item.minecraft.coral_blocks": "Coral Blocks"
 }
