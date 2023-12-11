@@ -1,26 +1,23 @@
 {
   "type": "emi:world_interaction",
   "left": {
-    "type": "fluid",
-    "id": "minecraft:water",
-    "amount": 8100000,
-    "remainder": "fluid:minecraft:water"
-  },
-  "right": [
-    {
     "type": "item",
     "id": "minecraft:fishing_rod",
     "remainder": {
       "type": "item",
       "id": "minecraft:fishing_rod",
       "nbt": "{Damage:1}"
-      }
-    },
-    {
-    "type": "item",
-    "id": "minecraft:compass",
-    "nbt": "{display:{Name:'[{\"translate\": \"biome.minecraft.ocean\", \"italic\": false, \"color\": \"dark_aqua\"}]'}}"
     }
-  ],
-  "output": "item:minecraft:kelp"
+  },
+  "right": {
+    "type": "fluid",
+    "id": "minecraft:water",
+    "amount": 8100000,
+    "remainder": "fluid:minecraft:water"
+  },
+  "output": {
+    "type": "item",
+    "id": "minecraft:kelp",
+    "nbt": "{display:{Lore:['[{\"text\": \"\uE100 \", \"color\": \"white\", \"italic\": false}, {\"translate\": \"biome.minecraft.ocean\", \"color\": \"dark_aqua\", \"italic\": false}]']}}"
+  }
 }

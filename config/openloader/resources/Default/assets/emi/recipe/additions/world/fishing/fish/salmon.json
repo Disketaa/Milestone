@@ -1,20 +1,19 @@
 {
   "type": "emi:world_interaction",
   "left": {
-    "type": "fluid",
-    "id": "minecraft:water",
-    "amount": 81000,
-    "remainder": "fluid:minecraft:water"
-  },
-  "right": {
     "type": "item",
     "id": "minecraft:fishing_rod",
-    "nbt": "{display:{Name:'[{\"translate\": \"recipe.emi.method.fishing\", \"italic\": false}]'}}",
     "remainder": {
       "type": "item",
       "id": "minecraft:fishing_rod",
       "nbt": "{Damage:1}"
     }
+  },
+  "right": {
+    "type": "fluid",
+    "id": "minecraft:water",
+    "amount": 81000,
+    "remainder": "fluid:minecraft:water"
   },
   "output": "item:minecraft:salmon"
 }

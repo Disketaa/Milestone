@@ -1,26 +1,23 @@
 {
   "type": "emi:world_interaction",
   "left": {
-    "type": "fluid",
-    "id": "minecraft:water",
-    "amount": 8100000,
-    "remainder": "fluid:minecraft:water"
-  },
-  "right": [
-    {
     "type": "item",
     "id": "minecraft:fishing_rod",
     "remainder": {
       "type": "item",
       "id": "minecraft:fishing_rod",
       "nbt": "{Damage:1}"
-      }
-    },
-    {
-    "type": "item",
-    "id": "minecraft:compass",
-    "nbt": "{display:{Name:'[{\"translate\": \"biome.minecraft.badlands\", \"italic\": false, \"color\": \"dark_aqua\"}]'}}"
     }
-  ],
-  "output": "item:minecraft:raw_gold"
+  },
+  "right": {
+    "type": "fluid",
+    "id": "minecraft:water",
+    "amount": 8100000,
+    "remainder": "fluid:minecraft:water"
+  },
+  "output": {
+    "type": "item",
+    "id": "minecraft:raw_gold",
+    "nbt": "{display:{Lore:['[{\"text\": \"\uE100 \", \"color\": \"white\", \"italic\": false}, {\"translate\": \"biome.minecraft.badlands\", \"color\": \"dark_aqua\", \"italic\": false}]']}}"
+  }
 }
