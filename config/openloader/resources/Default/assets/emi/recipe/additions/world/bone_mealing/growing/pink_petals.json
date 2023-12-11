@@ -1,10 +1,10 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "item:minecraft:bone_meal",
+  "right": {
     "type": "item",
     "id": "minecraft:pink_petals",
     "remainder": "item:minecraft:pink_petals"
   },
-  "right": "item:minecraft:bone_meal",
   "output": "item:minecraft:pink_petals"
 }

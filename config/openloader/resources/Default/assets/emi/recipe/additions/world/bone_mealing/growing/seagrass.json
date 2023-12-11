@@ -1,10 +1,10 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "item:minecraft:bone_meal",
+  "right": {
     "type": "item",
     "id": "minecraft:seagrass",
     "remainder": "item:minecraft:seagrass"
   },
-  "right": "item:minecraft:bone_meal",
   "output": "item:minecraft:seagrass"
 }

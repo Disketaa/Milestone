@@ -1,14 +1,14 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "item:minecraft:bone_meal",
+  "right": {
     "type": "item",
     "id": "minecraft:grass_block",
     "remainder": "item:minecraft:grass_block"
   },
-  "right": {
+  "output": {
     "type": "item",
-    "id": "minecraft:bone_meal",
-    "nbt": "{display:{Lore:['[{\"translate\": \"recipe.emi.condition.biome_in\", \"italic\": false, \"color\": \"gray\"}, {\"text\": \": \"}, {\"translate\": \"biome.minecraft.cherry_grove\", \"color\": \"dark_green\"}]']}}"
-  },
-  "output": "item:minecraft:pink_petals"
+    "id": "minecraft:pink_petals",
+    "nbt": "{display:{Lore:['[{\"text\": \"\uE100 \", \"color\": \"white\", \"italic\": false}, {\"translate\": \"biome.minecraft.cherry_grove\", \"color\": \"dark_aqua\", \"italic\": false}]']}}"
+  }
 }

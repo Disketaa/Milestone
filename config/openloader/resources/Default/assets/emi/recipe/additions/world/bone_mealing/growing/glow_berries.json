@@ -1,16 +1,11 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "item:minecraft:bone_meal",
+  "right": {
     "type": "item",
     "id": "minecraft:glow_berries",
-    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.cave_vines\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-    "remainder": {
-      "type": "item",
-      "id": "minecraft:glow_berries",
-      "nbt": "{display:{Name:'[{\"text\": \"\uE000\", \"italic\": false}]'}}"
-    }
+    "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.cave_vines\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
   },
-  "right": "item:minecraft:bone_meal",
   "output": {
     "type": "item",
     "id": "minecraft:glow_berries",

@@ -1,10 +1,10 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "item:minecraft:bone_meal",
+  "right": {
     "type": "item",
     "id": "minecraft:mangrove_leaves",
     "remainder": "item:minecraft:mangrove_leaves"
   },
-  "right": "item:minecraft:bone_meal",
   "output": "item:minecraft:mangrove_propagule"
 }

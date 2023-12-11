@@ -1,6 +1,7 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "item:minecraft:bone_meal",
+  "right": {
     "type": "item",
     "id": "minecraft:kelp",
     "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.kelp_plant\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
@@ -10,7 +11,6 @@
       "nbt": "{display:{Name:'[{\"text\": \"\uE000\", \"italic\": false}]'}}"
     }
   },
-  "right": "item:minecraft:bone_meal",
   "output": {
     "type": "item",
     "id": "minecraft:kelp",

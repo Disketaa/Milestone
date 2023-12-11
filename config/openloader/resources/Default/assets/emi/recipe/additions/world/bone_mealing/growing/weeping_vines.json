@@ -1,10 +1,10 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "item:minecraft:bone_meal",  
+  "right": {
     "type": "item",
     "id": "minecraft:weeping_vines",
     "remainder": "item:minecraft:weeping_vines"
   },
-  "right": "item:minecraft:bone_meal",
   "output": "item:minecraft:weeping_vines"
 }

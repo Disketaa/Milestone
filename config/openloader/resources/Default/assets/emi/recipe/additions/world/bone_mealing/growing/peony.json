@@ -3,8 +3,8 @@
   "left": "item:minecraft:bone_meal",
   "right": {
     "type": "item",
-    "id": "minecraft:moss_block",
-    "remainder": "item:minecraft:moss_block"
+    "id": "minecraft:peony",
+    "remainder": "item:minecraft:peony"
   },
-  "output": "item:minecraft:grass"
+  "output": "item:minecraft:peony"
 }

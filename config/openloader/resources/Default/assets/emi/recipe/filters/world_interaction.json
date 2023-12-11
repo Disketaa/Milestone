@@ -1,6 +1,10 @@
 {
   "filters": [
     {
+      "id": "/emi:/world/flower_duping/minecraft/",
+      "category": "emi:world_interaction"
+    },
+    {
       "id": "/emi:/world/fluid_interaction/minecraft/",
       "category": "emi:world_interaction"
     }

@@ -1,11 +1,11 @@
 {
   "type": "emi:world_interaction",
-  "left": {
+  "left": "item:minecraft:bone_meal",
+  "right": {
     "type": "item",
     "id": "minecraft:bamboo",
     "nbt": "{display:{Name:'[{\"translate\": \"block.minecraft.bamboo_sapling\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
   },
-  "right": "item:minecraft:bone_meal",
   "output": {
     "type": "item",
     "id": "minecraft:bamboo",
