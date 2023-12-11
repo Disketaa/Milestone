@@ -3,9 +3,13 @@
   "left": "item:minecraft:gold_ingot",
   "right": {
     "type": "item",
-    "id": "minecraft:piglin_head",
+    "id": "minecraft:piglin_spawn_egg",
     "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}",
-    "remainder": "item:minecraft:piglin_head"
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:piglin_spawn_egg",
+      "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}"
+    }
   },
   "output": "item:minecraft:warped_nylium"
   }
