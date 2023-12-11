@@ -1,0 +1,15 @@
+{
+  "type": "emi:world_interaction",
+  "left": "#block:minecraft:sniffer_diggable_block",
+  "right": {
+    "type": "item",
+    "id": "minecraft:sniffer_spawn_egg",
+    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.sniffer\", \"italic\": false}]'}}",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:sniffer_spawn_egg",
+      "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.sniffer\", \"italic\": false}]'}}"
+    }
+  },
+  "output": "item:minecraft:pitcher_pod"
+}
