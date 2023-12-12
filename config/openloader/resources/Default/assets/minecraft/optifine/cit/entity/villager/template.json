@@ -1,0 +1,44 @@
+{
+  "elements": [
+    {
+      "from": [1, 6.5, 1],
+      "to": [15, 6.5, 15],
+      "faces": {
+        "up": {"uv": [8, 0, 16, 8], "texture": "#overlay"}
+      }
+    },
+    {
+      "from": [3.75, -0.25, 3.75],
+      "to": [12.25, 10.25, 12.25],
+      "faces": {
+        "north": {"uv": [4, 4, 8, 9.5], "texture": "#overlay"},
+        "east": {"uv": [0, 4, 4, 9.5], "texture": "#overlay"},
+        "up": {"uv": [4, 4, 8, 0], "texture": "#overlay"}
+      }
+    },
+    {
+      "from": [4, 0, 4],
+      "to": [12, 10, 12],
+      "faces": {
+        "north": {"uv": [4, 4, 8, 9], "texture": "#all"},
+        "east": {"uv": [0, 4, 4, 9], "texture": "#all"},
+        "up": {"uv": [8, 4, 4, 0], "texture": "#all"}
+      }
+    },
+    {
+      "from": [7, -1, 2],
+      "to": [9, 3, 4],
+      "faces": {
+        "north": {"uv": [9, 1, 10, 3], "texture": "#all"},
+        "east": {"uv": [8, 1, 9, 3], "texture": "#all"},
+        "up": {"uv": [9, 0, 10, 1], "texture": "#all"}
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [30, 225, 0],
+      "translation": [0, 3, 0]
+    }
+  }
+}

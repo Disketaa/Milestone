@@ -1,0 +1,7 @@
+{
+  "parent": "optifine/cit/entity/villager/template",
+  "textures": {
+    "all": "zombie_villager",
+    "overlay": "optifine/cit/entity/villager/overlay/nitwit"
+  }
+}
