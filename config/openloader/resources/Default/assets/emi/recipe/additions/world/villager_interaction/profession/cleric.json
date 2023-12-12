@@ -1,0 +1,18 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:brewing_stand",
+    "remainder": "item:minecraft:brewing_stand"
+  },
+  "right": {
+    "type": "item",
+    "id": "minecraft:villager_spawn_egg",
+    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.villager\", \"italic\": false}]'}}"
+  },
+  "output": {
+    "type": "item",
+    "id": "minecraft:villager_spawn_egg",
+    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.villager.cleric\", \"italic\": false}]'}}"
+  }
+}
