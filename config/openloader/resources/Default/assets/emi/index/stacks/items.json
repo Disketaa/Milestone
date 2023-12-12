@@ -130,6 +130,14 @@
       "after": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}"
     },
     {
+      "stack": "item:minecraft:piglin_brute_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin_brute\", \"italic\": false}]'}}",
+      "after": "item:minecraft:piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}"
+    },
+    {
+      "stack": "item:minecraft:zombified_piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.zombified_piglin\", \"italic\": false}]'}}",
+      "after": "item:minecraft:piglin_brute_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin_brute\", \"italic\": false}]'}}"
+    },
+    {
       "stack": "item:minecraft:torchflower_seeds{display:{Name:'[{\"translate\": \"block.minecraft.torchflower_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
       "after": "item:minecraft:lily_of_the_valley"
     },

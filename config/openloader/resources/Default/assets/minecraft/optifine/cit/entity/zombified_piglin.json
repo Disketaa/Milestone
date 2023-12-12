@@ -1,6 +1,6 @@
 {
   "parent": "optifine/cit/entity/template_piglin",
   "textures": {
-    "all": "piglin"
+    "all": "zombified_piglin"
   }
 }
