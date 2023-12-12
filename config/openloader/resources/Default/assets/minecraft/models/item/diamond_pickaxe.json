@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "item/handheld",
   "overrides": [
     {
       "model": "item/diamond_pickaxe_quartz_trim",

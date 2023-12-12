@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "item/wooden_pickaxe",
   "textures": {
     "layer0": "item/wooden_pickaxe",
     "layer1": "trims/items/pickaxe_trim_quartz"

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "item/iron_shovel",
   "textures": {
     "layer0": "item/iron_shovel",
     "layer1": "trims/items/shovel_trim_netherite"

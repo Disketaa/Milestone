@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "item/stone_pickaxe",
   "textures": {
     "layer0": "item/stone_pickaxe",
     "layer1": "trims/items/pickaxe_trim_redstone"

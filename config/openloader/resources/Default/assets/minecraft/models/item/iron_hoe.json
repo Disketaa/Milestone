@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "item/handheld",
   "overrides": [
     {
       "model": "item/iron_hoe_quartz_trim",

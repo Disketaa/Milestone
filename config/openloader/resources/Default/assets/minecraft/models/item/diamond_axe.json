@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "item/handheld",
   "overrides": [
     {
       "model": "item/diamond_axe_quartz_trim",

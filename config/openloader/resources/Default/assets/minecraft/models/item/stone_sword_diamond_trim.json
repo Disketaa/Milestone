@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "item/stone_sword",
   "textures": {
     "layer0": "item/stone_sword",
     "layer1": "trims/items/sword_trim_diamond"

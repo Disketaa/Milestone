@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "item/netherite_hoe",
   "textures": {
     "layer0": "item/netherite_hoe",
     "layer1": "trims/items/hoe_trim_emerald"
