@@ -1,0 +1,24 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "minecraft:totem_of_undying",
+    "nbt": "{display:{Name:'[{\"translate\": \"effect.minecraft.hero_of_the_village\", \"italic\": false}]'}}",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:totem_of_undying",
+      "nbt": "{display:{Name:'[{\"translate\": \"effect.minecraft.hero_of_the_village\", \"italic\": false}]'}}"
+    }
+  },
+  "right": {
+    "type": "item",
+    "id": "minecraft:villager_spawn_egg",
+    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.villager.butcher\", \"italic\": false}]'}}",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:villager_spawn_egg",
+      "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.villager.butcher\", \"italic\": false}]'}}"
+    }  
+  },
+  "output": "item:minecraft:cooked_beef"
+}

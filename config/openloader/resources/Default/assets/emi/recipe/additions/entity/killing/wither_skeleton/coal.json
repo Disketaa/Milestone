@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "#item:minecraft:swords",
+  "right": {
+    "type": "item",
+    "id": "minecraft:wither_skeleton_spawn_egg",
+    "nbt": "{display:{Name:'[{\"translate\": \"entity.minecraft.wither_skeleton\", \"italic\": false}]'}}"
+  },
+  "output": "item:minecraft:coal"
+}
