@@ -1,7 +1,0 @@
-{
-  "parent": "optifine/cit/entity/villager/template",
-  "textures": {
-    "all": "optifine/cit/entity/villager/villager",
-    "overlay": "toolsmith"
-  }
-}

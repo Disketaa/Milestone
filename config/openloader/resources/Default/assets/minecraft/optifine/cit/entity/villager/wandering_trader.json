@@ -1,7 +1,0 @@
-{
-  "parent": "optifine/cit/entity/villager/template",
-  "textures": {
-    "all": "wandering_trader",
-    "overlay": "optifine/cit/entity/villager/overlay/wandering_trader"
-  }
-}

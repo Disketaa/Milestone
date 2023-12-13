@@ -1,37 +1,46 @@
 {
+  "textures": {
+    "layer0": "entity/villager/villager",
+    "layer1": "entity/villager/profession/armorer"
+  },
   "elements": [
     {
       "from": [1, 6.5, 1],
       "to": [15, 6.5, 15],
       "faces": {
-        "up": {"uv": [8, 0, 16, 8], "texture": "#overlay"}
+        "up": {"uv": [12.5, 12.5, 16, 16], "texture": "#layer1"}
       }
     },
     {
-      "from": [3.75, -0.25, 3.75],
-      "to": [12.25, 10.25, 12.25],
+      "from": [1, 6.5, 1],
+      "to": [15, 6.5, 15],
       "faces": {
-        "north": {"uv": [4, 4, 8, 9.5], "texture": "#overlay"},
-        "east": {"uv": [0, 4, 4, 9.5], "texture": "#overlay"},
-        "up": {"uv": [4, 4, 8, 0], "texture": "#overlay"}
+        "up": {"uv": [9, 12.5, 12.5, 16], "texture": "#layer1"}
       }
     },
     {
       "from": [4, 0, 4],
       "to": [12, 10, 12],
       "faces": {
-        "north": {"uv": [4, 4, 8, 9], "texture": "#all"},
-        "east": {"uv": [0, 4, 4, 9], "texture": "#all"},
-        "up": {"uv": [8, 4, 4, 0], "texture": "#all"}
+        "north": {"uv": [2, 2, 4, 4.5], "texture": "#layer0"},
+        "east": {"uv": [0, 2, 2, 4.5], "texture": "#layer0"},
+        "up": {"uv": [4, 2, 2, 0], "texture": "#layer0"}
+      }
+    },
+    {
+      "from": [5, 1, 3.75],
+      "to": [11, 5, 3.75],
+      "faces": {
+        "north": {"uv": [3.5, 5, 5, 6], "texture": "#layer0"}
       }
     },
     {
       "from": [7, -1, 2],
       "to": [9, 3, 4],
       "faces": {
-        "north": {"uv": [9, 1, 10, 3], "texture": "#all"},
-        "east": {"uv": [8, 1, 9, 3], "texture": "#all"},
-        "up": {"uv": [9, 0, 10, 1], "texture": "#all"}
+        "north": {"uv": [6.5, 0.5, 7, 1.5], "texture": "#layer0"},
+        "east": {"uv": [6, 0.5, 6.5, 1.5], "texture": "#layer0"},
+        "up": {"uv": [6.5, 0, 7, 0.5], "texture": "#layer0"}
       }
     }
   ],
