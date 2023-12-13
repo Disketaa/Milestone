@@ -12,7 +12,7 @@ Base game-loop and mechanics.
 **0.2**\
 Stable foundation and convenient structure.
 
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
+![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox_filled.png?raw=true)
 **0.3**\
 Guide-book and trimmable items.
 
