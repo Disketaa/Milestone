@@ -14,7 +14,7 @@
 	"filters": [
     "/_anvil/",
     "/_spawn_egg/",
-    "/minecraft:infested/",
+    "/infested/",
     "/painting/",
     "/smithing_template/",
     "/suspicious_stew/"
@@ -32,6 +32,98 @@
     {
       "stack": "fluid:minecraft:lava",
       "after": "fluid:minecraft:water"
+    },
+    {
+      "stack": "item:minecraft:sniffer_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.sniffer\", \"italic\": false}]'}}",
+      "after": "item:minecraft:sniffer_egg"
+    },
+    {
+      "stack": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}",
+      "after": "item:minecraft:sniffer_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager\", \"italic\": false}]'}}",
+      "after": "item:minecraft:cat_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.librarian\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.farmer\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.fisherman\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.fletcher\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.shepherd\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.butcher\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.cartographer\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.cleric\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.leatherworker\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.toolsmith\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.mason\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.weaponsmith\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.armorer\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:wandering_trader_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.wandering_trader\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:zombie_villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.zombie_villager\", \"italic\": false}]'}}",
+      "after": "item:minecraft:wandering_trader_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}",
+      "after": "item:minecraft:villager_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:piglin_brute_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin_brute\", \"italic\": false}]'}}",
+      "after": "item:minecraft:piglin_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:zombified_piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.zombified_piglin\", \"italic\": false}]'}}",
+      "after": "item:minecraft:piglin_brute_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:skeleton_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.skeleton\", \"italic\": false}]'}}",
+      "after": "item:minecraft:zombified_piglin_spawn_egg"
+    },
+    {
+      "stack": "item:minecraft:wither_skeleton_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.wither_skeleton\", \"italic\": false}]'}}",
+      "after": "item:minecraft:skeleton_spawn_egg"
     },
     {
       "stack": "item:minecraft:suspicious_stew",
@@ -116,82 +208,6 @@
     {
       "stack": "item:minecraft:spire_armor_trim_smithing_template",
       "after": "item:minecraft:eye_armor_trim_smithing_template"
-    },
-    {
-      "stack": "item:minecraft:sniffer_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.sniffer\", \"italic\": false}]'}}",
-      "after": "item:minecraft:sniffer_egg"
-    },
-    {
-      "stack": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}",
-      "after": "item:minecraft:sniffer_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.sniffer\", \"italic\": false}]'}}"
-    },
-    {
-      "stack": "item:minecraft:piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}",
-      "after": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}"
-    },
-    {
-      "stack": "item:minecraft:piglin_brute_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin_brute\", \"italic\": false}]'}}",
-      "after": "item:minecraft:piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}"
-    },
-    {
-      "stack": "item:minecraft:zombified_piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.zombified_piglin\", \"italic\": false}]'}}",
-      "after": "item:minecraft:piglin_brute_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin_brute\", \"italic\": false}]'}}"
-    },
-    {
-      "stack": "item:minecraft:torchflower_seeds{display:{Name:'[{\"translate\": \"block.minecraft.torchflower_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:lily_of_the_valley"
-    },
-    {
-      "stack": "item:minecraft:kelp{display:{Name:'[{\"translate\": \"block.minecraft.kelp_plant\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:sea_pickle"
-    },
-    {
-      "stack": "item:minecraft:bamboo{display:{Name:'[{\"translate\": \"block.minecraft.bamboo_sapling\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:spore_blossom"
-    },
-    {
-      "stack": "item:minecraft:sweet_berries{display:{Name:'[{\"translate\": \"block.minecraft.sweet_berry_bush\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:glow_berries"
-    },
-    {
-      "stack": "item:minecraft:glow_berries{display:{Name:'[{\"translate\": \"block.minecraft.cave_vines\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:pitcher_pod"
-    },
-    {
-      "stack": "item:minecraft:pitcher_pod{display:{Name:'[{\"translate\": \"block.minecraft.pitcher_crop\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:peony"
-    },
-    {
-      "stack": "item:minecraft:wheat_seeds{display:{Name:'[{\"translate\": \"block.minecraft.wheat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:cactus"
-    },
-    {
-      "stack": "item:minecraft:carrot{display:{Name:'[{\"translate\": \"block.minecraft.carrots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:wheat_seeds{display:{Name:'[{\"translate\": \"block.minecraft.wheat\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
-    },
-    {
-      "stack": "item:minecraft:potato{display:{Name:'[{\"translate\": \"block.minecraft.potatoes\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:carrot{display:{Name:'[{\"translate\": \"block.minecraft.carrots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
-    },
-    {
-      "stack": "item:minecraft:beetroot_seeds{display:{Name:'[{\"translate\": \"block.minecraft.beetroots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:potato{display:{Name:'[{\"translate\": \"block.minecraft.potatoes\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
-    },
-    {
-      "stack": "item:minecraft:nether_wart{display:{Name:'[{\"translate\": \"block.minecraft.nether_wart\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:beetroot_seeds{display:{Name:'[{\"translate\": \"block.minecraft.beetroots\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}"
-    },
-    {
-      "stack": "item:minecraft:cocoa_beans{display:{Name:'[{\"translate\": \"block.minecraft.cocoa\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:pitcher_plant"
-    },
-    {
-      "stack": "item:minecraft:melon_seeds{display:{Name:'[{\"translate\": \"block.minecraft.melon_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:wet_sponge"
-    },
-    {
-      "stack": "item:minecraft:pumpkin_seeds{display:{Name:'[{\"translate\": \"block.minecraft.pumpkin_stem\", \"italic\": false}, {\"text\": \"\uE000\"}]'}}",
-      "after": "item:minecraft:melon"
     }
   ]
 }
