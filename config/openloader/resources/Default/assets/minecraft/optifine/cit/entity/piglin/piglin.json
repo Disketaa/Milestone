@@ -1,6 +1,0 @@
-{
-  "parent": "optifine/cit/entity/piglin/template",
-  "textures": {
-    "all": "piglin"
-  }
-}
