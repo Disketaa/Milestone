@@ -1,1 +1,0 @@
-execute in the_end run function skyvoid_worldgen:v1.0/end_fix
