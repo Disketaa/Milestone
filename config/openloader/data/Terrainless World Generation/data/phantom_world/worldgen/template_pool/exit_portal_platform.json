@@ -1,0 +1,15 @@
+{
+  "name": "phantom_world:exit_portal_platform",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phantom_world:exit_portal_platform",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
