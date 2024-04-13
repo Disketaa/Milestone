@@ -16,7 +16,7 @@ Stable foundation and convenient structure.
 **0.3**\
 Guide-book and trimmable items.
 
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
+![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox_filled.png?raw=true)
 **0.4**\
 Custom world generation and structures.
 
