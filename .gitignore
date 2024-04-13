@@ -2,6 +2,7 @@
 /command_history.txt
 /crash-reports/
 /data/
+/downloads/
 /emi.json
 /fancymenu_data/
 /fancymenu_setups/
@@ -15,6 +16,6 @@
 /servers.dat_old
 /usercache.json
 /usernamecache.json
+config/sodium-fingerprint.json
 Default.rpo
 realms_persistence.json
-config/sodium-fingerprint.json
