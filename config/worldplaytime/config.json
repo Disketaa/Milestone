@@ -1,0 +1,8 @@
+{
+  "showServerPlayTime": true,
+  "serverPlayTimePosition": "behind_count",
+  "serverPlayTimeColor": "(34, 34, 34, 255)",
+  "showWorldPlayTime": true,
+  "worldPlayTimePosition": "top_right",
+  "worldPlayTimeColor": "(34, 34, 34, 255)"
+}
