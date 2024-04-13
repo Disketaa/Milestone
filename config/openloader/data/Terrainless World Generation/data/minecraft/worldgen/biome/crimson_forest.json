@@ -33,9 +33,7 @@
     "water_fog_color": 329011
   },
   "features": [
-    [
-      "minecraft:spring_lava",
-    ],
+    [],
     [
       "phantom_world:0",
       "phantom_world:16",

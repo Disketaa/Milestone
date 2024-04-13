@@ -27,21 +27,13 @@
   },
   "features": [
     [],
-    [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower",
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [
       "minecraft:desert_well"
     ],
     [],
     [],
-    [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
+    [],
     [
       "phantom_world:-64",
       "phantom_world:-48",

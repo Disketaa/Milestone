@@ -47,9 +47,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:spring_lava"
-    ]
+    []
   ],
   "has_precipitation": false,
   "spawn_costs": {
