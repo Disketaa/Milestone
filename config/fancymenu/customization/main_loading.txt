@@ -1,78 +1,175 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1713030363006
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:e91348d8-4f34-4a5f-a232-35f47cfc02f6-1713030363006] = [groups:][instances:]
+}
+
+menu_background {
+  color = #1a202c
+  background_type = drippy_color_background
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = top-left
-  hidden = true
-  original_pos_size_calculation = true
-  x = 226
-  width = 508
-  action = deep_customization_element:drippy_overlay_logo
-  actionid = e3730670-19a3-4ebc-beec-f8d0ef225f041699419326593
-  y = 191
-  height = 126
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 
-customization {
-  custom_color_hex = #1a202c
-  orientation = top-left
-  hidden = false
-  x = -1000000
-  width = 0
-  action = deep_customization_element:drippy_overlay_background
-  actionid = 4693899a-32da-4572-a2aa-7ec92ab5c6691699419326610
-  y = -1000000
-  height = 0
-}
-
-customization {
-  orientation = top-left
-  hidden = true
-  original_pos_size_calculation = true
-  x = 226
-  width = 508
-  action = deep_customization_element:drippy_overlay_progress_bar
-  actionid = 5fc1ad01-5702-46df-9a79-3ac38484df7b1699419326611
-  y = 418
-  height = 10
-}
-
-customization {
-  orientation = mid-centered
-  background_texture = config/fancymenu/assets/loading_screen/outline.png
-  bar_texture = config/fancymenu/assets/loading_screen/inline.png
-  progress_for_element_orientation = false
-  background_color = #ABC8F7
-  x = -140
-  width = 280
+element {
   bar_color = #5295FF
-  action = custom_layout_element:drippy_custom_loading_bar
-  actionid = 05d16d4a-1da6-4a5b-b0a9-fa1d2494e9b71699419517231
-  y = -15
+  bar_texture = [source:local]config/fancymenu/assets/loading_screen/inline.png
+  background_color = #ABC8F7
+  background_texture = [source:local]config/fancymenu/assets/loading_screen/outline.png
   direction = right
+  progress_for_element_anchor = false
+  progress_source = {"placeholder":"game_loading_progress"}
+  value_mode = percentage
+  element_type = progress_bar
+  instance_identifier = 05d16d4a-1da6-4a5b-b0a9-fa1d2494e9b71699419517231
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -140
+  y = -15
+  width = 280
   height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e8c6c86a-d81d-46eb-9548-7869a3f30b3f-1713030363009
+  [loading_requirement_container_meta:e8c6c86a-d81d-46eb-9548-7869a3f30b3f-1713030363009] = [groups:][instances:]
 }
 
-customization {
-  path = config/fancymenu/animations/loading.gif
-  orientation = bottom-right
+element {
+  source = [source:local]config/fancymenu/animations/loading.gif
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 149990ff-6284-4d0e-9164-9bd320a303841699794617192
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-right
   x = -30
-  width = 16
-  action = addtexture
-  actionid = 149990ff-6284-4d0e-9164-9bd320a303841699794617192
   y = -30
+  width = 16
   height = 16
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3474cfdc-8320-477b-9f44-e292d7937c8a-1713030363006
+  [loading_requirement_container_meta:3474cfdc-8320-477b-9f44-e292d7937c8a-1713030363006] = [groups:][instances:]
+}
+
+element {
+  bar_color = #5295FF
+  bar_texture = [source:local]config/fancymenu/assets/loading_screen/inline.png
+  background_color = #ABC8F7
+  background_texture = [source:local]config/fancymenu/assets/loading_screen/outline.png
+  direction = right
+  progress_for_element_anchor = false
+  progress_source = {"placeholder":"game_loading_progress"}
+  value_mode = percentage
+  element_type = progress_bar
+  instance_identifier = 05d16d4a-1da6-4a5b-b0a9-fa1d2494e9b71699419517231
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -140
+  y = -15
+  width = 280
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e8c6c86a-d81d-46eb-9548-7869a3f30b3f-1713030363009
+  [loading_requirement_container_meta:e8c6c86a-d81d-46eb-9548-7869a3f30b3f-1713030363009] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = deb81c5d-9714-47ce-b268-90fceb06b86d-1713030363006
+  [executable_block:deb81c5d-9714-47ce-b268-90fceb06b86d-1713030363006][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 146cc2c3-f083-4de3-b2de-bd1de1ef3f80-1713030363006
+  [loading_requirement_container_meta:146cc2c3-f083-4de3-b2de-bd1de1ef3f80-1713030363006] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 1fd82c9a-1480-4162-9360-4c143f273a7c-1713030363006
+  [executable_block:1fd82c9a-1480-4162-9360-4c143f273a7c-1713030363006][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e1aa6294-feff-4a2c-a064-0b5dc9bb721b-1713030363006
+  [loading_requirement_container_meta:e1aa6294-feff-4a2c-a064-0b5dc9bb721b-1713030363006] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 

@@ -1,4 +1,5 @@
 correctConfigValuesFromDefaultConfig = false
+disableConfigWatcher = false
 defaultConfigsPath = "config/yosbr/defaultconfigs"
 recreateConfigsWhenParsingFails = false
 forceGlobalServerConfigs = false

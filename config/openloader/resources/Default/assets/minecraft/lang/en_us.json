@@ -2,6 +2,7 @@
 //
 // Minecraft
   "dataPack.milestone.description": "The default data for Milestone",
+  "resourcePack.classic.description": "The classic look of Minecraft",
   "menu.options": "Options",
   "item.milestone.unobtainable": "Currently obtainable on start",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Add a piece of armor or a tool",

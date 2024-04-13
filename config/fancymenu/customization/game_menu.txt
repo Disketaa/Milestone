@@ -1,35 +1,90 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.class_433
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = pause_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1713030362990
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:0ad1872f-99b5-4d6f-8dc9-e29ba2af829b-1713030362990] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
-  action = hidebutton
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 
-customization {
-  orientation = element
-  loopbackgroundanimations = true
+element {
+  button_element_executable_block_identifier = 12aec575-7bcb-4e40-814c-2f422553c219-1713030363001
+  [executable_action_instance:ce76224f-43e3-49e0-ac4f-672d6d0728f0-1713030363003][action_type:openlink] = https://github.com/Disketaa/Milestone/issues
+  [executable_block:12aec575-7bcb-4e40-814c-2f422553c219-1713030363001][type:generic] = [executables:ce76224f-43e3-49e0-ac4f-672d6d0728f0-1713030363003;]
   restartbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
-  buttonaction = openlink;https://github.com/Disketaa/Milestone/issues%btnaction_splitter_fm%
-  x = 0
-  width = 98
-  action = addbutton
-  actionid = f4799743-e272-448d-868b-733bcf7c63111690961216236
-  y = 24
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = {"placeholder":"local","values":{"key":"milestone.button.report"}}
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = f4799743-e272-448d-868b-733bcf7c63111690961216236
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 0
+  y = 24
+  width = 98
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 159bd3d9-1e10-445b-a530-eb82bfa31074-1713030363003
+  [loading_requirement_container_meta:159bd3d9-1e10-445b-a530-eb82bfa31074-1713030363003] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = afa5d3a2-5640-4192-a158-c9ac43caf457-1713030362990
+  [executable_block:afa5d3a2-5640-4192-a158-c9ac43caf457-1713030362990][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = mc_pausescreen_feedback_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 10adc998-14e5-401e-b0bc-355e50c20ae3-1713030362990
+  [loading_requirement_container_meta:10adc998-14e5-401e-b0bc-355e50c20ae3-1713030362990] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/short_grass", "weight": 19 },
+      { "model": "minecraft:block/short_grass/short_grass1", "weight": 14 },
+      { "model": "minecraft:block/short_grass/short_grass2", "weight": 12 },
+      { "model": "minecraft:block/short_grass/short_grass3", "weight": 3 }
+    ]
+  }
+}

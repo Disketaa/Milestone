@@ -380,7 +380,6 @@
     "minecraft:granite_slab",
     "minecraft:granite_stairs",
     "minecraft:granite_wall",
-    "minecraft:grass",
     "minecraft:grass_block",
     "minecraft:gravel",
     "minecraft:gray_banner",
@@ -463,6 +462,7 @@
     "minecraft:lapis_ore",
     "minecraft:large_amethyst_bud",
     "minecraft:large_fern",
+    "minecraft:lava",
     "minecraft:lava_cauldron",
     "minecraft:lectern",
     "minecraft:lever",
@@ -807,6 +807,7 @@
     "minecraft:sea_lantern",
     "minecraft:sea_pickle",
     "minecraft:seagrass",
+    "minecraft:short_grass",
     "minecraft:shroomlight",
     "minecraft:shulker_box",
     "minecraft:skeleton_skull",
@@ -999,7 +1000,6 @@
     "minecraft:yellow_wall_banner",
     "minecraft:yellow_wool",
     "minecraft:zombie_head",
-    "minecraft:zombie_wall_head",
-    "minecraft:lava"
+    "minecraft:zombie_wall_head"
   ]
 }

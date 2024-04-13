@@ -2,6 +2,7 @@
 //
 // Minecraft
   "dataPack.milestone.description": "Стандартный набор данных Milestone",
+  "resourcePack.classic.description": "Устаревший внешний вид Minecraft",
   "menu.options": "Настройки",
   "item.milestone.unobtainable": "Пока что выдаётся на старте",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Поместите броню или инструмент",

@@ -3,12 +3,15 @@
   "failed_reloads_per_session": 5,
   "pack_overrides": {
     // A new group is defined, the id is arbitrary
+    "programmer_art": {
+      "description": "{\"translate\":\"resourcePack.classic.description\"}"
+    },
+
     "1": [
-      "automated_crafting:powered_block",
-      "automated_crafting:powered_icon",
       "flat_shulker_icons",
+      "high_contrast",
       "minecraft:supporteatinganimation",
-      "seasons:seasonal_lush_caves"
+      "vanilla"
     ],
     "$1": {
       "hidden": true

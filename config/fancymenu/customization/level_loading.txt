@@ -1,26 +1,52 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.class_3928
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = level_loading_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1713030363004
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:7b955192-d41a-4725-bd01-936ea45cef57-1713030363004] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  path = config/fancymenu/animations/loading.gif
-  orientation = bottom-right
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]config/fancymenu/animations/loading.gif
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 149990ff-6284-4d0e-9164-9bd320a303841699794617192
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-right
   x = -30
-  width = 16
-  action = addtexture
-  actionid = 149990ff-6284-4d0e-9164-9bd320a303841699794617192
   y = -30
+  width = 16
   height = 16
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ec4dbcb7-186c-4375-baa8-abc0322d16dc-1713030363004
+  [loading_requirement_container_meta:ec4dbcb7-186c-4375-baa8-abc0322d16dc-1713030363004] = [groups:][instances:]
 }
 
