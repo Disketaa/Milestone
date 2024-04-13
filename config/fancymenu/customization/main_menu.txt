@@ -68,7 +68,7 @@ element {
   delayappearanceseconds = 0.0
   scale = 1.0
   [loading_requirement:fancymenu_loading_requirement_is_window_height_bigger_than][requirement_mode:if][req_id:bc086436-ef30-41e5-9c23-932dacc5d9c11699809410331] = 220
-  source = §8§l{"placeholder":"local","values":{"key":"milestone.text.beta"}} 0.4.1
+  source = §8§l{"placeholder":"local","values":{"key":"milestone.text.beta"}} 0.4.2
   text_border = 0
   case_mode = normal
   fadein = true
