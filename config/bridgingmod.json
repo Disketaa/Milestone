@@ -4,7 +4,7 @@
   "supportedBridgeAxes": "BOTH",
   "enableSlabAssist": true,
   "enableNonSolidReplace": true,
-  "delayPostBridging": 3,
+  "delayPostBridging": 2,
   "showCrosshair": true,
   "showOutline": false,
   "showOutlineEvenWhenNotBridging": false,
