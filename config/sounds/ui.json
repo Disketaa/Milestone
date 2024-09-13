@@ -34,14 +34,14 @@
 	"inventoryScrollSoundEffect": {
 		"shouldPlay": true,
 		"pitch": 1.8,
-		"volume": 0.2,
+		"volume": 0.1,
 		"id": "inventoryScroll",
 		"soundEvent": "minecraft:block.note_block.hat"
 	},
 	"inventoryTypingSoundEffect": {
 		"shouldPlay": true,
 		"pitch": 1.6,
-		"volume": 0.4,
+		"volume": 0.2,
 		"id": "inventoryTyping",
 		"soundEvent": "minecraft:block.note_block.hat"
 	},
