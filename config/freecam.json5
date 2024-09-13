@@ -1,4 +1,7 @@
 {
+	"controls": {
+		"keys": null
+	},
 	"movement": {
 		"flightMode": "CREATIVE",
 		"horizontalSpeed": 1.5,
@@ -7,6 +10,11 @@
 	"collision": {
 		"ignoreTransparent": true,
 		"ignoreOpenable": true,
+		"ignoreCustom": false,
+		"whitelist": {
+			"ids": [],
+			"patterns": []
+		},
 		"ignoreAll": true,
 		"alwaysCheck": false
 	},
@@ -22,6 +30,11 @@
 		"freezePlayer": false,
 		"allowInteract": false,
 		"interactionMode": "CAMERA"
+	},
+	"servers": {
+		"mode": "NONE",
+		"whitelist": [],
+		"blacklist": []
 	},
 	"notification": {
 		"notifyFreecam": true,

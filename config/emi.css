@@ -96,9 +96,10 @@
 	empty-search-sidebar-focus: none;
 
 	/**
-	 * The amount of vertical margin to give in the recipe screen.
+	 * The maximum height the recipe screen will grow to be if space is available in
+	 * pixels.
 	 */
-	vertical-margin: 112;
+	maximum-recipe-screen-height: 256;
 
 	/**
 	 * The minimum width of the recipe screen in pixels. Controls how many tabs there
@@ -106,6 +107,11 @@
 	 * of most screens.
 	 */
 	minimum-recipe-screen-width: 182;
+
+	/**
+	 * The amount of vertical margin to give in the recipe screen.
+	 */
+	vertical-margin: 112;
 
 	/**
 	 * Where to show workstations in the recipe screen
@@ -156,7 +162,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 1, 7;
+	left-sidebar-size: 1, 8;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -171,7 +177,7 @@
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
 	 */
-	left-sidebar-header: visible;
+	left-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the left sidebar
@@ -196,7 +202,7 @@
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
 	 */
-	right-sidebar-margins: 0, 0, 0, 2;
+	right-sidebar-margins: 0, 0, 0, 0;
 
 	/**
 	 * Where to position the right sidebar

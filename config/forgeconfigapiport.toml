@@ -1,6 +1,3 @@
-correctConfigValuesFromDefaultConfig = false
 disableConfigWatcher = false
+logUntranslatedConfigurationWarnings = true
 defaultConfigsPath = "config/yosbr/defaultconfigs"
-recreateConfigsWhenParsingFails = false
-forceGlobalServerConfigs = false
-
