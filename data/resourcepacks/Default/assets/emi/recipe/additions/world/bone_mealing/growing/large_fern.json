@@ -1,6 +1,0 @@
-{
-  "type": "emi:world_interaction",
-  "left": "item:minecraft:bone_meal",
-  "right": "item:minecraft:fern",
-  "output": "item:minecraft:large_fern"
-}
