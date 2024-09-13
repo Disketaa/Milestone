@@ -1,4 +1,5 @@
 {
   "emi.search": "Поиск...",
-  "tooltip.emi.chance.produce": "§7Шанс: %s%%"
+  "tooltip.emi.chance.produce": "§7Шанс: %s%%",
+  "tag.item.c.stone_slabs": "Каменные плиты"
 }
