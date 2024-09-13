@@ -1,12 +1,8 @@
 {
 	"removed": [
 		"item:minecraft:bedrock",
-		"item:minecraft:white_banner{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}",
 		"item:minecraft:end_portal_frame",
-    "item:minecraft:spawner",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:1s}]}",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\",lvl:2s}]}",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_flame\",lvl:1s}]}",  
+    "item:minecraft:spawner", 
     "fluid:minecraft:water",
     "fluid:minecraft:lava"
   ],
@@ -34,112 +30,8 @@
       "after": "fluid:minecraft:water"
     },
     {
-      "stack": "item:minecraft:sniffer_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.sniffer\", \"italic\": false}]'}}",
-      "after": "item:minecraft:sniffer_egg"
-    },
-    {
-      "stack": "item:minecraft:cat_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.cat\", \"italic\": false}]'}}",
-      "after": "item:minecraft:sniffer_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager\", \"italic\": false}]'}}",
-      "after": "item:minecraft:cat_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.librarian\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.farmer\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.fisherman\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.fletcher\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.shepherd\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.butcher\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.cartographer\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.cleric\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.leatherworker\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.toolsmith\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.mason\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.weaponsmith\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.villager.armorer\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:wandering_trader_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.wandering_trader\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:zombie_villager_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.zombie_villager\", \"italic\": false}]'}}",
-      "after": "item:minecraft:wandering_trader_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin\", \"italic\": false}]'}}",
-      "after": "item:minecraft:villager_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:piglin_brute_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.piglin_brute\", \"italic\": false}]'}}",
-      "after": "item:minecraft:piglin_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:zombified_piglin_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.zombified_piglin\", \"italic\": false}]'}}",
-      "after": "item:minecraft:piglin_brute_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:skeleton_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.skeleton\", \"italic\": false}]'}}",
-      "after": "item:minecraft:zombified_piglin_spawn_egg"
-    },
-    {
-      "stack": "item:minecraft:wither_skeleton_spawn_egg{display:{Name:'[{\"translate\": \"entity.minecraft.wither_skeleton\", \"italic\": false}]'}}",
-      "after": "item:minecraft:skeleton_spawn_egg"
-    },
-    {
       "stack": "item:minecraft:suspicious_stew",
       "after": "item:minecraft:rabbit_stew"
-    },
-    {
-      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\", lvl:1s}]}",
-      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:fire_aspect\", lvl:2s}]}"
-    },
-    {
-      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\", lvl:2s}]}",
-      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_fire_aspect\", lvl:1s}]}"
-    },
-    {
-      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_flame\", lvl:1s}]}",
-      "after": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:flame\", lvl:1s}]}"
     },
     {
       "stack": "item:minecraft:netherite_upgrade_smithing_template",
