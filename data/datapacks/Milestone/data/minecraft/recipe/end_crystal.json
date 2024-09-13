@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:ender_eye"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "A#A",
+    "AAA"
+  ],
+  "result": {
+    "id": "minecraft:end_crystal"
+  }
+}
