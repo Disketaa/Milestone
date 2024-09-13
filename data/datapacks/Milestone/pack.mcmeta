@@ -1,9 +1,12 @@
 {
-	"pack":
-	{
-		"pack_format":8, 
-		"description": {
-      "translate": "dataPack.milestone.description"
-    }
-	}
+  "pack": {
+    "description": { 
+    	"translate": "dataPack.milestone.description"
+    },
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      999
+    ]
+  }
 }
