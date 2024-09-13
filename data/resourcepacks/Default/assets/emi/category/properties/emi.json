@@ -29,12 +29,42 @@
   "minecraft:brewing": {
     "order": 9
   },
-  "emi:world_interaction": {
-    "order": 11,
-    "sort": "input_then_output"
-  },
   "emi:composting": {
-    "order": 96
+    "order": 10
+  },
+  "emi_loot:chest_loot": {
+    "order": 11,
+    "icon": {
+      "stack": "item:minecraft:barrel"
+    }
+  },
+  "emi_loot:gameplay_drops": {
+    "order": 12,
+    "icon": {
+      "stack": "item:minecraft:cartography_table"
+    }
+  },
+  "emi_loot:mob_drops": {
+    "order": 13,
+    "icon": {
+      "stack": "item:minecraft:spawner"
+    }
+  },
+  "emi_loot:block_drops": {
+    "order": 14,
+    "icon": {
+      "stack": "item:minecraft:cracked_stone_bricks"
+    }
+  },
+  "emi_loot:archaeology_drops": {
+    "order": 15,
+    "icon": {
+      "stack": "item:minecraft:suspicious_gravel"
+    }
+  },
+    "emi:world_interaction": {
+    "order": 96,
+    "sort": "input_then_output"
   },
   "emi:info": {
     "order": 97,
