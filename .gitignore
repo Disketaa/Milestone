@@ -1,7 +1,9 @@
 /.fabric/
 /command_history.txt
 /crash-reports/
-/data/
+/data/fabricDefaultResourcePacks.dat
+/data/resourcepacks/Default/respackopts.json5
+/data/servers_playtime.dat
 /downloads/
 /emi.json
 /fancymenu_data/
