@@ -22,5 +22,5 @@ required = [
 ]
 
 optional = [
-    "global_packs/optional_data/"
+    ""
 ]
