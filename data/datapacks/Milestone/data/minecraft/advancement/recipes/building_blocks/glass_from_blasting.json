@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:sand_from_blasting"
+        "recipe": "minecraft:glass_from_blasting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:sand_from_blasting"
+      "minecraft:glass_from_blasting"
     ]
   }
 }
