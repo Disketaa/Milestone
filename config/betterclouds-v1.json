@@ -20,6 +20,7 @@
 	"scaleFalloffMin": 0.0,
 	"fadeEdge": 0.5,
 	"usePersistentBuffers": true,
+	"useFrustumCulling": true,
 	"irisSupport": true,
 	"cloudOverride": true,
 	"useIrisFBO": true,
@@ -44,7 +45,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Default",
@@ -65,7 +67,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "BSL V8",
@@ -86,7 +89,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Chocapic13 V6",
@@ -107,7 +111,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Chocapic13 V9",
@@ -128,7 +133,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Complementary Reimagined V2",
@@ -149,7 +155,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Complementary V4",
@@ -170,7 +177,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Kappa V5",
@@ -191,7 +199,8 @@
 			"opacity_exponent": 0.75,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Rethinking Voxels V0",
@@ -212,7 +221,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Soft Voxels Lite V1",
@@ -233,7 +243,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		},
 		{
 			"title": "Solas V1",
@@ -254,7 +265,8 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.0
+			"tint_blue": 1.0,
+			"world_curvature_size": 0
 		}
 	],
 	"lastTelemetryVersion": 3,
