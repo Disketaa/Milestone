@@ -16,7 +16,7 @@
       "model": "block/chorus_flower"
     },
     "age=5": {
-      "model": "block/chorus/chorus_flower_open"
+      "model": "block/chorus_flower_open"
     }
   }
 }
