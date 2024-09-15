@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_ladder",
+  "textures": {
+    "all": "minecraft:block/ladder"
+  }
+}

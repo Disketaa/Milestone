@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/template_ladder",
+  "gui_light":"front",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [90, 130, -15],
+      "translation": [-2, 0, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 135, 0],
+      "translation": [0, -4, 0],
+      "scale": [0.675, 0.675, 0.675]
+    },
+    "gui": {
+      "rotation": [30, 45, 0],
+      "translation": [-4.25, 2.25, 0],
+      "scale": [0.9, 0.8, 0.9]
+    },
+    "ground": {
+      "translation": [0, 3, -2],
+      "scale": [0.3, 0.3, 0.3]   
+    },
+    "head": {
+      "rotation": [90, 0, 0]
+    },
+    "fixed": {
+      "translation": [0, 0, -7],
+      "scale": [1, 1, 1]
+    }
+  }
+}
