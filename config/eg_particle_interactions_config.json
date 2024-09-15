@@ -1,0 +1,68 @@
+{
+	"maxSnowflakes_onPlace": 2,
+	"snowflake_onPlace": false,
+	"maxSnowflakes_onBreak": 3,
+	"snowflake_onBreak": false,
+	"snowflake_BlockItems": [
+		"minecraft:snow",
+		"minecraft:snow_block",
+		"minecraft:powder_snow_bucket"
+	],
+	"maxCherryPetals_onPlace": 1,
+	"cherryPetal_onPlace": true,
+	"maxCherryPetals_onBreak": 3,
+	"cherryPetal_onBreak": true,
+	"cherryPetal_BlockItems": [
+		"minecraft:cherry_leaves",
+		"minecraft:cherry_sapling",
+		"minecraft:pink_petals"
+	],
+	"maxAzaleaLeaves_onPlace": 1,
+	"azaleaLeaf_onPlace": true,
+	"maxAzaleaLeaves_onBreak": 3,
+	"azaleaLeaf_onBreak": true,
+	"azaleaLeaf_BlockItems": [
+		"minecraft:azalea",
+		"minecraft:azalea_leaves"
+	],
+	"maxFloweringAzaleaLeaves_onPlace": 1,
+	"floweringAzaleaLeaf_onPlace": true,
+	"maxFloweringAzaleaLeaves_onBreak": 3,
+	"floweringAzaleaLeaf_onBreak": true,
+	"floweringAzaleaLeaf_BlockItems": [
+		"minecraft:flowering_azalea",
+		"minecraft:flowering_azalea_leaves"
+	],
+	"maxTintedLeaves_onPlace": 1,
+	"tintedLeaves_onPlace": true,
+	"maxTintedLeaves_onBreak": 3,
+	"tintedLeaves_onBreak": true,
+	"tintedLeaves_BlockItems": [
+		"minecraft:jungle_leaves",
+		"minecraft:oak_leaves",
+		"minecraft:spruce_leaves",
+		"minecraft:dark_oak_leaves",
+		"minecraft:acacia_leaves",
+		"minecraft:birch_leaves",
+		"minecraft:mangrove_leaves"
+	],
+	"maxBlock_onPlace": 1,
+	"block_onPlace": true,
+	"maxBlock_onBreak": 4,
+	"block_onBreak": true,
+	"tintedWaterSplash_fluids": [
+		"minecraft:water",
+		"minecraft:flowing_water"
+	],
+	"maxTintedWaterSplash_onPlace": 12,
+	"tintedWaterSplash_onPlace": true,
+	"lavaSplash_fluids": [
+		"minecraft:lava",
+		"minecraft:flowing_lava"
+	],
+	"maxLavaSplash_onPlace": 7,
+	"lavaSplash_onPlace": true,
+	"genericSplash_fluids": [],
+	"maxGenericSplash_onPlace": 10,
+	"genericSplash_onPlace": true
+}
