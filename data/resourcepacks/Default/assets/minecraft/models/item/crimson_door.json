@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_door",
+  "textures": {
+    "layer0": "block/crimson_door_bottom",
+    "layer1": "block/crimson_door_top"
+  }
+}
