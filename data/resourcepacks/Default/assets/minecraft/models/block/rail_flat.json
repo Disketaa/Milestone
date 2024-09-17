@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "#rail"
+  },
+  "elements": [
+    {
+      "from": [12, 0, 0],
+      "to": [14, 2, 16],
+      "faces": {
+        "north": {"uv": [2, 14, 4, 16], "texture": "#rail"},
+        "east": {"uv": [2, 16, 4, 0], "rotation": 90, "texture": "#rail"},
+        "south": {"uv": [4, 0, 2, 2], "texture": "#rail"},
+        "west": {"uv": [4, 0, 3, 16], "rotation": 90, "texture": "#rail"},
+        "up": {"uv": [4, 16, 2, 0], "texture": "#rail"},
+        "down": {"uv": [4, 0, 2, 16], "texture": "#rail"}
+      }
+    },
+    {
+      "from": [2, 0, 0],
+      "to": [4, 2, 16],
+      "faces": {
+        "north": {"uv": [12, 14, 14, 16], "texture": "#rail"},
+        "east": {"uv": [12, 16, 13, 0], "rotation": 90, "texture": "#rail"},
+        "south": {"uv": [14, 0, 12, 2], "texture": "#rail"},
+        "west": {"uv": [14, 0, 12, 16], "rotation": 90, "texture": "#rail"},
+        "up": {"uv": [14, 16, 12, 0], "texture": "#rail"},
+        "down": {"uv": [14, 0, 12, 16], "texture": "#rail"}
+      }
+    },
+    {
+      "from": [0, 1, 0],
+      "to": [16, 1, 16],
+      "faces": {
+        "up": {"uv": [0, 0, 16, 16], "texture": "#rail"},
+        "down": {"uv": [0, 16, 16, 0], "texture": "#rail"}
+      }
+    }
+  ]
+}

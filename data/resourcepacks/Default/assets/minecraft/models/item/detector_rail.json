@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_rail",
+  "textures": {
+    "rail": "block/detector_rail"
+  }
+}
