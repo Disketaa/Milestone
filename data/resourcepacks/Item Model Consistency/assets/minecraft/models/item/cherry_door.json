@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_door",
+  "textures": {
+    "layer0": "minecraft:block/cherry_door_bottom",
+    "layer1": "minecraft:block/cherry_door_top"
+  }
+}

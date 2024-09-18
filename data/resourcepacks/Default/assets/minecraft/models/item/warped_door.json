@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/template_door",
-  "textures": {
-    "layer0": "block/warped_door_bottom",
-    "layer1": "block/warped_door_top"
-  }
-}

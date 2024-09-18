@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_door",
+  "textures": {
+    "layer0": "minecraft:block/spruce_door_bottom",
+    "layer1": "minecraft:block/spruce_door_top"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_rail",
+  "textures": {
+    "rail": "minecraft:block/powered_rail"
+  }
+}

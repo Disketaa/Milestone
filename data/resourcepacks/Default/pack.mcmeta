@@ -1,22 +1,10 @@
 {
   "pack": {
     "pack_format": 34,
+    "supported_formats": [34, 99],
     "description": {
       "translate": "resourcePack.vanilla.description",
-      "color": "#AAAAAA",
-      "extra": [
-        {
-          "text": " ("
-        },
-        {
-          "translate": "pack.source.builtin",
-          "extra": [
-            {
-              "text": ")"
-            }
-          ]
-        }
-      ]
+      "color": "#AAAAAA"
     }
   }
 }

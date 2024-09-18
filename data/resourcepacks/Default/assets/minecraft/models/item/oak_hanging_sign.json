@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/template_hanging_sign",
-  "textures": {
-    "all": "entity/signs/hanging/oak"
-  }
-}
