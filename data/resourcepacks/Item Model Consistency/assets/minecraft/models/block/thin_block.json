@@ -1,5 +1,5 @@
 {
-	"parent": "block/block",
+  "parent": "block/block",
   "display": {
     "thirdperson_righthand": {
       "rotation": [75, 45, 0],
@@ -12,12 +12,12 @@
       "scale": [0.4, 0.4, 0.4]
     },
     "gui": {
-			"rotation": [30, 45, 0],
-			"translation": [0, 3.5, 0],
-			"scale": [0.625, 0.625, 0.625]
-		},
-		"head": {
-		 "translation": [0, 14.5, 0]
-		}
+      "rotation": [30, 45, 0],
+      "translation": [0, 3.5, 0],
+      "scale": [0.625, 0.625, 0.625]
+    },
+    "head": {
+     "translation": [0, 14.5, 0]
+    }
   }
 }
