@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/template_door",
   "textures": {
-    "layer0": "minecraft:block/copper_door_bottom",
-    "layer1": "minecraft:block/copper_door_top"
+    "bottom": "minecraft:block/copper_door_bottom",
+    "top": "minecraft:block/copper_door_top"
   }
 }
