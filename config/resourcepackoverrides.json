@@ -1,22 +1,27 @@
 {
-  "schema_version": 1,
-  "failed_reloads_per_session": 5,
+  "schema_version": 2,
   "pack_overrides": {
-    // A new group is defined, the id is arbitrary
-    "programmer_art": {
-      "description": "{\"translate\":\"resourcePack.classic.description\"}"
-    },
-
     "1": [
       "a_good_place:default_animations",
       "file/A Good Place Sample Pack.zip",
       "flat_shulker_icons",
       "high_contrast",
       "minecraft:supporteatinganimation",
-      "vanilla"
+      "vanilla",
+      "programmer_art",
+      "fabric"
     ],
-    "$1": {
+    "2": [
+      "Default",
+      "Item Model Consistency"
+    ],
+
+    "$$1": {
       "hidden": true
+    },
+    "$$2": {
+      "fixed_position": false,
+      "default_position": "TOP"
     }
   }
 }
