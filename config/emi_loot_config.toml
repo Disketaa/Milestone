@@ -13,7 +13,7 @@ skippedKeys = [
     "emi_loot.no_conditions",
     "emi_loot.function.limit_count"
 ]
-chestLootAlwaysStackSame = false
+chestLootAlwaysStackSame = true
 mobLootIncludeDirectDrops = true
 conditionStyle = "tooltip"
 
@@ -25,7 +25,7 @@ gameplay = false
 archaeology = false
 
 [compactLoot]
-block = false
+block = true
 chest = true
 mob = true
 gameplay = true
