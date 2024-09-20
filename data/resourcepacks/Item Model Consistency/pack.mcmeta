@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "supported_formats": [34, 99],
+    "description": {
+      "translate": "resourcePack.ItemModelConsistency.description",
+      "color": "#A8A8A8"
+    }
+  }
+}
