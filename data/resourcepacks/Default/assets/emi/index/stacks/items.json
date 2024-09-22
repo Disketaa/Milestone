@@ -1,18 +1,19 @@
 {
-	"removed": [
-		"item:minecraft:bedrock",
-		"item:minecraft:end_portal_frame",
-    "item:minecraft:spawner", 
+  "removed": [
+    "fluid:minecraft:lava",
     "fluid:minecraft:water",
-    "fluid:minecraft:lava"
+    "item:minecraft:bedrock",
+    "item:minecraft:end_portal_frame",
+    "item:minecraft:vault",
+    "item:minecraft:white_banner{\"minecraft:banner_patterns\":[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],\"minecraft:hide_additional_tooltip\":{},\"minecraft:item_name\":\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}"
   ],
-  
-	"filters": [
+
+  "filters": [
     "/_anvil/",
-    "/_spawn_egg/",
     "/infested/",
+    "/music_disc_/",
     "/painting/",
-    "/smithing_template/",
+    "/spawner/",
     "/suspicious_stew/"
   ],
 
@@ -22,84 +23,84 @@
       "after": "item:minecraft:glow_item_frame"
     },
     {
-      "stack": "fluid:minecraft:water",
-      "after": "item:minecraft:warped_hanging_sign"
-    },
-    {
-      "stack": "fluid:minecraft:lava",
-      "after": "fluid:minecraft:water"
-    },
-    {
       "stack": "item:minecraft:suspicious_stew",
       "after": "item:minecraft:rabbit_stew"
     },
     {
-      "stack": "item:minecraft:netherite_upgrade_smithing_template",
-      "after": "item:minecraft:snort_pottery_sherd"
+      "stack": "item:minecraft:music_disc_11",
+      "after": "item:minecraft:bamboo_raft"
     },
     {
-      "stack": "item:minecraft:snout_armor_trim_smithing_template",
-      "after": "item:minecraft:netherite_upgrade_smithing_template"
+      "stack": "item:minecraft:music_disc_stal",
+      "after": "item:minecraft:music_disc_11"
     },
     {
-      "stack": "item:minecraft:rib_armor_trim_smithing_template",
-      "after": "item:minecraft:snout_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_strad",
+      "after": "item:minecraft:music_disc_stal"
     },
     {
-      "stack": "item:minecraft:host_armor_trim_smithing_template",
-      "after": "item:minecraft:rib_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_13",
+      "after": "item:minecraft:music_disc_strad"
     },
     {
-      "stack": "item:minecraft:ward_armor_trim_smithing_template",
-      "after": "item:minecraft:host_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_far",
+      "after": "item:minecraft:music_disc_13"
     },
     {
-      "stack": "item:minecraft:silence_armor_trim_smithing_template",
-      "after": "item:minecraft:ward_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_cat",
+      "after": "item:minecraft:music_disc_far"
     },
     {
-      "stack": "item:minecraft:tide_armor_trim_smithing_template",
-      "after": "item:minecraft:silence_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_ward",
+      "after": "item:minecraft:music_disc_cat"
     },
     {
-      "stack": "item:minecraft:sentry_armor_trim_smithing_template",
-      "after": "item:minecraft:tide_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_otherside",
+      "after": "item:minecraft:music_disc_ward"
     },
     {
-      "stack": "item:minecraft:vex_armor_trim_smithing_template",
-      "after": "item:minecraft:sentry_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_wait",
+      "after": "item:minecraft:music_disc_otherside"
     },
     {
-      "stack": "item:minecraft:wild_armor_trim_smithing_template",
-      "after": "item:minecraft:vex_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_mall",
+      "after": "item:minecraft:music_disc_wait"
     },
     {
-      "stack": "item:minecraft:coast_armor_trim_smithing_template",
-      "after": "item:minecraft:wild_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_mellohi",
+      "after": "item:minecraft:music_disc_mall"
     },
     {
-      "stack": "item:minecraft:dune_armor_trim_smithing_template",
-      "after": "item:minecraft:coast_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_blocks",
+      "after": "item:minecraft:music_disc_mellohi"
     },
     {
-      "stack": "item:minecraft:wayfinder_armor_trim_smithing_template",
-      "after": "item:minecraft:dune_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_chirp",
+      "after": "item:minecraft:music_disc_blocks"
     },
     {
-      "stack": "item:minecraft:raiser_armor_trim_smithing_template",
-      "after": "item:minecraft:wayfinder_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_precipice",
+      "after": "item:minecraft:music_disc_chirp"
     },
     {
-      "stack": "item:minecraft:shaper_armor_trim_smithing_template",
-      "after": "item:minecraft:raiser_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_creator",
+      "after": "item:minecraft:music_disc_precipice"
     },
     {
-      "stack": "item:minecraft:eye_armor_trim_smithing_template",
-      "after": "item:minecraft:shaper_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_creator_music_box",
+      "after": "item:minecraft:music_disc_creator"
     },
     {
-      "stack": "item:minecraft:spire_armor_trim_smithing_template",
-      "after": "item:minecraft:eye_armor_trim_smithing_template"
+      "stack": "item:minecraft:music_disc_relic",
+      "after": "item:minecraft:music_disc_creator_music_box"
+    },
+    {
+      "stack": "item:minecraft:music_disc_pigstep",
+      "after": "item:minecraft:music_disc_relic"
+    },
+    {
+      "stack": "item:minecraft:music_disc_5",
+      "after": "item:minecraft:music_disc_pigstep"
     }
   ]
 }
