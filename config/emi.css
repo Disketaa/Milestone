@@ -202,7 +202,7 @@
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
 	 */
-	right-sidebar-margins: 0, 0, 0, 0;
+	right-sidebar-margins: 0, 0, 0, 2;
 
 	/**
 	 * Where to position the right sidebar
