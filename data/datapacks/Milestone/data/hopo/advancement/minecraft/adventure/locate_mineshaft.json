@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torch"
+    },
+    "title": {
+      "translate": "advancements.exploration.locate_mineshaft.title"
+    },
+    "description": {
+      "translate": "advancements.exploration.locate_mineshaft.description"
+    }
+  },
+  "parent": "minecraft:exploration/root",
+  "criteria": {
+    "locate_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "location": {
+                "structures": "#c:mineshaft"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_mineshaft"
+    ]
+  ]
+}
