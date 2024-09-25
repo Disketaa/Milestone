@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cartography_table"
+    },
+    "title": {
+      "translate": "advancements.exploration.root.title"
+    },
+    "description": {
+      "translate": "advancements.exploration.root.description"
+    },
+    "background": "minecraft:textures/block/mud.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "locate_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#c:all"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_structure"
+    ]
+  ]
+}

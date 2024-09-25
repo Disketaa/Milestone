@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "advancements.husbandry.root.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.root.description"
+    },
+    "background": "minecraft:textures/block/farmland.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "consumed_item": {
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "consumed_item"
+    ]
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_bulb"
+    },
+    "title": {
+      "translate": "advancements.adventure.lighten_up.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.lighten_up.description"
+    }
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "lighten_up": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#minecraft:axes"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lighten_up"
+    ]
+  ]
+}

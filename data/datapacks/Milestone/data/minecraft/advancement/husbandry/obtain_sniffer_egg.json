@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sniffer_egg"
+    },
+    "title": {
+      "translate": "advancements.husbandry.obtain_sniffer_egg.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.obtain_sniffer_egg.description"
+    },
+    "hidden": true
+  },
+  "parent": "minecraft:friends/root",
+  "criteria": {
+    "obtain_sniffer_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sniffer_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_sniffer_egg"
+    ]
+  ]
+}

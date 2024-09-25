@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": {
+      "translate": "advancements.husbandry.repair_wolf_armor.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.repair_wolf_armor.description"
+    }
+  },
+  "parent": "minecraft:adventure/brush_armadillo",
+  "criteria": {
+    "repair_wolf_armor": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:armadillo_scute"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "equipment": {
+                "body": {
+                  "items": "minecraft:wolf_armor",
+                  "components": {
+                    "minecraft:damage": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "repair_wolf_armor"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.combat.root.title"
+    },
+    "description": {
+      "translate": "advancements.combat.root.description"
+    },
+    "icon": {
+      "id": "minecraft:armor_stand"
+    },
+    "background": "minecraft:textures/block/stone_bricks.png",
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "killed_by_something": {
+      "trigger": "minecraft:entity_killed_player"
+    },
+    "killed_something": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "killed_something",
+      "killed_by_something"
+    ]
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_hanging_sign"
+    },
+    "title": {
+      "translate": "advancements.society.root.title"
+    },
+    "description": {
+      "translate": "advancements.society.root.description"
+    },
+    "background": "minecraft:textures/block/spruce_planks.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "villager_interaction": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:villager",
+            "minecraft:wandering_trader"
+          ]
+        }
+      }
+    },
+    "pillager_hurt": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:evoker",
+            "minecraft:pillager",
+            "minecraft:ravager",
+            "minecraft:vex",
+            "minecraft:vindicator"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "villager_interaction",
+      "pillager_hurt"
+    ]
+  ]
+}
