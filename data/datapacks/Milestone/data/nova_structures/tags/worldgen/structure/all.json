@@ -1,0 +1,25 @@
+{
+  "values": [
+    "#nova_structures:creeping_crypt",
+    "#nova_structures:desert_ruins",
+    "#nova_structures:end_castle",
+    "#nova_structures:firewatch_tower",
+    "#nova_structures:illager_structures",
+    "#nova_structures:jungle_ruins",
+    "#nova_structures:lone_citadel",
+    "#nova_structures:nether_skeleton_structures",
+    "#nova_structures:piglin_structures",
+    "#nova_structures:remnants",
+    "#nova_structures:ruin_town",
+    "#nova_structures:shrine",
+    "#nova_structures:stray_fort",
+    "#nova_structures:taverns",
+    "#nova_structures:trident_trial_monument",
+    "#nova_structures:undead_crypt",
+    "#nova_structures:well",
+    "nova_structures:bunker",
+    "nova_structures:deepslate_camp",
+    "nova_structures:underground_house",
+    "nova_structures:wild_ruin"
+  ]
+}
