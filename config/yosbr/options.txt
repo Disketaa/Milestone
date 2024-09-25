@@ -5,6 +5,7 @@ skipMultiplayerWarning:true
 skipRealms32bitWarning:true
 allowServerListing:false
 onboardAccessibility:false
+key_gui.xaero_open_settings:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.left.bracket
 key_iris.keybind.toggleShaders:key.keyboard.unknown
