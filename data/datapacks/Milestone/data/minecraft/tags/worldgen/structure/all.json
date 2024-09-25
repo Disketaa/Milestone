@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#minecraft:ancient_city",
+    "#minecraft:ocean_ruin",
+    "#minecraft:pillager_outpost",
+    "#minecraft:ruined_portal",
+    "#minecraft:shipwreck",
+    "#minecraft:village",
+    "minecraft:bastion_remnant",
+    "minecraft:desert_pyramid",
+    "minecraft:end_city",
+    "minecraft:fortress",
+    "minecraft:igloo",
+    "minecraft:jungle_pyramid",
+    "minecraft:mansion",
+    "minecraft:monument",
+    "minecraft:stronghold",
+    "minecraft:trail_ruins",
+    "minecraft:trial_chambers"
+  ]
+}
