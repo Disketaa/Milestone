@@ -1,12 +1,12 @@
 {
 	"PinningEnabled": false,
-	"ShowAdvancementIDInDebugTooltip": true,
+	"ShowAdvancementIDInDebugTooltip": false,
 	"ShowDebugInfo": "NEVER",
-	"MaxCriterionEntries": 0,
+	"MaxCriterionEntries": 3,
 	"FadeOutBackgroundOnAdvancementHover": true,
 	"SaveLastSelectedTab": false,
 	"PinnedTabs": [],
 	"LastSelectedTab": "milestone:story/root",
-	"SpacingBetweenHorizontalTabs": 2,
+	"SpacingBetweenHorizontalTabs": 1,
 	"SpacingBetweenPinnedTabs": 2
 }
