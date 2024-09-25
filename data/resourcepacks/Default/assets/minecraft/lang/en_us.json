@@ -23,6 +23,20 @@
   "trim_pattern.minecraft.wayfinder": "Wayfinder Trim",
   "trim_pattern.minecraft.wild": "Wild Trim",
 
+  "advancements.story.root.title": "Story",
+  "advancements.combat.root.title": "Combat",
+  "advancements.combat.root.description": "Master the art of combat and emerge victorious",
+  "advancements.exploration.root.title": "Exploration",
+  "advancements.exploration.root.description": "Around the world",
+  "advancements.exploration.locate_mineshaft.title": "Who built this?",
+  "advancements.exploration.locate_mineshaft.description": "Discover mineshaft",
+  "advancements.exploration.all_mineshaft.title": "Mineshafter",
+  "advancements.exploration.all_mineshaft.description": "Discover all the types of mineshafts",
+  "advancements.friends.root.title": "Friends",
+  "advancements.friends.root.description": "Faithful companions of your adventure",
+  "advancements.society.root.title": "Society",
+  "advancements.society.root.description": "Engage in trades and face the challenges",
+
 // Resource Pack Options
   "rpo.Default": "Settings",
   "rpo.Default.BlockModels": "Block Models",

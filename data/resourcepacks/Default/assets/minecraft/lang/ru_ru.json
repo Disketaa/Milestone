@@ -6,6 +6,20 @@
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Поместите броню или инструмент",
   "item.minecraft.smithing_template.armor_trim.applies_to": "Доспехам и инструментам",
 
+  "advancements.story.root.title": "История",
+  "advancements.combat.root.title": "Сражения",
+  "advancements.combat.root.description": "Первое правило бойцовского клуба",
+  "advancements.exploration.root.title": "Путешествия",
+  "advancements.exploration.root.description": "Одна нога здесь, другая там",
+  "advancements.exploration.locate_mineshaft.title": "Шахтерские тоннели",
+  "advancements.exploration.locate_mineshaft.description": "Найдите заброшенную шахту",
+  "advancements.exploration.all_mineshaft.title": "Шахтовед",
+  "advancements.exploration.all_mineshaft.description": "Отыщите все виды заброшенных шахт",
+  "advancements.friends.root.title": "Друзья",
+  "advancements.friends.root.description": "Верные спутники приключения",
+  "advancements.society.root.title": "Община",
+  "advancements.society.root.description": "Торговля и вызовы",
+
 // Resource Pack Options
   "rpo.Default": "Настройки",
   "rpo.Default.BlockModels": "Модели блоков",
