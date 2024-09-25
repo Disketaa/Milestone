@@ -1,0 +1,11 @@
+{
+  "gui.xaero_box_cave_mode_not_allowed": "Cave Mode §8(unavailable)",
+  "gui.xaero_box_claims_pac_required": "Claimed Chunks §8(unavailable)",
+  "gui.xaero_box_minimap_radar": "Show Entities §8(unavailable)",
+  "gui.xaero_box_open_players": "Player Tracker",
+  "gui.xaero_box_open_settings": "§3XaeroWorldMap §rConfiguration",
+  "gui.xaero_dimension_toggle_button" : "Toggle Dimension \n §8(Hold Shift to reverse)",
+  "gui.xaero_box_waypoints_minimap_required" : "Waypoints §8(unavailable)",
+  "gui.xaero_switched_to_current_dimension": "Map of §3%s§r (current)",
+  "gui.xaero_switched_to_dimension": "Map of §3%s§r"
+}
