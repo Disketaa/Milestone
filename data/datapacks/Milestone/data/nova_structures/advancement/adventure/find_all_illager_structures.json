@@ -1,0 +1,266 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_log"
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.find_all_illager_structures.title"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.find_all_illager_structures"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:exploration/root",
+  "criteria": {
+    "witch_villa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:witch_villa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "illager_hideout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:illager_hideout"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "illager_camp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:illager_camp"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "illager_manor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:illager_manor"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:mansion"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pillager_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:pillager_outpost"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "swamp_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:village_swamp"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "swamp_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:swamp_hut"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_witch_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:mangrove_witch_hut"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "badland_miner_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:badlands_miner_outpost"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tavern_dark_oak": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:tavern_dark_oak"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lone_citadel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:lone_citadel"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "toxic_lair": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:toxic_lair"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "witch_villa"
+    ],
+    [
+      "illager_hideout"
+    ],
+    [
+      "illager_camp"
+    ],
+    [
+      "illager_manor"
+    ],
+    [
+      "mansion"
+    ],
+    [
+      "pillager_outpost"
+    ],
+    [
+      "swamp_village"
+    ],
+    [
+      "swamp_hut"
+    ],
+    [
+      "mangrove_witch_hut"
+    ],
+    [
+      "badland_miner_outpost"
+    ],
+    [
+      "tavern_dark_oak"
+    ],
+    [
+      "lone_citadel"
+    ],
+    [
+      "toxic_lair"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smoker"
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.find_tavern.title"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.find_tavern"
+    }
+  },
+  "parent": "minecraft:exploration/root",
+  "criteria": {
+    "locate_tavern": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "location": {
+                "structures": "#nova_structures:taverns"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_tavern"
+    ]
+  ]
+}
