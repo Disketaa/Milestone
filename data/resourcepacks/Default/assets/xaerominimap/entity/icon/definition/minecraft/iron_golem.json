@@ -1,0 +1,9 @@
+{
+  "variants" : {
+    "minecraft:textures/entity/iron_golem/iron_golem.png%NONE": "sprite:minecraft/iron_golem/iron_golem.png",
+    "minecraft:textures/entity/iron_golem/iron_golem.png%LOW": "sprite:minecraft/iron_golem/iron_golem.png",
+    "minecraft:textures/entity/iron_golem/iron_golem.png%MEDIUM": "sprite:minecraft/iron_golem/iron_golem.png",
+    "minecraft:textures/entity/iron_golem/iron_golem.png%HIGH": "sprite:minecraft/iron_golem/iron_golem.png",
+    "layersAllowed": true
+    }
+  }

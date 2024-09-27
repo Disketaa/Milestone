@@ -1,0 +1,48 @@
+
+{
+	"variants" : {
+		"minecraft:textures/entity/horse/horse_black.png%null" : "sprite:minecraft/horse/horse_black.png",
+		"minecraft:textures/entity/horse/horse_black.png%minecraft:textures/entity/horse/horse_markings_whitedots.png" : "sprite:minecraft/horse/horse_black_whitedots.png",
+		"minecraft:textures/entity/horse/horse_black.png%minecraft:textures/entity/horse/horse_markings_whitefield.png" : "sprite:minecraft/horse/horse_black_whitefield.png",
+		"minecraft:textures/entity/horse/horse_black.png%minecraft:textures/entity/horse/horse_markings_blackdots.png" : "sprite:minecraft/horse/horse_black_blackdots.png",
+		"minecraft:textures/entity/horse/horse_black.png%minecraft:textures/entity/horse/horse_markings_white.png" : "sprite:minecraft/horse/horse_black_white.png",
+
+		"minecraft:textures/entity/horse/horse_gray.png%null" : "sprite:minecraft/horse/horse_gray.png",
+		"minecraft:textures/entity/horse/horse_gray.png%minecraft:textures/entity/horse/horse_markings_whitedots.png" : "sprite:minecraft/horse/horse_gray_whitedots.png",
+		"minecraft:textures/entity/horse/horse_gray.png%minecraft:textures/entity/horse/horse_markings_whitefield.png" : "sprite:minecraft/horse/horse_gray_whitefield.png",
+		"minecraft:textures/entity/horse/horse_gray.png%minecraft:textures/entity/horse/horse_markings_blackdots.png" : "sprite:minecraft/horse/horse_gray_blackdots.png",
+		"minecraft:textures/entity/horse/horse_gray.png%minecraft:textures/entity/horse/horse_markings_white.png" : "sprite:minecraft/horse/horse_gray_white.png",
+
+		"minecraft:textures/entity/horse/horse_white.png%null" : "sprite:minecraft/horse/horse_white.png",
+		"minecraft:textures/entity/horse/horse_white.png%minecraft:textures/entity/horse/horse_markings_whitedots.png" : "sprite:minecraft/horse/horse_white_whitedots.png",
+		"minecraft:textures/entity/horse/horse_white.png%minecraft:textures/entity/horse/horse_markings_whitefield.png" : "sprite:minecraft/horse/horse_white_whitefield.png",
+		"minecraft:textures/entity/horse/horse_white.png%minecraft:textures/entity/horse/horse_markings_blackdots.png" : "sprite:minecraft/horse/horse_white_blackdots.png",
+		"minecraft:textures/entity/horse/horse_white.png%minecraft:textures/entity/horse/horse_markings_white.png" : "sprite:minecraft/horse/horse_white_white.png",
+
+		"minecraft:textures/entity/horse/horse_chestnut.png%null" : "sprite:minecraft/horse/horse_chestnut.png",
+		"minecraft:textures/entity/horse/horse_chestnut.png%minecraft:textures/entity/horse/horse_markings_whitedots.png" : "sprite:minecraft/horse/horse_chestnut_whitedots.png",
+		"minecraft:textures/entity/horse/horse_chestnut.png%minecraft:textures/entity/horse/horse_markings_whitefield.png" : "sprite:minecraft/horse/horse_chestnut_whitefield.png",
+		"minecraft:textures/entity/horse/horse_chestnut.png%minecraft:textures/entity/horse/horse_markings_blackdots.png" : "sprite:minecraft/horse/horse_chestnut_blackdots.png",
+		"minecraft:textures/entity/horse/horse_chestnut.png%minecraft:textures/entity/horse/horse_markings_white.png" : "sprite:minecraft/horse/horse_chestnut_white.png",
+
+		"minecraft:textures/entity/horse/horse_creamy.png%null" : "sprite:minecraft/horse/horse_creamy.png",
+		"minecraft:textures/entity/horse/horse_creamy.png%minecraft:textures/entity/horse/horse_markings_whitedots.png" : "sprite:minecraft/horse/horse_creamy_whitedots.png",
+		"minecraft:textures/entity/horse/horse_creamy.png%minecraft:textures/entity/horse/horse_markings_whitefield.png" : "sprite:minecraft/horse/horse_creamy_whitefield.png",
+		"minecraft:textures/entity/horse/horse_creamy.png%minecraft:textures/entity/horse/horse_markings_blackdots.png" : "sprite:minecraft/horse/horse_creamy_blackdots.png",
+		"minecraft:textures/entity/horse/horse_creamy.png%minecraft:textures/entity/horse/horse_markings_white.png" : "sprite:minecraft/horse/horse_creamy_white.png",
+
+		"minecraft:textures/entity/horse/horse_brown.png%null" : "sprite:minecraft/horse/horse_brown.png",
+		"minecraft:textures/entity/horse/horse_brown.png%minecraft:textures/entity/horse/horse_markings_whitedots.png" : "sprite:minecraft/horse/horse_brown_whitedots.png",
+		"minecraft:textures/entity/horse/horse_brown.png%minecraft:textures/entity/horse/horse_markings_whitefield.png" : "sprite:minecraft/horse/horse_brown_whitefield.png",
+		"minecraft:textures/entity/horse/horse_brown.png%minecraft:textures/entity/horse/horse_markings_blackdots.png" : "sprite:minecraft/horse/horse_brown_blackdots.png",
+		"minecraft:textures/entity/horse/horse_brown.png%minecraft:textures/entity/horse/horse_markings_white.png" : "sprite:minecraft/horse/horse_brown_white.png",
+
+		"minecraft:textures/entity/horse/horse_darkbrown.png%null" : "sprite:minecraft/horse/horse_darkbrown.png",
+		"minecraft:textures/entity/horse/horse_darkbrown.png%minecraft:textures/entity/horse/horse_markings_whitedots.png" : "sprite:minecraft/horse/horse_darkbrown_whitedots.png",
+		"minecraft:textures/entity/horse/horse_darkbrown.png%minecraft:textures/entity/horse/horse_markings_whitefield.png" : "sprite:minecraft/horse/horse_darkbrown_whitefield.png",
+		"minecraft:textures/entity/horse/horse_darkbrown.png%minecraft:textures/entity/horse/horse_markings_blackdots.png" : "sprite:minecraft/horse/horse_darkbrown_blackdots.png",
+		"minecraft:textures/entity/horse/horse_darkbrown.png%minecraft:textures/entity/horse/horse_markings_white.png" : "sprite:minecraft/horse/horse_darkbrown_white.png",
+		"default" : "sprite:minecraft/horse/blank.png",
+		"layersAllowed": true
+	  }
+  }

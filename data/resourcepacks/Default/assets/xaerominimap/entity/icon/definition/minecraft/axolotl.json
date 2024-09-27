@@ -1,0 +1,10 @@
+{
+  "variants" : {
+    "minecraft:textures/entity/axolotl/axolotl_blue.png": "sprite:minecraft/axolotl/axolotl_blue.png",
+    "minecraft:textures/entity/axolotl/axolotl_cyan.png": "sprite:minecraft/axolotl/axolotl_cyan.png",
+    "minecraft:textures/entity/axolotl/axolotl_gold.png": "sprite:minecraft/axolotl/axolotl_gold.png",
+    "minecraft:textures/entity/axolotl/axolotl_lucy.png": "sprite:minecraft/axolotl/axolotl_lucy.png",
+    "minecraft:textures/entity/axolotl/axolotl_wild.png": "sprite:minecraft/axolotl/axolotl_wild.png",
+    "layersAllowed": true
+    }
+  }

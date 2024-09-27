@@ -1,0 +1,27 @@
+{
+  "variants" : {
+    "minecraft:textures/entity/cat/all_black.png%false": "sprite:minecraft/cat/all_black.png",
+    "minecraft:textures/entity/cat/black.png%false": "sprite:minecraft/cat/black.png",
+    "minecraft:textures/entity/cat/british_shorthair.png%false": "sprite:minecraft/cat/british_shorthair.png",
+    "minecraft:textures/entity/cat/calico.png%false": "sprite:minecraft/cat/calico.png",
+    "minecraft:textures/entity/cat/jellie.png%false": "sprite:minecraft/cat/jellie.png",
+    "minecraft:textures/entity/cat/persian.png%false": "sprite:minecraft/cat/persian.png",
+    "minecraft:textures/entity/cat/ragdoll.png%false": "sprite:minecraft/cat/ragdoll.png",
+    "minecraft:textures/entity/cat/red.png%false": "sprite:minecraft/cat/red.png",
+    "minecraft:textures/entity/cat/siamese.png%false": "sprite:minecraft/cat/siamese.png",
+    "minecraft:textures/entity/cat/tabby.png%false": "sprite:minecraft/cat/tabby.png",
+    "minecraft:textures/entity/cat/white.png%false": "sprite:minecraft/cat/white.png",
+    "minecraft:textures/entity/cat/all_black.png%true": "sprite:minecraft/cat/all_black.png",
+    "minecraft:textures/entity/cat/black.png%true": "sprite:minecraft/cat/black.png",
+    "minecraft:textures/entity/cat/british_shorthair.png%true": "sprite:minecraft/cat/british_shorthair.png",
+    "minecraft:textures/entity/cat/calico.png%true": "sprite:minecraft/cat/calico.png",
+    "minecraft:textures/entity/cat/jellie.png%true": "sprite:minecraft/cat/jellie.png",
+    "minecraft:textures/entity/cat/persian.png%true": "sprite:minecraft/cat/persian.png",
+    "minecraft:textures/entity/cat/ragdoll.png%true": "sprite:minecraft/cat/ragdoll.png",
+    "minecraft:textures/entity/cat/red.png%true": "sprite:minecraft/cat/red.png",
+    "minecraft:textures/entity/cat/siamese.png%true": "sprite:minecraft/cat/siamese.png",
+    "minecraft:textures/entity/cat/tabby.png%true": "sprite:minecraft/cat/tabby.png",
+    "minecraft:textures/entity/cat/white.png%true": "sprite:minecraft/cat/white.png",
+    "layersAllowed": true
+    }
+  }

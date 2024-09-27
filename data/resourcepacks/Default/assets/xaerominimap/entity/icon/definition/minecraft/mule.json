@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/horse/mule.png",
+		"layersAllowed": true
+	  }
+  }

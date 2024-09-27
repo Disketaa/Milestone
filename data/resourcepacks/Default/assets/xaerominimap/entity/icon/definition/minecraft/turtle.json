@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/turtle/big_sea_turtle.png",
+    "layersAllowed": true
+    }
+  }

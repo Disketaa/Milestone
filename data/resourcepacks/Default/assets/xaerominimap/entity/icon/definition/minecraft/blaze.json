@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/blaze.png",
+    "layersAllowed": true
+    }
+  }

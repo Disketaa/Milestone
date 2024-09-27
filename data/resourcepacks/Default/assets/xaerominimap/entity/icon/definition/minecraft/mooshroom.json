@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "minecraft:textures/entity/cow/red_mooshroom.png": "sprite:minecraft/cow/red_mooshroom.png",
+    "minecraft:textures/entity/cow/brown_mooshroom.png": "sprite:minecraft/cow/brown_mooshroom.png",
+    "layersAllowed": true
+    }
+  }

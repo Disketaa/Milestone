@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/cow/cow.png",
+    "layersAllowed": true
+    }
+  }

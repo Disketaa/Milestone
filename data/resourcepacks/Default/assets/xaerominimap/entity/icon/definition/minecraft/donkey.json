@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/horse/donkey.png",
+    "layersAllowed": true
+    }
+  }

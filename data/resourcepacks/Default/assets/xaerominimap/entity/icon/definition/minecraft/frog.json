@@ -1,0 +1,10 @@
+
+{
+	"variants" : {
+		"minecraft:textures/entity/frog/temperate_frog.png" : "sprite:minecraft/frog/temperate_frog.png",
+		"minecraft:textures/entity/frog/warm_frog.png" : "sprite:minecraft/frog/warm_frog.png",
+		"minecraft:textures/entity/frog/cold_frog.png" : "sprite:minecraft/frog/cold_frog.png",
+		"default" : "sprite:minecraft/frog/blank.png",
+		"layersAllowed": true
+	  }
+  }
