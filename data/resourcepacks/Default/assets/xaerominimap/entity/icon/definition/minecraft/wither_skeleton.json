@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/skeleton/wither_skeleton.png",
+    "layersAllowed": true
+    }
+  }

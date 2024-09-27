@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/fish/salmon.png",
+    "layersAllowed": true
+    }
+  }

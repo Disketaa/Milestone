@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/fish/cod.png",
+    "layersAllowed": true
+    }
+  }
