@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": {
+    "type": "item",
+    "id": "minecraft:twisting_vines",
+    "remainder": "item:minecraft:twisting_vines"
+  },
+  "output": "item:minecraft:twisting_vines"
+}

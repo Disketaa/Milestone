@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": "item:minecraft:short_grass",
+  "output": "item:minecraft:tall_grass"
+}

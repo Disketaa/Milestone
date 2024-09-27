@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": {
+    "type": "item",
+    "id": "minecraft:warped_nylium",
+    "remainder": "item:minecraft:warped_nylium"
+  },
+  "output": "item:minecraft:warped_roots"
+}

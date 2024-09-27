@@ -1,0 +1,11 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": {
+    "type": "fluid",
+    "id": "minecraft:water",
+    "amount": 81000,
+    "remainder": "fluid:minecraft:water"
+  },
+  "output": "item:minecraft:seagrass"
+}
