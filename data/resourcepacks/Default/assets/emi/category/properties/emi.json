@@ -50,21 +50,28 @@
       "stack": "item:minecraft:spawner"
     }
   },
-  "emi_loot:block_drops": {
-    "order": 14,
-    "icon": {
-      "stack": "item:minecraft:cracked_stone_bricks"
-    }
-  },
   "emi_loot:archaeology_drops": {
-    "order": 15,
+    "order": 14,
     "icon": {
       "stack": "item:minecraft:suspicious_gravel"
     }
   },
-    "emi:world_interaction": {
-    "order": 96,
+  "lychee:dripstone_dripping/minecraft/default": {
+    "order": 94,
+    "icon": {
+      "stack": "item:minecraft:dripstone_block"
+    },
     "sort": "input_then_output"
+  },
+  "emi:world_interaction": {
+    "order": 95,
+    "sort": "input_then_output"
+  },
+  "emi_loot:block_drops": {
+    "order": 96,
+    "icon": {
+      "stack": "item:minecraft:dirt"
+    }
   },
   "emi:info": {
     "order": 97,
