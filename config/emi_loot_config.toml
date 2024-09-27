@@ -13,8 +13,9 @@ skippedKeys = [
     "emi_loot.no_conditions",
     "emi_loot.function.limit_count"
 ]
-chestLootAlwaysStackSame = true
+chestLootAlwaysStackSame = false
 mobLootIncludeDirectDrops = true
+chanceDecimalPlaces = 0
 conditionStyle = "tooltip"
 
 [debugModes]
