@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:damage": 432
+      }
+    },
+    "title": {
+      "translate": "advancements.end.broken_wings.title"
+    },
+    "description": {
+      "translate": "advancements.end.broken_wings.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "Элитры": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 100
+                  }
+                },
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ],
+        "durability": 1,
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

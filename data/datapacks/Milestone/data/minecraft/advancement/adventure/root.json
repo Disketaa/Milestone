@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "advancements.adventure.root.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.root.description"
+    },
+    "background": "minecraft:textures/block/sandstone_bottom.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "effects_changed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "effects_changed"
+    ]
+  ]
+}

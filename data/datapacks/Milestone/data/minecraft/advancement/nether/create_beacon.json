@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "advancements.nether.create_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.nether.create_beacon.description"
+    }
+  },
+  "parent": "minecraft:challenge/root",
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beacon"
+    ]
+  ]
+}

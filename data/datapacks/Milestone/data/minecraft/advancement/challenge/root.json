@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_glazed_terracotta"
+    },
+    "title": {
+      "translate": "advancements.challenge.root.title"
+    },
+    "description": {
+      "translate": "advancements.challenge.root.description"
+    },
+    "background": "minecraft:textures/block/red_terracotta.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "obtain_lava": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "minecraft:lava_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_lava"
+    ]
+  ]
+}

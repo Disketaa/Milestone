@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "advancements.challenge.chainmail_armor.title"
+    },
+    "description": {
+      "translate": "advancements.challenge.chainmail_armor.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "minecraft:challenge/root",
+  "criteria": {
+    "chainmail_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chainmail_helmet"
+          },
+          {
+            "items": "minecraft:chainmail_chestplate"
+          },
+          {
+            "items": "minecraft:chainmail_leggings"
+          },
+          {
+            "items": "minecraft:chainmail_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chainmail_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}
