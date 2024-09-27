@@ -38,22 +38,22 @@
       "stack": "item:minecraft:barrel"
     }
   },
-  "emi_loot:gameplay_drops": {
+  "emi_loot:archaeology_drops": {
     "order": 12,
+    "icon": {
+      "stack": "item:minecraft:decorated_pot"
+    }
+  },
+  "emi_loot:gameplay_drops": {
+    "order": 13,
     "icon": {
       "stack": "item:minecraft:cartography_table"
     }
   },
   "emi_loot:mob_drops": {
-    "order": 13,
-    "icon": {
-      "stack": "item:minecraft:spawner"
-    }
-  },
-  "emi_loot:archaeology_drops": {
     "order": 14,
     "icon": {
-      "stack": "item:minecraft:suspicious_gravel"
+      "stack": "item:minecraft:spawner"
     }
   },
   "lychee:dripstone_dripping/minecraft/default": {
