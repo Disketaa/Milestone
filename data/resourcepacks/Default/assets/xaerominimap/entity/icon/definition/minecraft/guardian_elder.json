@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "minecraft:textures/entity/guardian_elder.png": "sprite:minecraft/guardian_elder.png",
+    "layersAllowed": true
+    }
+  }
