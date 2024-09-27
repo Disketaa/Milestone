@@ -1,0 +1,23 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "fluid",
+    "id": "minecraft:lava",
+    "amount": 81000,
+    "remainder": "fluid:minecraft:lava"
+  },
+  "right": [
+    {
+      "type": "item",
+      "id": "minecraft:soul_soil",
+      "nbt": "[lore=['[\"\",{\"text\":"123",\"italic\":false,\"color\":\"gray\"}]']]",
+      "remainder": "item:minecraft:soul_soil"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:blue_ice",
+      "remainder": "item:minecraft:blue_ice"
+    }
+  ],
+  "output": "item:minecraft:basalt"
+}
