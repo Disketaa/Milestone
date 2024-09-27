@@ -26,9 +26,9 @@ zoomButtons:false
 waypointBackgrounds:true
 detectAmbiguousY:true
 showDisabledWaypoints:false
-closeWaypointsWhenHopping:true
+closeWaypointsWhenHopping:false
 adjustHeightForCarpetLikeBlocks:true
-onlyCurrentMapWaypoints:false
+onlyCurrentMapWaypoints:true
 minZoomForLocalWaypoints:0.0
 arrowColour:-1
 minimapRadar:true
@@ -43,7 +43,7 @@ displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:0
 biomeBlending:true
-trackedPlayers:false
+trackedPlayers:true
 multipleImagesExport:false
 nightExport:false
 highlightsExport:false
