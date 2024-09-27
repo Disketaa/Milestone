@@ -1,0 +1,16 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "lava",
+  "target_block": "polished_blackstone_bricks",
+  "post": [
+    {
+      "type": "place",
+      "block": "cracked_polished_blackstone_bricks"
+    },
+    {
+      "type": "execute",
+      "command": "function lychee:dripstone_dripping_lava_conversion",
+      "hide": true
+    }
+  ]
+}

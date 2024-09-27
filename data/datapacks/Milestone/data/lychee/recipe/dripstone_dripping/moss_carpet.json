@@ -1,0 +1,17 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "water",
+  "target_block": "moss_block",
+  "post": [
+    {
+      "type": "place",
+      "offsetY": 1,
+      "block": "moss_carpet"
+    },
+    {
+      "type": "execute",
+      "command": "function lychee:dripstone_dripping_water_conversion",
+      "hide": true
+    }
+  ]
+}

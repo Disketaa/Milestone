@@ -1,0 +1,16 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "water",
+  "target_block": "cobblestone",
+  "post": [
+    {
+      "type": "place",
+      "block": "mossy_cobblestone"
+    },
+    {
+      "type": "execute",
+      "command": "function lychee:dripstone_dripping_water_conversion",
+      "hide": true
+    }
+  ]
+}

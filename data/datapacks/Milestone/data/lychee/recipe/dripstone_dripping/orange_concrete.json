@@ -1,0 +1,16 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "water",
+  "target_block": "orange_concrete_powder",
+  "post": [
+    {
+      "type": "place",
+      "block": "orange_concrete"
+    },
+    {
+      "type": "execute",
+      "command": "function lychee:dripstone_dripping_water_conversion",
+      "hide": true
+    }
+  ]
+}

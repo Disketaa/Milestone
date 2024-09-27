@@ -1,0 +1,16 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "water",
+  "target_block": "lava",
+  "post": [
+    {
+      "type": "place",
+      "block": "obsidian"
+    },
+    {
+      "type": "execute",
+      "command": "function lychee:dripstone_dripping_lava_conversion",
+      "hide": true
+    }
+  ]
+}

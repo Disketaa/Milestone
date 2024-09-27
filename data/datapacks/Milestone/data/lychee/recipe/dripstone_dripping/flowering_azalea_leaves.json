@@ -1,0 +1,16 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "water",
+  "target_block": "azalea_leaves",
+  "post": [
+    {
+      "type": "place",
+      "block": "flowering_azalea_leaves"
+    },
+    {
+      "type": "execute",
+      "command": "function lychee:dripstone_dripping_water_conversion",
+      "hide": true
+    }
+  ]
+}

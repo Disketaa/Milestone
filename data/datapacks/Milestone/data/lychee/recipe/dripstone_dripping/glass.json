@@ -1,0 +1,16 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "lava",
+  "target_block": "sand",
+  "post": [
+    {
+      "type": "place",
+      "block": "glass"
+    },
+    {
+      "type": "execute",
+      "command": "function lychee:dripstone_dripping_lava_conversion",
+      "hide": true
+    }
+  ]
+}
