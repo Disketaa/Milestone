@@ -11,13 +11,14 @@
 /config/moreculling.toml
 /config/respackopts/
 /config/sodium*.json
+/config/sodium*.properties
 /crash-reports/
 /data/fabricDefaultResourcePacks.dat
 /data/resourcepacks/Default/respackopts.json5
 /data/servers_playtime.dat
 /downloads/
 /emi.json
-/fabric/
+/config/fabric/
 /fancymenu_data/
 /fancymenu_setups/
 /instance.json
