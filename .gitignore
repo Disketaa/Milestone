@@ -1,10 +1,11 @@
 /.cache/
 /.fabric/
 /command_history.txt
+/config/entityculling.json
 /config/iris.properties
 /config/jei/world
 /config/moreculling.toml
-/config/entityculling.json
+/config/respackopts/
 /config/sodium*.json
 /crash-reports/
 /data/fabricDefaultResourcePacks.dat
