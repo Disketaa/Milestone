@@ -1,18 +1,18 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:smoker"
+      "id": "minecraft:glass_bottle"
     },
     "title": {
-      "translate": "advancement.dnt.adventure.find_tavern.title"
+      "translate": "advancement.dnt.adventure.find_swamp_village.title"
     },
     "description": {
-      "translate": "advancement.dnt.adventure.find_tavern"
+      "translate": "advancement.dnt.adventure.find_swamp_village"
     }
   },
   "parent": "minecraft:society/root",
   "criteria": {
-    "locate_tavern": {
+    "minecraft:village_swamp": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -20,9 +20,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:player",
               "location": {
-                "structures": "#nova_structures:taverns"
+                "structures": "nova_structures:village_swamp"
               }
             }
           }
@@ -32,7 +31,7 @@
   },
   "requirements": [
     [
-      "locate_tavern"
+      "minecraft:village_swamp"
     ]
   ]
 }
