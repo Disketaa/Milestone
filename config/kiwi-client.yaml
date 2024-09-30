@@ -4,7 +4,7 @@ contributorCosmetic: ''
 globalTooltip: false
 noMicrosoftTelemetry: true
 qol:
-  suppressExperimentalSettingsWarning: false
+  suppressExperimentalSettingsWarning: true
   titleScreenNoFade: false
   hideDataComponentsTooltip: false
   loadingOverlayNoFade: false
