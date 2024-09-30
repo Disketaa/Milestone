@@ -1,6 +1,7 @@
 /.cache/
 /.fabric/
 /command_history.txt
+/config/enhanced_bes.properties
 /config/entityculling.json
 /config/ferritecore.mixin.properties
 /config/indium-renderer.properties
