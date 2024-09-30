@@ -1,4 +1,8 @@
 {
+	"maxUnderwaterBubbles_onPlace": 12,
+	"underwaterBubbles_onPlace": true,
+	"maxUnderwaterBubbles_onBreak": 12,
+	"underwaterBubbles_onBreak": true,
 	"maxSnowflakes_onPlace": 2,
 	"snowflake_onPlace": false,
 	"maxSnowflakes_onBreak": 3,
@@ -50,6 +54,13 @@
 	"block_onPlace": true,
 	"maxBlock_onBreak": 4,
 	"block_onBreak": true,
+	"campfireSpark_spawnChance": 20,
+	"campfireSpark_enabled": true,
+	"fireSpark_spawnChance": 25,
+	"fireSpark_enabled": true,
+	"minecart_spawnChance": 25,
+	"minecart_enabled": true,
+	"minecart_onlyWithPassenger": false,
 	"tintedWaterSplash_fluids": [
 		"minecraft:water",
 		"minecraft:flowing_water"
@@ -64,5 +75,14 @@
 	"lavaSplash_onPlace": true,
 	"genericSplash_fluids": [],
 	"maxGenericSplash_onPlace": 10,
-	"genericSplash_onPlace": true
+	"genericSplash_onPlace": true,
+	"flintAndSteelSpark_intensity": 1,
+	"maxFlintAndSteelSpark_onUse": 12,
+	"flintAndSteelSpark_onUse": true,
+	"maxAxeStrip_onUse": 12,
+	"axeStrip_onUse": true,
+	"maxHoeTill_onUse": 12,
+	"hoeTill_onUse": true,
+	"maxShovelFlatten_onUse": 12,
+	"shovelFlatten_onUse": true
 }
