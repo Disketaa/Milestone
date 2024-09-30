@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:gold",
+          "pattern": "minecraft:bolt"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.trim_with_any_armor_pattern.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.trim_with_any_armor_pattern.description"
+    }
+  },
+  "parent": "minecraft:adventure/obtain_smithing_template",
+  "criteria": {
+    "obtain_trimmed_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:armors",
+            "predicates": {
+              "minecraft:trim": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_trimmed_armor"
+    ]
+  ]
+}

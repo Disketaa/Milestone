@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "minecraft:player_start"
+    "function": "milestone:player_loaded"
   }
 }

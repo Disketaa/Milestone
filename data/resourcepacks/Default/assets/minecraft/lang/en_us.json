@@ -25,6 +25,11 @@
 
   "advancements.story.root.title": "Story",
   "advancements.adventure.root.description": "It is time to have some fun!",
+  "advancements.adventure.obtain_smithing_template.title": "Shining Template",
+  "advancements.adventure.obtain_smithing_template.description": "Find one out of many smithing templates",
+  "advancements.adventure.obtain_trimmed_tool.title": "Getting an Upgrade²",
+  "advancements.adventure.obtain_trimmed_tool.description": "Obtain a tool with any trim template",
+  "advancements.adventure.trim_with_any_armor_pattern.description": "Obtain an armor piece with any trim template",
   "advancements.challenge.root.title": "Challenges",
   "advancements.challenge.root.description": "What the eyes fear, the hands do",
   "advancements.challenge.chainmail_armor.title": "Chained Together",

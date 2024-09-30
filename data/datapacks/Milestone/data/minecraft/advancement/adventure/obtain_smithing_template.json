@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sentry_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.adventure.obtain_smithing_template.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.obtain_smithing_template.description"
+    }
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "obtain_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#minecraft:trim_templates"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_smithing_template"
+    ]
+  ]
+}

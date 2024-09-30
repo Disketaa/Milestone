@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:gold",
+          "pattern": "minecraft:bolt"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.obtain_trimmed_tool.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.obtain_trimmed_tool.description"
+    }
+  },
+  "parent": "minecraft:adventure/obtain_smithing_template",
+  "criteria": {
+    "obtain_trimmed_tool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:tools",
+            "predicates": {
+              "minecraft:trim": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_trimmed_tool"
+    ]
+  ]
+}

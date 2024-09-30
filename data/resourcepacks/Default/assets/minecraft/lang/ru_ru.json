@@ -8,6 +8,10 @@
 
   "advancements.story.root.title": "История",
   "advancements.adventure.root.description": "Время хорошенько повеселиться",
+  "advancements.adventure.obtain_smithing_template.title": "Блестящий узор",
+  "advancements.adventure.obtain_smithing_template.description": "Отыщите один из множества кузнечных шаблонов",
+  "advancements.adventure.obtain_trimmed_tool.title": "Обновка²",
+  "advancements.adventure.obtain_trimmed_tool.description": "Обзаведитесь инструментом с отделкой",
   "advancements.challenge.root.title": "Вызовы",
   "advancements.challenge.root.description": "Глаза боятся, руки тоже",
   "advancements.challenge.chainmail_armor.title": "Кольчуждо",
