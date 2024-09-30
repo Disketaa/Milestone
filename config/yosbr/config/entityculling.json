@@ -1,0 +1,27 @@
+{
+  "configVersion": 6,
+  "renderNametagsThroughWalls": true,
+  "blockEntityWhitelist": [
+    "create:hose_pulley",
+    "create:rope_pulley",
+    "minecraft:beacon"
+  ],
+  "entityWhitelist": [],
+  "tracingDistance": 128,
+  "debugMode": false,
+  "sleepDelay": 150,
+  "hitboxLimit": 90,
+  "skipMarkerArmorStands": true,
+  "tickCulling": true,
+  "tickCullingWhitelist": [
+    "create:carriage_contraption",
+    "create:contraption",
+    "create:gantry_contraption",
+    "create:stationary_contraption",
+    "minecraft:boat",
+    "minecraft:firework_rocket"
+  ],
+  "disableF3": true,
+  "skipEntityCulling": false,
+  "skipBlockEntityCulling": false
+}
