@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:gold",
+          "pattern": "minecraft:bolt"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.obtain_trimmed_elytra.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.obtain_trimmed_elytra.description"
+    }
+  },
+  "parent": "minecraft:adventure/trim_with_any_armor_pattern",
+  "criteria": {
+    "obtain_trimmed_elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:elytra",
+            "predicates": {
+              "minecraft:trim": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_trimmed_elytra"
+    ]
+  ]
+}
