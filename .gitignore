@@ -2,6 +2,7 @@
 /.fabric/
 /command_history.txt
 /config/entityculling.json
+/config/indium-renderer.properties
 /config/iris.properties
 /config/jei/world
 /config/moreculling.toml
