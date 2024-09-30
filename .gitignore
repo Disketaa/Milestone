@@ -1,5 +1,7 @@
+/.cache/
 /.fabric/
 /command_history.txt
+/config/iris.properties
 /crash-reports/
 /data/fabricDefaultResourcePacks.dat
 /data/resourcepacks/Default/respackopts.json5
