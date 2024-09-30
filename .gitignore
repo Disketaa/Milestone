@@ -2,6 +2,8 @@
 /.fabric/
 /command_history.txt
 /config/iris.properties
+/config/jei/world
+/config/sodium-fingerprint.json
 /crash-reports/
 /data/fabricDefaultResourcePacks.dat
 /data/resourcepacks/Default/respackopts.json5
@@ -19,10 +21,9 @@
 /screenshots/
 /servers.dat
 /servers.dat_old
+/shaderpacks/*.txt
 /usercache.json
 /usernamecache.json
 /xaero/
-/config/jei/world
-/config/sodium-fingerprint.json
 Default.rpo
 realms_persistence.json
