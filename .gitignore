@@ -2,8 +2,8 @@
 /.fabric/
 /command_history.txt
 /config/entityculling.json
-/config/indium-renderer.properties
 /config/ferritecore.mixin.properties
+/config/indium-renderer.properties
 /config/iris.properties
 /config/jei/world
 /config/moreculling.toml
@@ -15,6 +15,7 @@
 /data/servers_playtime.dat
 /downloads/
 /emi.json
+/fabric/
 /fancymenu_data/
 /fancymenu_setups/
 /instance.json
