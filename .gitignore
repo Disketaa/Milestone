@@ -4,6 +4,7 @@
 /config/iris.properties
 /config/jei/world
 /config/moreculling.toml
+/config/entityculling.json
 /config/sodium*.json
 /crash-reports/
 /data/fabricDefaultResourcePacks.dat
