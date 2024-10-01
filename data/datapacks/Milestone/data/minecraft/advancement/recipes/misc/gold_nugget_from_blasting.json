@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_blastables": {
+    "has_gold_blastables": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:iron_blastables"
+            "items": "#minecraft:gold_blastables"
           }
         ]
       }
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:iron_nugget_from_blasting"
+        "recipe": "minecraft:gold_nugget_from_blasting"
       }
     }
   },
   "requirements": [
     [
-      "has_iron_blastables",
+      "has_gold_blastables",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:iron_nugget_from_blasting"
+      "minecraft:gold_nugget_from_blasting"
     ]
   }
 }

@@ -4,10 +4,10 @@
   "experience": 0.1,
   "ingredient": [
     {
-      "tag": "minecraft:iron_blastables"
+      "tag": "minecraft:gold_blastables"
     }
   ],
   "result": {
-    "id": "minecraft:iron_nugget"
+    "id": "minecraft:gold_nugget"
   }
 }

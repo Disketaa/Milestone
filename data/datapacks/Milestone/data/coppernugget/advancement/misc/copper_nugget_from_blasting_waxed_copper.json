@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_blastables": {
+    "has_waxed_copper_blastables": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:iron_blastables"
+            "items": "#minecraft:waxed_copper_blastables"
           }
         ]
       }
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:iron_nugget_from_blasting"
+        "recipe": "coppernugget:copper_nugget_from_blasting_waxed_copper"
       }
     }
   },
   "requirements": [
     [
-      "has_iron_blastables",
+      "has_waxed_copper_blastables",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:iron_nugget_from_blasting"
+      "coppernugget:copper_nugget_from_blasting_waxed_copper"
     ]
   }
 }

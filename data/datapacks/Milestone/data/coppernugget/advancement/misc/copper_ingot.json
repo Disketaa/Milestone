@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_blastables": {
+    "has_copper_nugget": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:iron_blastables"
+            "items": "coppernugget:copper_nugget"
           }
         ]
       }
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:iron_nugget_from_blasting"
+        "recipe": "coppernugget:copper_ingot_from_nuggets"
       }
     }
   },
   "requirements": [
     [
-      "has_iron_blastables",
+      "has_copper_nugget",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:iron_nugget_from_blasting"
+      "coppernugget:copper_ingot_from_nuggets"
     ]
   }
 }
