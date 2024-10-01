@@ -1,6 +1,13 @@
 {
   "emi.search": "Search...",
   "tooltip.emi.chance.produce": "§7Chance: %s%%",
+  "tag.item.minecraft.iron_blastables": "Blastable Iron",
   "tag.item.minecraft.iron_smeltables": "Smeltable Iron",
+  "tag.item.minecraft.copper_blastables": "Blastable Copper",
+  "tag.item.minecraft.copper_smeltables": "Smeltable Copper",
+  "tag.item.minecraft.waxed_copper_blastables": "Waxed Blastable Copper",
+  "tag.item.minecraft.waxed_copper_smeltables": "Waxed Smeltable Copper",
+  "tag.item.minecraft.gold_blastables": "Blastable Gold",
+  "tag.item.minecraft.gold_smeltables": "Smeltable Gold",
   "tag.item.c.stone_slabs": "Stone Slabs"
 }

@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:iron_block",
+    "minecraft:iron_door",
+    "minecraft:iron_trapdoor",
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:smithing_table",
+    "minecraft:cauldron",
+    "#minecraft:anvil",
+    "minecraft:hopper",
+    "minecraft:lantern",
+    "minecraft:soul_lantern",
+    "minecraft:tripwire_hook",
+    "minecraft:rail",
+    "minecraft:activator_rail",
+    "minecraft:chest_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:minecart",
+    "minecraft:chain",
+    "minecraft:iron_bars",
+    "#minecraft:iron_smeltables"
+  ]
+}

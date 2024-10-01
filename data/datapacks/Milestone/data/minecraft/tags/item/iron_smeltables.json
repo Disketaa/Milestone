@@ -13,8 +13,12 @@
     "minecraft:iron_axe",
     "minecraft:iron_hoe",
     "minecraft:iron_sword",
-    "minecraft:shears",
+    "minecraft:iron_ingot",
+    "minecraft:bucket",
+    "minecraft:compass",
+    "minecraft:iron_horse_armor",
     "minecraft:shield",
-    "minecraft:iron_horse_armor"
+    "minecraft:crossbow",
+    "minecraft:shears"
   ]
 }
