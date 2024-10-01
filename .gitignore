@@ -14,7 +14,7 @@
 /config/respackopts/
 /config/sodium*.json
 /config/sodium*.properties
-/config/xaerominimap
+/config/xaero*
 /crash-reports/
 /data/fabricDefaultResourcePacks.dat
 /data/resourcepacks/Default/respackopts.json5
