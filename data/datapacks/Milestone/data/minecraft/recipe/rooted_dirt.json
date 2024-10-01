@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "minecraft:dirt"
+      "item": "minecraft:coarse_dirt"
     },
     "@": {
       "item": "minecraft:hanging_roots"

@@ -17,15 +17,27 @@
     "entered_overworld": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": {
-          "location": {
-            "dimension": "minecraft:overworld"
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
           }
-        }
+        ]
       }
     }
   },
+  "requirements": [
+    [
+      "entered_overworld"
+    ]
+  ],
   "rewards": {
-    "function": "milestone:player_loaded"
+    "function": "milestone:load_player"
   }
 }
