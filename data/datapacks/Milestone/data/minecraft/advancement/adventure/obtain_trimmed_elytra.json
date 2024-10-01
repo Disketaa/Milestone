@@ -4,7 +4,7 @@
       "id": "minecraft:elytra",
       "components": {
         "minecraft:trim": {
-          "material": "minecraft:gold",
+          "material": "minecraft:diamond",
           "pattern": "minecraft:bolt"
         }
       }
