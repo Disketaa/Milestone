@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "advancements.husbandry.smelt_enchanted_golden_apple.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.smelt_enchanted_golden_apple.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "smelt_enchanted_golden_apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_nugget_from_smelting",
+        "ingredients": [
+          {
+            "items": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      }
+    },
+    "blast_enchanted_golden_apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_nugget_from_blasting",
+        "ingredients": [
+          {
+            "items": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "smelt_enchanted_golden_apple",
+      "blast_enchanted_golden_apple"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}
