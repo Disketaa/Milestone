@@ -23,7 +23,7 @@
   },
   "requirements": [
     [
-      "has_lime_cyan",
+      "has_lime_cyan_dyes",
       "has_the_recipe"
     ]
   ],
