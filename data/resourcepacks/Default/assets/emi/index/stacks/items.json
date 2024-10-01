@@ -2,6 +2,7 @@
   "removed": [
     "fluid:minecraft:lava",
     "fluid:minecraft:water",
+    "item:coppernugget:copper_nugget",
     "item:minecraft:bedrock",
     "item:minecraft:end_portal_frame",
     "item:minecraft:vault",
@@ -101,6 +102,10 @@
     {
       "stack": "item:minecraft:music_disc_5",
       "after": "item:minecraft:music_disc_pigstep"
+    },
+    {
+      "stack": "item:coppernugget:copper_nugget",
+      "after": "item:minecraft:iron_nugget"
     }
   ]
 }
