@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/zombie_villager/zombie_villager.png",
+    "layersAllowed": true
+    }
+  }
