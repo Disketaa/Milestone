@@ -1,5 +1,6 @@
 {
   "emi.search": "Search...",
   "tooltip.emi.chance.produce": "§7Chance: %s%%",
+  "tag.item.minecraft.iron_smeltables": "Smeltable Iron",
   "tag.item.c.stone_slabs": "Stone Slabs"
 }

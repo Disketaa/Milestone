@@ -1,5 +1,6 @@
 {
   "emi.search": "Поиск...",
   "tooltip.emi.chance.produce": "§7Шанс: %s%%",
+  "tag.item.minecraft.iron_smeltables": "Переплавляемое железо",
   "tag.item.c.stone_slabs": "Каменные плиты"
 }
