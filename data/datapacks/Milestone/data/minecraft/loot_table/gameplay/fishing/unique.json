@@ -11,6 +11,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:groups/fishing/corals",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "minecraft:groups/fishing/cave_materials",
           "weight": 10
         },
