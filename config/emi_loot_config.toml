@@ -29,7 +29,7 @@ archaeology = false
 block = true
 chest = true
 mob = true
-gameplay = true
+gameplay = false
 archaeology = true
 
 [logUnstranslatedTables]
