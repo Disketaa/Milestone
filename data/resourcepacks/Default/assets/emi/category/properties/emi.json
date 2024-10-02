@@ -29,43 +29,43 @@
   "minecraft:brewing": {
     "order": 9
   },
-  "emi:composting": {
-    "order": 10
+  "emi_loot:mob_drops": {
+    "order": 10,
+    "icon": {
+      "stack": "item:minecraft:spawner"
+    }
+  },
+  "emi_loot:gameplay_drops": {
+    "order": 11,
+    "icon": {
+      "stack": "item:minecraft:cartography_table"
+    }
   },
   "emi_loot:chest_loot": {
-    "order": 11,
+    "order": 12,
     "icon": {
       "stack": "item:minecraft:barrel"
     }
   },
   "emi_loot:archaeology_drops": {
-    "order": 12,
+    "order": 13,
     "icon": {
       "stack": "item:minecraft:decorated_pot"
     }
   },
-  "emi_loot:gameplay_drops": {
-    "order": 13,
-    "icon": {
-      "stack": "item:minecraft:cartography_table"
-    }
-  },
-  "emi_loot:mob_drops": {
-    "order": 14,
-    "icon": {
-      "stack": "item:minecraft:spawner"
-    }
-  },
   "lychee:dripstone_dripping/minecraft/default": {
-    "order": 94,
+    "order": 93,
     "icon": {
       "stack": "item:minecraft:dripstone_block"
     },
     "sort": "input_then_output"
   },
   "emi:world_interaction": {
-    "order": 95,
+    "order": 94,
     "sort": "input_then_output"
+  },
+  "emi:composting": {
+    "order": 95
   },
   "emi_loot:block_drops": {
     "order": 96,
