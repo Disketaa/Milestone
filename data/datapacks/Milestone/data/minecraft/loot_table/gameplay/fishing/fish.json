@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 75,
+          "quality": -1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 30,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:frozen_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:ice_spikes",
+                    "minecraft:jagged_peaks",
+                    "minecraft:river",
+                    "minecraft:snowy_beach",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_taiga",
+                    "minecraft:taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:windswept_hills"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 25,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:frozen_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:ice_spikes",
+                    "minecraft:jagged_peaks",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:river",
+                    "minecraft:snowy_beach",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_taiga",
+                    "minecraft:swamp",
+                    "minecraft:taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:windswept_hills"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:beach",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

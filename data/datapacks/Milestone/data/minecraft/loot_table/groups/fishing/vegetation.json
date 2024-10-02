@@ -1,0 +1,339 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine",
+          "weight": 30,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:bamboo_jungle",
+                    "minecraft:jungle",
+                    "minecraft:sparse_jungle"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_lichen",
+          "weight": 30,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "position": {
+                    "y": {
+                      "max": 0
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "weight": 25,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "weight": 20,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:bamboo_jungle",
+                    "minecraft:jungle",
+                    "minecraft:sparse_jungle"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane",
+          "weight": 20,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:swamp",
+                    "minecraft:desert",
+                    "minecraft:frozen_river",
+                    "minecraft:river"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_sapling",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:savanna",
+                    "minecraft:savanna_plateau",
+                    "minecraft:windswept_savanna"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_sapling",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:dark_forest",
+                    "minecraft:forest",
+                    "minecraft:birch_forest",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:meadow"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_sapling",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": "minecraft:cherry_grove"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_sapling",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": "minecraft:dark_forest"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_sapling",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:bamboo_jungle",
+                    "minecraft:jungle",
+                    "minecraft:sparse_jungle"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_propagule",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": "minecraft:mangrove_swamp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sapling",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:bamboo_jungle",
+                    "minecraft:dark_forest",
+                    "minecraft:forest",
+                    "minecraft:jungle",
+                    "minecraft:sparse_jungle",
+                    "minecraft:plains",
+                    "minecraft:river",
+                    "minecraft:savanna",
+                    "minecraft:swamp",
+                    "minecraft:wooded_badlands",
+                    "minecraft:windswept_forest",
+                    "minecraft:meadow"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_sapling",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:snowy_taiga",
+                    "minecraft:snowy_plains",
+                    "minecraft:taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:grove"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sea_pickle",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook"
+                },
+                "location": {
+                  "biomes": [
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
