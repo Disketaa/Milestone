@@ -1,0 +1,10 @@
+{
+"egg": {
+    "shell": {
+      "minecraft:tropical_fish_spawn_egg": "8fa2a8"
+    },
+    "spots": {
+      "minecraft:tropical_fish_spawn_egg": "e0ffe4"
+    }
+  }
+}

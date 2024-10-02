@@ -3,6 +3,13 @@
   "dataPack.milestone.description": "Стандартный набор данных Milestone",
   "resourcePack.classic.description": "Устаревший внешний вид Minecraft",
   "menu.options": "Настройки",
+  "entity.minecraft.tropical_fish": "Рыбёшка",
+  "item.minecraft.tropical_fish": "Рыбёшка",
+  "item.minecraft.tropical_fish_bucket": "Рыбёшка в ведре",
+  "item.minecraft.tropical_fish_spawn_egg": "Яйцо призыва рыбёшки",
+  "subtitles.entity.tropical_fish.death": "Рыбёшка умирает",
+  "subtitles.entity.tropical_fish.flop": "Рыбёшка плещется",
+  "subtitles.entity.tropical_fish.hurt": "Рыбёшка ранена",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Поместите броню или инструмент",
   "item.minecraft.smithing_template.armor_trim.applies_to": "Доспехам и инструментам",
 

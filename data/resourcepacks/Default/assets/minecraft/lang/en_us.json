@@ -3,6 +3,13 @@
   "dataPack.milestone.description": "The default data for Milestone",
   "resourcePack.classic.description": "The classic look of Minecraft",
   "menu.options": "Options",
+  "entity.minecraft.tropical_fish": "Minnow",
+  "item.minecraft.tropical_fish": "Minnow",
+  "item.minecraft.tropical_fish_bucket": "Bucket of Minnow",
+  "item.minecraft.tropical_fish_spawn_egg": "Minnow Spawn Egg",
+  "subtitles.entity.tropical_fish.death": "Minnow dies",
+  "subtitles.entity.tropical_fish.flop": "Minnow flops",
+  "subtitles.entity.tropical_fish.hurt": "Minnow hurts",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Add a piece of armor or a tool",
   "item.minecraft.smithing_template.armor_trim.applies_to": "Armor, Tools",
 
