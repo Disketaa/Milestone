@@ -323,11 +323,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:deep_lukewarm_ocean",
-                    "minecraft:lukewarm_ocean",
-                    "minecraft:warm_ocean"
-                  ]
+                  "biomes": "minecraft:warm_ocean"
                 }
               }
             }
