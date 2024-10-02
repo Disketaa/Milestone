@@ -58,7 +58,17 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_ball",
-          "weight": 20
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -104,15 +114,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow",
+          "name": "minecraft:trident",
           "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 0.25
+                "min": 0.75,
+                "max": 0.95
               },
               "add": false
             },
@@ -147,8 +157,8 @@
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 0.25
+                "min": 0.25,
+                "max": 0.9
               },
               "add": false
             },
