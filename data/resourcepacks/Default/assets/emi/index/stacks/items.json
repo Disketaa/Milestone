@@ -2,6 +2,8 @@
   "removed": [
     "fluid:minecraft:lava",
     "fluid:minecraft:water",
+    "item:minecraft:tropical_fish",
+    "item:minecraft:tropical_fish_bucket",
     "item:coppernugget:copper_nugget",
     "item:minecraft:bedrock",
     "item:minecraft:end_portal_frame",
@@ -106,6 +108,14 @@
     {
       "stack": "item:coppernugget:copper_nugget",
       "after": "item:minecraft:iron_nugget"
+    },
+    {
+      "stack": "item:minecraft:tropical_fish",
+      "after": "item:minecraft:cooked_rabbit"
+    },
+    {
+      "stack": "item:minecraft:tropical_fish_bucket",
+      "after": "item:minecraft:water_bucket"
     }
   ]
 }
