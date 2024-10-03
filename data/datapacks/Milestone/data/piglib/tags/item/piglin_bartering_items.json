@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:gold_smeltables",
+    "minecraft:raw_gold"
+  ]
+}

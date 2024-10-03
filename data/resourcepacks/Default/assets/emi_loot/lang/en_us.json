@@ -1,3 +1,6 @@
 {
-  "emi_loot.gameplay.minecraft:gameplay/fishing/unique": "Fishing Unique Drops"
+  "emi_loot.gameplay.minecraft:gameplay/fishing/unique": "Fishing Unique Drops",
+  "emi_loot.gameplay.minecraft:gameplay/piglin_bartering": "Gold Nugget Bartering",
+  "emi_loot.gameplay.minecraft:gameplay/piglin_bartering_rare": "Gold Bartering",
+  "emi_loot.gameplay.minecraft:gameplay/piglin_bartering_treasure": "Treasure Bartering"
 }
