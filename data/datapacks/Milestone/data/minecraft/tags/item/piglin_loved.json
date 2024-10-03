@@ -1,6 +1,12 @@
 {
+  "replace": true,
   "values": [
-    "#minecraft:gold_smeltables",
-    "minecraft:raw_gold"
+    "#minecraft:gold_blastables",
+    "#minecraft:gold_ores",
+    "minecraft:gilded_blackstone",
+    "minecraft:gold_block",
+    "minecraft:gold_nugget",
+    "minecraft:raw_gold",
+    "minecraft:raw_gold_block"
   ]
 }
