@@ -7,7 +7,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 40,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -17,18 +16,22 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_pigstep",
-          "weight": 40
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:exclusive_set/crossbow",
+              "only_compatible": true
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:piglin_banner_pattern",
-          "weight": 40
+          "name": "minecraft:music_disc_pigstep"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_boots",
-          "weight": 20,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -38,8 +41,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
-          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -53,25 +59,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_upgrade_smithing_template",
-          "weight": 5
+          "name": "minecraft:netherite_upgrade_smithing_template"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_ingot",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:crossbow",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:exclusive_set/crossbow",
-              "only_compatible": true
-            }
-          ]
+          "name": "minecraft:piglin_banner_pattern"
         }
       ]
     }
