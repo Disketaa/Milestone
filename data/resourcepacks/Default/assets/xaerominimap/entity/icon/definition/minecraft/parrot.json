@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "minecraft:textures/entity/parrot/parrot_blue.png": "sprite:minecraft/parrot/parrot_blue.png",
+    "minecraft:textures/entity/parrot/parrot_green.png": "sprite:minecraft/parrot/parrot_green.png",
+    "minecraft:textures/entity/parrot/parrot_grey.png": "sprite:minecraft/parrot/parrot_grey.png",
+    "minecraft:textures/entity/parrot/parrot_yellow_blue.png": "sprite:minecraft/parrot/parrot_yellow_blue.png",
+    "default": "sprite:minecraft/parrot/parrot_red_blue.png",
+    "layersAllowed": true
+  }
+}

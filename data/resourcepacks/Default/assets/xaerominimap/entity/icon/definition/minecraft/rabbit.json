@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "minecraft:textures/entity/rabbit/black.png": "sprite:minecraft/rabbit/black.png",
+    "minecraft:textures/entity/rabbit/caerbannog.png": "sprite:minecraft/rabbit/caerbannog.png",
+    "minecraft:textures/entity/rabbit/gold.png": "sprite:minecraft/rabbit/gold.png",
+    "minecraft:textures/entity/rabbit/salt.png": "sprite:minecraft/rabbit/salt.png",
+    "minecraft:textures/entity/rabbit/toast.png": "sprite:minecraft/rabbit/toast.png",
+    "minecraft:textures/entity/rabbit/white.png": "sprite:minecraft/rabbit/white.png",
+    "minecraft:textures/entity/rabbit/white_splotched.png": "sprite:minecraft/rabbit/white_splotched.png",
+    "default": "sprite:minecraft/rabbit/brown.png",
+    "layersAllowed": true
+  }
+}

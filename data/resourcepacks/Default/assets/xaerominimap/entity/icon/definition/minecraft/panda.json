@@ -1,6 +1,7 @@
 {
   "variants": {
     "minecraft:textures/entity/panda/brown_panda.png": "sprite:minecraft/panda/brown_panda.png",
+    "minecraft:textures/entity/panda/weak_panda.png": "sprite:minecraft/panda/weak_panda.png",
     "default": "sprite:minecraft/panda/panda.png",
     "layersAllowed": true
   }

@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "default" : "sprite:minecraft/snow_golem.png",
+    "layersAllowed": true
+    }
+  }
