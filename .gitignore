@@ -1,6 +1,7 @@
 /.cache/
 /.fabric/
 /command_history.txt
+/config/chatcalc.json
 /config/chunksfadein.properties
 /config/enhanced_bes.properties
 /config/entityculling.json

@@ -1,0 +1,7 @@
+{
+    "decimal_format": "#,##0.##",
+    "radians": "false",
+    "copy_type": "chat_history",
+    "display_above": "true",
+    "functions": []
+}
