@@ -56,6 +56,8 @@
   "advancements.society.barter_piglin_with_rares.description": "Обменяйтесь с пиглином чем-то ценным",
   "advancements.society.barter_piglin_with_treasures.title": "Золотое сердце",
   "advancements.society.barter_piglin_with_treasures.description": "Впечатлите пиглина, обменявшись сокровищем",
+  "advancements.society.pick_up_villager_gift.title": "В лучах славы",
+  "advancements.society.pick_up_villager_gift.description": "Примите подарок от крестьянина",
 
 // Resource Pack Options
   "rpo.Default": "Настройки",

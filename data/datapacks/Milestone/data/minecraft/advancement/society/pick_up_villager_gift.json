@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_pie"
+    },
+    "title": {
+      "translate": "advancements.society.pick_up_villager_gift.title"
+    },
+    "description": {
+      "translate": "advancements.society.pick_up_villager_gift.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/hero_of_the_village",
+  "criteria": {
+    "pick_up_villager_gift": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pick_up_villager_gift"
+    ]
+  ]
+}

@@ -74,6 +74,8 @@
   "advancements.society.barter_piglin_with_rares.description": "Barter piglin with something rare",
   "advancements.society.barter_piglin_with_treasures.title": "Golden Heart Deal",
   "advancements.society.barter_piglin_with_treasures.description": "Impress piglin with a treasure",
+  "advancements.society.pick_up_villager_gift.title": "Bask In the Glory",
+  "advancements.society.pick_up_villager_gift.description": "Take a gift from a villager",
 
 // Resource Pack Options
   "rpo.Default": "Settings",
