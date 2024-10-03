@@ -37,11 +37,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:bamboo_jungle",
-                    "minecraft:jungle",
-                    "minecraft:sparse_jungle"
-                  ]
+                  "biomes": "#minecraft:is_jungle"
                 }
               }
             }
@@ -118,10 +114,7 @@
                   "in_open_water": true
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:mangrove_swamp",
-                    "minecraft:swamp"
-                  ]
+                  "biomes": "#minecraft:is_swamp"
                 }
               }
             }
@@ -141,11 +134,7 @@
                   "in_open_water": true
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:deep_lukewarm_ocean",
-                    "minecraft:lukewarm_ocean",
-                    "minecraft:warm_ocean"
-                  ]
+                  "biomes": "#minecraft:is_warm_ocean"
                 }
               }
             }
@@ -165,13 +154,7 @@
                   "in_open_water": true
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:beach",
-                    "minecraft:deep_lukewarm_ocean",
-                    "minecraft:lukewarm_ocean",
-                    "minecraft:ocean",
-                    "minecraft:warm_ocean"
-                  ]
+                  "biomes": "#minecraft:fishing_turtle_egg"
                 }
               }
             }

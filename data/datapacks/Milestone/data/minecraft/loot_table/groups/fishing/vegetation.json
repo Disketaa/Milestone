@@ -17,11 +17,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:bamboo_jungle",
-                    "minecraft:jungle",
-                    "minecraft:sparse_jungle"
-                  ]
+                  "biomes": "#minecraft:is_jungle"
                 }
               }
             }
@@ -63,14 +59,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:cold_ocean",
-                    "minecraft:deep_cold_ocean",
-                    "minecraft:deep_lukewarm_ocean",
-                    "minecraft:deep_ocean",
-                    "minecraft:lukewarm_ocean",
-                    "minecraft:ocean"
-                  ]
+                  "biomes": "#minecraft:is_unfrozen_ocean"
                 }
               }
             }
@@ -89,11 +78,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:bamboo_jungle",
-                    "minecraft:jungle",
-                    "minecraft:sparse_jungle"
-                  ]
+                  "biomes": "#minecraft:is_jungle"
                 }
               }
             }
@@ -112,12 +97,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:swamp",
-                    "minecraft:desert",
-                    "minecraft:frozen_river",
-                    "minecraft:river"
-                  ]
+                  "biomes": "#minecraft:fishing_sugar_cane"
                 }
               }
             }
@@ -136,11 +116,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:savanna",
-                    "minecraft:savanna_plateau",
-                    "minecraft:windswept_savanna"
-                  ]
+                  "biomes": "#minecraft:is_savanna"
                 }
               }
             }
@@ -159,13 +135,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:dark_forest",
-                    "minecraft:forest",
-                    "minecraft:birch_forest",
-                    "minecraft:old_growth_birch_forest",
-                    "minecraft:meadow"
-                  ]
+                  "biomes": "#minecraft:generates_birch"
                 }
               }
             }
@@ -222,11 +192,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:bamboo_jungle",
-                    "minecraft:jungle",
-                    "minecraft:sparse_jungle"
-                  ]
+                  "biomes": "#minecraft:is_jungle"
                 }
               }
             }
@@ -264,20 +230,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:bamboo_jungle",
-                    "minecraft:dark_forest",
-                    "minecraft:forest",
-                    "minecraft:jungle",
-                    "minecraft:sparse_jungle",
-                    "minecraft:plains",
-                    "minecraft:river",
-                    "minecraft:savanna",
-                    "minecraft:swamp",
-                    "minecraft:wooded_badlands",
-                    "minecraft:windswept_forest",
-                    "minecraft:meadow"
-                  ]
+                  "biomes": "#minecraft:generates_oak"
                 }
               }
             }
@@ -296,15 +249,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:old_growth_spruce_taiga",
-                    "minecraft:old_growth_pine_taiga",
-                    "minecraft:snowy_taiga",
-                    "minecraft:snowy_plains",
-                    "minecraft:taiga",
-                    "minecraft:windswept_forest",
-                    "minecraft:grove"
-                  ]
+                  "biomes": "#minecraft:generates_spruce"
                 }
               }
             }

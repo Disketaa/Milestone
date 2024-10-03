@@ -23,26 +23,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:cold_ocean",
-                    "minecraft:deep_cold_ocean",
-                    "minecraft:deep_frozen_ocean",
-                    "minecraft:deep_ocean",
-                    "minecraft:frozen_ocean",
-                    "minecraft:frozen_peaks",
-                    "minecraft:frozen_river",
-                    "minecraft:ice_spikes",
-                    "minecraft:jagged_peaks",
-                    "minecraft:river",
-                    "minecraft:snowy_beach",
-                    "minecraft:snowy_plains",
-                    "minecraft:snowy_slopes",
-                    "minecraft:snowy_taiga",
-                    "minecraft:taiga",
-                    "minecraft:windswept_forest",
-                    "minecraft:windswept_gravelly_hills",
-                    "minecraft:windswept_hills"
-                  ]
+                  "biomes": "#minecraft:fishing_cod"
                 }
               }
             }
@@ -61,28 +42,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:cold_ocean",
-                    "minecraft:deep_cold_ocean",
-                    "minecraft:deep_frozen_ocean",
-                    "minecraft:deep_ocean",
-                    "minecraft:frozen_ocean",
-                    "minecraft:frozen_peaks",
-                    "minecraft:frozen_river",
-                    "minecraft:ice_spikes",
-                    "minecraft:jagged_peaks",
-                    "minecraft:mangrove_swamp",
-                    "minecraft:river",
-                    "minecraft:snowy_beach",
-                    "minecraft:snowy_plains",
-                    "minecraft:snowy_slopes",
-                    "minecraft:snowy_taiga",
-                    "minecraft:swamp",
-                    "minecraft:taiga",
-                    "minecraft:windswept_forest",
-                    "minecraft:windswept_gravelly_hills",
-                    "minecraft:windswept_hills"
-                  ]
+                  "biomes": "#minecraft:fishing_salmon"
                 }
               }
             }
@@ -101,16 +61,7 @@
                   "type": "minecraft:fishing_hook"
                 },
                 "location": {
-                  "biomes": [
-                    "minecraft:beach",
-                    "minecraft:cold_ocean",
-                    "minecraft:deep_cold_ocean",
-                    "minecraft:deep_ocean",
-                    "minecraft:frozen_ocean",
-                    "minecraft:lukewarm_ocean",
-                    "minecraft:ocean",
-                    "minecraft:warm_ocean"
-                  ]
+                  "biomes": "#minecraft:fishing_pufferfish"
                 }
               }
             }
