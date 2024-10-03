@@ -1,18 +1,18 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:gold_ingot"
+      "id": "minecraft:gold_nugget"
     },
     "title": {
-      "translate": "advancements.nether.distract_piglin.title"
+      "translate": "advancements.society.barter_piglin_with_commons.title"
     },
     "description": {
-      "translate": "advancements.society.barter_piglin_with_rares.description"
+      "translate": "advancements.society.barter_piglin_with_commons.description"
     }
   },
-  "parent": "minecraft:society/barter_piglin_with_commons",
+  "parent": "minecraft:society/root",
   "criteria": {
-    "barter_piglin_with_rares": {
+    "barter_piglin_with_commons": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "player": [],
@@ -29,16 +29,16 @@
           }
         ],
         "item": {
-          "items": "#minecraft:piglin_rares"
+          "items": "#minecraft:piglin_commons"
         }
       }
     },
-    "barter_piglin_with_rares_directly": {
+    "barter_piglin_with_commons_directly": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "player": [],
         "item": {
-          "items": "#minecraft:piglin_rares"
+          "items": "#minecraft:piglin_commons"
         },
         "entity": [
           {
@@ -57,8 +57,8 @@
   },
   "requirements": [
     [
-      "barter_piglin_with_rares",
-      "barter_piglin_with_rares_directly"
+      "barter_piglin_with_commons",
+      "barter_piglin_with_commons_directly"
     ]
   ]
 }

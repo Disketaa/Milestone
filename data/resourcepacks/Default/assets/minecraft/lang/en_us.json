@@ -69,6 +69,11 @@
   "advancements.husbandry.smelt_enchanted_golden_apple.description": "Smelt an enhanted golden apple",
   "advancements.society.root.title": "Society",
   "advancements.society.root.description": "Engage in trades and face the challenges",
+  "advancements.society.barter_piglin_with_commons.title": "Not Impressed",
+  "advancements.society.barter_piglin_with_commons.description": "Barter piglin with something common",
+  "advancements.society.barter_piglin_with_rares.description": "Barter piglin with something rare",
+  "advancements.society.barter_piglin_with_treasures.title": "Golden Heart Deal",
+  "advancements.society.barter_piglin_with_treasures.description": "Impress piglin with a treasure",
 
 // Resource Pack Options
   "rpo.Default": "Settings",

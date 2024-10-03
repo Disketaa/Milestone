@@ -1,18 +1,19 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:gold_ingot"
+      "id": "minecraft:music_disc_relic"
     },
     "title": {
-      "translate": "advancements.nether.distract_piglin.title"
+      "translate": "advancements.society.barter_piglin_with_treasures.title"
     },
     "description": {
-      "translate": "advancements.society.barter_piglin_with_rares.description"
-    }
+      "translate": "advancements.society.barter_piglin_with_treasures.description"
+    },
+    "frame": "challenge"
   },
-  "parent": "minecraft:society/barter_piglin_with_commons",
+  "parent": "minecraft:nether/distract_piglin",
   "criteria": {
-    "barter_piglin_with_rares": {
+    "barter_piglin_with_treasures": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "player": [],
@@ -29,16 +30,16 @@
           }
         ],
         "item": {
-          "items": "#minecraft:piglin_rares"
+          "items": "#minecraft:piglin_treasures"
         }
       }
     },
-    "barter_piglin_with_rares_directly": {
+    "barter_piglin_with_treasures_directly": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "player": [],
         "item": {
-          "items": "#minecraft:piglin_rares"
+          "items": "#minecraft:piglin_treasures"
         },
         "entity": [
           {
@@ -57,8 +58,8 @@
   },
   "requirements": [
     [
-      "barter_piglin_with_rares",
-      "barter_piglin_with_rares_directly"
+      "barter_piglin_with_treasures",
+      "barter_piglin_with_treasures_directly"
     ]
   ]
 }

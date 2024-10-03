@@ -14,14 +14,25 @@
     "announce_to_chat": false
   },
   "criteria": {
-    "villager_interaction": {
-      "trigger": "minecraft:player_interacted_with_entity",
+    "piglin_interaction": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": [
-            "minecraft:villager",
-            "minecraft:wandering_trader"
-          ]
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "#minecraft:piglin_loved"
+        }
+      }
+    },
+    "piglin_interaction_directly": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:piglin_loved"
+        },
+        "entity": {
+          "type": "minecraft:piglin"
         }
       }
     },
@@ -38,12 +49,25 @@
           ]
         }
       }
+    },
+    "villager_interaction": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:villager",
+            "minecraft:wandering_trader"
+          ]
+        }
+      }
     }
   },
   "requirements": [
     [
-      "villager_interaction",
-      "pillager_hurt"
+      "piglin_interaction",
+      "piglin_interaction_directly",
+      "pillager_hurt",
+      "villager_interaction"
     ]
   ]
 }

@@ -51,6 +51,11 @@
   "advancements.husbandry.smelt_enchanted_golden_apple.description": "Переплавьте зачарованное золотое яблоко",
   "advancements.society.root.title": "Община",
   "advancements.society.root.description": "Торговля и вызовы",
+  "advancements.society.barter_piglin_with_commons.title": "На зубок",
+  "advancements.society.barter_piglin_with_commons.description": "Обменяйтесь с пиглином чем-то обычным",
+  "advancements.society.barter_piglin_with_rares.description": "Обменяйтесь с пиглином чем-то ценным",
+  "advancements.society.barter_piglin_with_treasures.title": "Золотое сердце",
+  "advancements.society.barter_piglin_with_treasures.description": "Впечатлите пиглина, обменявшись сокровищем",
 
 // Resource Pack Options
   "rpo.Default": "Настройки",
