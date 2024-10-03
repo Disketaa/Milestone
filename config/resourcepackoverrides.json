@@ -3,6 +3,7 @@
   "pack_overrides": {
     "1": [
       "a_good_place:default_animations",
+      "elytratrims:legacy",
       "file/A Good Place Sample Pack.zip",
       "flat_shulker_icons",
       "high_contrast",
