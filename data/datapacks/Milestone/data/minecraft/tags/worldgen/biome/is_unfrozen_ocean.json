@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:is_warm_ocean",
+    "minecraft:cold_ocean",
+    "minecraft:deep_cold_ocean",
+    "minecraft:deep_ocean",
+    "minecraft:ocean"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#minecraft:is_jungle",
+    "#minecraft:is_river",
+    "minecraft:dark_forest",
+    "minecraft:forest",
+    "minecraft:meadow",
+    "minecraft:plains",
+    "minecraft:savanna",
+    "minecraft:swamp",
+    "minecraft:windswept_forest",
+    "minecraft:wooded_badlands"
+  ]
+}
