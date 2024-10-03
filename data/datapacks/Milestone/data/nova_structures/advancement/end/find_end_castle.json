@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "advancement.dnt.end.find_end_castle.title"
+    },
+    "description": {
+      "translate": "advancement.dnt.end.find_end_castle"
+    }
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "end_castle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:end_castle"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "end_castle"
+    ]
+  ]
+}

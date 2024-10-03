@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_rod"
+    },
+    "title": {
+      "translate": "advancement.dnt.end.find_end_lighthouse.title"
+    },
+    "description": {
+      "translate": "advancement.dnt.end.find_end_lighthouse"
+    }
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "end_lighthouse": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:end_lighthouse"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "end_lighthouse"
+    ]
+  ]
+}
