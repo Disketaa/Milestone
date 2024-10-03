@@ -1,0 +1,7 @@
+{
+  "exclusions": [
+    "custom_piglin_bartering:minecraft/gold_block",
+    "custom_piglin_bartering:minecraft/gold_ingot",
+    "custom_piglin_bartering:minecraft/gold_nugget"
+  ]
+}
