@@ -2,7 +2,6 @@
   "values": [
     "minecraft:gold_block",
     "minecraft:light_weighted_pressure_plate",
-    "minecraft:powered_rail",
     "#minecraft:gold_smeltables"
   ]
 }
