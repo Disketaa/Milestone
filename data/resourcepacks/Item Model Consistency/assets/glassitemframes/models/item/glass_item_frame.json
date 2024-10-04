@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/template_item_frame",
   "textures": {
-    "wood": "minecraft:block/birch_planks",
+    "wood": "minecraft:block/light_gray_stained_glass",
     "back": "minecraft:block/item_frame",
     "front": "minecraft:item/item_frame"
   }
