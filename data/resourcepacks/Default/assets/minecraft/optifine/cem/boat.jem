@@ -1,0 +1,198 @@
+{
+	"credit": "Created by FreshLX for Fresh Animations",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "front",
+			"id": "front",
+			"invertAxis": "xy",
+			"translate": [0, 8, -1],
+			"rotate": [0, -180, 0],
+			"submodels": [
+				{
+					"id": "Created_by_FreshLX_for_Fresh_Animations",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				},
+				{
+					"id": "rotation",
+					"invertAxis": "xy",
+					"translate": [0, 2, 1],
+					"submodels": [
+						{
+							"id": "back2",
+							"invertAxis": "xy",
+							"translate": [0, 4, -15],
+							"boxes": [
+								{"coordinates": [-9, -3, 28.5, 18, 6, 2], "textureOffset": [0, 19]}
+							]
+						},
+						{
+							"id": "front2",
+							"invertAxis": "xy",
+							"translate": [0, 4, -15],
+							"rotate": [0, -180, 0],
+							"boxes": [
+								{"coordinates": [-8, -3, -0.5, 16, 6, 2], "textureOffset": [0, 27]}
+							]
+						},
+						{
+							"id": "sides",
+							"invertAxis": "xy",
+							"translate": [15, -24, -15],
+							"rotate": [0, 90, 0],
+							"boxes": [
+								{"coordinates": [-28.5, 25, -7, 28, 6, 2], "textureOffset": [0, 35]}
+							],
+							"submodels": [
+								{
+									"id": "sides2",
+									"invertAxis": "xy",
+									"translate": [-15, 28, -24],
+									"rotate": [0, -180, 0],
+									"boxes": [
+										{"coordinates": [-14.5, -3, -1, 28, 6, 2], "textureOffset": [0, 43]}
+									]
+								}
+							]
+						},
+						{
+							"id": "base",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [-90, -90, 0],
+							"boxes": [
+								{"coordinates": [-14.5, -8, -2, 28, 16, 3], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "paddles",
+							"invertAxis": "xy",
+							"translate": [0, 3, 0],
+							"rotate": [0, -90, 0],
+							"submodels": [
+								{
+									"id": "paddle_left2",
+									"invertAxis": "xy",
+									"translate": [13.5, 0, -5],
+									"boxes": [
+										{"coordinates": [-1, -1, -5, 2, 2, 18], "textureOffset": [62, 0]},
+										{"coordinates": [0.01, -2, 8, 1, 6, 7], "textureOffset": [62, 0]}
+									]
+								},
+								{
+									"id": "paddle_right2",
+									"invertAxis": "xy",
+									"translate": [-13.5, 0, -5],
+									"boxes": [
+										{"coordinates": [-1, -1, -5, 2, 2, 18], "textureOffset": [62, 20]},
+										{"coordinates": [-1.01, -2, 8, 1, 6, 7], "textureOffset": [62, 20]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.r": "random(id)*pi*4",
+					"var.ls": "limb_swing",
+					"var.moveA": "clamp(if(limb_swing!=0, min(20, var.moveA +0.1 *frame_time*20), max(0, var.moveA -0.1 *frame_time*20)), 0, 1)",
+					"var.move": "(0.5-0.5*cos(var.moveA*pi))",
+					"var.static": "if(between(random(id), 0, 0.3), 1, between(random(id), 0.3, 0.6), 2, 0)"
+				},
+				{
+					"rotation.tx": "0",
+					"rotation.tz": "14 +if(is_in_water, 0                                                                                                      ,      (         cos(var.ls +sin(var.ls)/3 )       )    )",
+					"rotation.ty": "8 +if(is_in_water, sin(var.r+time/10 )/3/2  +sin(var.r+time/8  )/4/2                                                       , clamp( torad( -sin(var.ls)*3 +1.5 ), -torad(3), 0)*12 )",
+					"rotation.rx": "   if(is_in_water, cos(var.r+time/7  )/3/40 +cos(var.r+time/11 )/4/40 +torad(-3 +cos(var.r+time*torad(22.5))*1.5 )*var.move, clamp( torad( -sin(var.ls)*3 +1.5 ), -torad(3), 0)    )",
+					"rotation.rz": "   if(is_in_water, cos(var.r+time/8.5)/3/30 +cos(var.r+time/9.5)/4/30 +clamp( (rot_y-var.y1)/3, -torad(7), torad(7))       , 0)",
+					"bottom_no_water.tx": "14 -rotation.tz",
+					"bottom_no_water.tz": "    rotation.tx",
+					"bottom_no_water.ty": "-4 +rotation.ty",
+					"bottom_no_water.rx": "-rotation.rz",
+					"bottom_no_water.rz": " rotation.rx",
+					"bottom_no_water.ry": " rotation.ry"
+				},
+				{
+					"paddle_left2.tx": " if(!is_ridden, if(var.static==1,   -4 +6   , var.static==2,       9.4   ,  -12 +6.1  ), paddle_left.tx )",
+					"paddle_right2.tx": "if(!is_ridden, if(var.static==1,   -4 +3.2 , var.static==2,       3     ,  -12 -1.4  ), paddle_right.tx)",
+					"paddle_left2.ty": " if(!is_ridden, if(var.static==1,      -4.5 , var.static==2,      -4.7   ,      -5.2  ), paddle_left.ty )",
+					"paddle_right2.ty": "if(!is_ridden, if(var.static==1,      -4.6 , var.static==2,      -4.35  ,      -5.3  ), paddle_right.ty)",
+					"paddle_left2.tz": " if(!is_ridden, if(var.static==1,      -6.55, var.static==2,       6.2   ,      -5.6  ), paddle_left.tz )",
+					"paddle_right2.tz": "if(!is_ridden, if(var.static==1,       6.65, var.static==2,       6.1   ,      -7.3  ), paddle_right.tz)",
+					"paddle_left2.rx": " if(!is_ridden, if(var.static==1, torad( 20), var.static==2, torad(180  ), torad(  0) ), paddle_left.rx  +(-torad(30)*0 +lerp(sin(-var.ls+1)/2 +1, -torad(60), -torad(15)))*0 +if(is_in_water, sin(var.r+time/10 )/8/3 +sin(var.r+time/8  )/12/3, 0 ))",
+					"paddle_right2.rx": "if(!is_ridden, if(var.static==1, torad(170), var.static==2, torad(180  ), torad( 68) ), paddle_right.rx                                                                          +if(is_in_water, sin(var.r+time/10 )/8/3 +sin(var.r+time/8  )/12/3, 0 ))",
+					"paddle_left2.rz": " if(!is_ridden, if(var.static==1, torad( 98), var.static==2, torad(120  ), torad( 90) ), paddle_left.rz  +torad(20)*0 +if(is_in_water, -cos(var.r+time/10 )/8  -cos(var.r+time/8  )/12, 0 )*0)",
+					"paddle_right2.rz": "if(!is_ridden, if(var.static==1, torad( 94), var.static==2, torad( 90  ), torad( 90) ), paddle_right.rz              +if(is_in_water, -cos(var.r+time/10 )/8  -cos(var.r+time/8  )/12, 0 )*0)",
+					"paddle_left2.ry": " if(!is_ridden, if(var.static==1, torad( 24), var.static==2, torad(-27  ), torad( 29) ), paddle_left.ry  +(torad(40)*0 +lerp(sin(-var.ls)/2 +1, -torad(45), torad(45)))*0)",
+					"paddle_right2.ry": "if(!is_ridden, if(var.static==1, torad(-22), var.static==2, torad(-21.2), torad( 72) ), paddle_right.ry)"
+				},
+				{
+					"var.y1": "var.y2",
+					"var.y2": "var.y3",
+					"var.y3": "var.y4",
+					"var.y4": "var.y5",
+					"var.y5": "var.y6",
+					"var.y6": "var.y7",
+					"var.y7": "var.y8",
+					"var.y8": "rot_y"
+				}
+			]
+		},
+		{
+			"part": "bottom",
+			"id": "bottom",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "back",
+			"id": "back",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right",
+			"id": "right",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left",
+			"id": "left",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "paddle_left",
+			"id": "paddle_left",
+			"invertAxis": "xy",
+			"translate": [-13.5, -6, 4]
+		},
+		{
+			"part": "paddle_right",
+			"id": "paddle_right",
+			"invertAxis": "xy",
+			"translate": [13.5, -6, 4]
+		},
+		{
+			"part": "bottom_no_water",
+			"id": "bottom_no_water",
+			"invertAxis": "xy",
+			"translate": [-0.5, 8, -1],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [0, -3.5, 0],
+					"rotate": [90, 0, 0],
+					"boxes": [
+						{"coordinates": [-14, -7.5, -2.5, 28, 17, 6], "textureOffset": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
