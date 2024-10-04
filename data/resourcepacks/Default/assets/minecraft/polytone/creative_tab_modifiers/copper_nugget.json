@@ -1,0 +1,19 @@
+{
+  "targets": [
+    "ingredients"
+  ],
+  "additions": [
+    {
+      "items": [
+        "coppernugget:copper_nugget"
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:iron_nugget"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "targets": [
+    "tools_and_utilities"
+  ],
+  "additions": [
+    {
+      "items": [
+        "minecraft:tropical_fish_bucket"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:cod_bucket"
+        ]
+      }
+    }
+  ]
+}

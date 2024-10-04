@@ -1,0 +1,19 @@
+{
+  "targets": [
+    "food_and_drinks"
+  ],
+  "additions": [
+    {
+      "items": [
+        "minecraft:tropical_fish"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:cod"
+        ]
+      }
+    }
+  ]
+}

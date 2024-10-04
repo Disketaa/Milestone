@@ -2,9 +2,6 @@
   "removed": [
     "fluid:minecraft:lava",
     "fluid:minecraft:water",
-    "item:minecraft:tropical_fish",
-    "item:minecraft:tropical_fish_bucket",
-    "item:coppernugget:copper_nugget",
     "item:minecraft:bedrock",
     "item:minecraft:end_portal_frame",
     "item:minecraft:vault",
@@ -14,7 +11,6 @@
   "filters": [
     "/_anvil/",
     "/infested/",
-    "/music_disc_/",
     "/painting/",
     "/spawner/",
     "/suspicious_stew/"
@@ -23,99 +19,11 @@
   "added": [
     {
       "stack": "item:minecraft:painting",
-      "after": "item:minecraft:glow_item_frame"
+      "after": "item:glassitemframes:glow_glass_item_frame"
     },
     {
       "stack": "item:minecraft:suspicious_stew",
       "after": "item:minecraft:rabbit_stew"
-    },
-    {
-      "stack": "item:minecraft:music_disc_11",
-      "after": "item:minecraft:bamboo_raft"
-    },
-    {
-      "stack": "item:minecraft:music_disc_stal",
-      "after": "item:minecraft:music_disc_11"
-    },
-    {
-      "stack": "item:minecraft:music_disc_strad",
-      "after": "item:minecraft:music_disc_stal"
-    },
-    {
-      "stack": "item:minecraft:music_disc_13",
-      "after": "item:minecraft:music_disc_strad"
-    },
-    {
-      "stack": "item:minecraft:music_disc_far",
-      "after": "item:minecraft:music_disc_13"
-    },
-    {
-      "stack": "item:minecraft:music_disc_cat",
-      "after": "item:minecraft:music_disc_far"
-    },
-    {
-      "stack": "item:minecraft:music_disc_ward",
-      "after": "item:minecraft:music_disc_cat"
-    },
-    {
-      "stack": "item:minecraft:music_disc_otherside",
-      "after": "item:minecraft:music_disc_ward"
-    },
-    {
-      "stack": "item:minecraft:music_disc_wait",
-      "after": "item:minecraft:music_disc_otherside"
-    },
-    {
-      "stack": "item:minecraft:music_disc_mall",
-      "after": "item:minecraft:music_disc_wait"
-    },
-    {
-      "stack": "item:minecraft:music_disc_mellohi",
-      "after": "item:minecraft:music_disc_mall"
-    },
-    {
-      "stack": "item:minecraft:music_disc_blocks",
-      "after": "item:minecraft:music_disc_mellohi"
-    },
-    {
-      "stack": "item:minecraft:music_disc_chirp",
-      "after": "item:minecraft:music_disc_blocks"
-    },
-    {
-      "stack": "item:minecraft:music_disc_precipice",
-      "after": "item:minecraft:music_disc_chirp"
-    },
-    {
-      "stack": "item:minecraft:music_disc_creator",
-      "after": "item:minecraft:music_disc_precipice"
-    },
-    {
-      "stack": "item:minecraft:music_disc_creator_music_box",
-      "after": "item:minecraft:music_disc_creator"
-    },
-    {
-      "stack": "item:minecraft:music_disc_relic",
-      "after": "item:minecraft:music_disc_creator_music_box"
-    },
-    {
-      "stack": "item:minecraft:music_disc_pigstep",
-      "after": "item:minecraft:music_disc_relic"
-    },
-    {
-      "stack": "item:minecraft:music_disc_5",
-      "after": "item:minecraft:music_disc_pigstep"
-    },
-    {
-      "stack": "item:coppernugget:copper_nugget",
-      "after": "item:minecraft:iron_nugget"
-    },
-    {
-      "stack": "item:minecraft:tropical_fish",
-      "after": "item:minecraft:cooked_rabbit"
-    },
-    {
-      "stack": "item:minecraft:tropical_fish_bucket",
-      "after": "item:minecraft:water_bucket"
     }
   ]
 }
