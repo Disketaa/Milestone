@@ -14,7 +14,9 @@
     "water_fog_color": 329011
   },
   "features": [
-    [],
+    [
+      "minecraft:end_spike"
+    ],
     [],
     [
       "phantom_world:0",
