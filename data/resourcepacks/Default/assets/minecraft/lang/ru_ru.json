@@ -12,6 +12,7 @@
   "subtitles.entity.tropical_fish.hurt": "Рыбёшка ранена",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Поместите броню или инструмент",
   "item.minecraft.smithing_template.armor_trim.applies_to": "Доспехам и инструментам",
+  "debug.reload_datapacks.message": "Наборы пакетов перезагружены",
 
   "advancements.story.root.title": "История",
   "advancements.adventure.root.description": "Время хорошенько повеселиться",

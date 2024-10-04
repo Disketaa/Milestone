@@ -12,6 +12,7 @@
   "subtitles.entity.tropical_fish.hurt": "Minnow hurts",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Add a piece of armor or a tool",
   "item.minecraft.smithing_template.armor_trim.applies_to": "Armor, Tools",
+  "debug.reload_datapacks.message": "Reloaded data packs",
 
   "trim_pattern.minecraft.coast": "Coast Trim",
   "trim_pattern.minecraft.dune": "Dune Trim",
