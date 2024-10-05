@@ -1,0 +1,46 @@
+{
+  "targets": [
+    "ingredients"
+  ],
+  "removals": [
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "nova_structures:boss_behaviour": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "nova_structures:shulker_boss": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "nova_structures:shulker_miniboss": 1
+            }
+          }
+        }
+      }
+    }
+  ]
+}
