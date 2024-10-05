@@ -2,38 +2,34 @@
   "schema_version": 2,
   "pack_overrides": {
     "1": [
-      "a_good_place:default_animations",
-      "elytratrims:legacy",
-      "file/A Good Place Sample Pack.zip",
-      "flat_shulker_icons",
+      "programmer_art",
       "high_contrast",
+      "a_good_place:default_animations",
+      "file/A Good Place Sample Pack.zip",
+      "elytratrims:legacy",
       "minecraft:supporteatinganimation",
-      "programmer_art"
-    ],
-
-    "2": [
       "vanilla",
       "fabric"
     ],
 
+    "2": [
+      "Default"
+    ],
+
     "3": [
-      "Default",
       "Item Model Consistency"
     ],
 
-
     "$$1": {
-      "hidden": true
+      "hidden": true,
+      "fixed_position": false
     },
 
     "$$2": {
-      "default_position": "BOTTOM",
-      "fixed_position": true,
-      "hidden": true
+      "fixed_position": false
     },
 
     "$$3": {
-      "default_position": "TOP",
       "fixed_position": false
     }
   }
