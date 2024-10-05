@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": {
+    "type": "item",
+    "id": "minecraft:lily_of_the_valley",
+    "remainder": "item:minecraft:lily_of_the_valley"
+  },
+  "output": "item:minecraft:lily_of_the_valley"
+}

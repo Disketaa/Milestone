@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": {
+    "type": "item",
+    "id": "minecraft:red_tulip",
+    "remainder": "item:minecraft:red_tulip"
+  },
+  "output": "item:minecraft:red_tulip"
+}

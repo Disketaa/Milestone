@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": {
+    "type": "item",
+    "id": "minecraft:blue_orchid",
+    "remainder": "item:minecraft:blue_orchid"
+  },
+  "output": "item:minecraft:blue_orchid"
+}

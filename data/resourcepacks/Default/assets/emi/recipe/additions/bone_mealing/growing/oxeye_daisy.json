@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": {
+    "type": "item",
+    "id": "minecraft:oxeye_daisy",
+    "remainder": "item:minecraft:oxeye_daisy"
+  },
+  "output": "item:minecraft:oxeye_daisy"
+}

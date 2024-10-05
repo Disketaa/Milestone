@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:bone_meal",
+  "right": {
+    "type": "item",
+    "id": "minecraft:dandelion",
+    "remainder": "item:minecraft:dandelion"
+  },
+  "output": "item:minecraft:dandelion"
+}
