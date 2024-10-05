@@ -4,6 +4,7 @@ guiScale:2
 maxFps:260
 realmsNotifications:false
 skipMultiplayerWarning:true
+resourcePacks:["vanilla","fabric","Item Model Consistency","Default"]
 joinedFirstServer:true
 hideBundleTutorial:false
 allowServerListing:true
