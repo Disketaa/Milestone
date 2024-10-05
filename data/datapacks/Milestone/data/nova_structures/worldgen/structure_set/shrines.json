@@ -1,0 +1,14 @@
+{
+  "structures": [],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 78409300,
+    "frequency": 0,
+    "exclusion_zone": {
+      "other_set": "minecraft:strongholds",
+      "chunk_count": 15
+    },
+    "spacing": 50,
+    "separation": 26
+  }
+}
