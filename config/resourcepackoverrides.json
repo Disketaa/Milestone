@@ -8,21 +8,33 @@
       "flat_shulker_icons",
       "high_contrast",
       "minecraft:supporteatinganimation",
+      "programmer_art"
+    ],
+
+    "2": [
       "vanilla",
-      "programmer_art",
       "fabric"
     ],
-    "2": [
+
+    "3": [
       "Default",
       "Item Model Consistency"
     ],
 
+
     "$$1": {
       "hidden": true
     },
+
     "$$2": {
-      "fixed_position": false,
-      "default_position": "TOP"
+      "default_position": "BOTTOM",
+      "fixed_position": true,
+      "hidden": true
+    },
+
+    "$$3": {
+      "default_position": "TOP",
+      "fixed_position": false
     }
   }
 }
