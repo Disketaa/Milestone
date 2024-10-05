@@ -1,0 +1,19 @@
+{
+  "targets": [
+    "spawn_eggs"
+  ],
+  "additions": [
+    {
+      "items": [
+        "minecraft:tropical_fish_spawn_egg"
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:magma_cube_spawn_egg"
+        ]
+      }
+    }
+  ]
+}
