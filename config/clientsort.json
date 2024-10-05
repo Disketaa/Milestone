@@ -1,7 +1,7 @@
 {
   "options": {
-    "interactionRateServer": 2,
-    "interactionRateClient": 1,
+    "interactionRateServer": 16,
+    "interactionRateClient": 16,
     "hotbarMode": "HARD",
     "sortModeStr": "creative",
     "shiftSortModeStr": "quantity",
