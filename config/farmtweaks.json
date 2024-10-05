@@ -1,0 +1,20 @@
+{
+  "dispensableItems": [
+    "minecraft:wheat_seeds",
+    "minecraft:beetroot_seeds",
+    "minecraft:carrot",
+    "minecraft:potato",
+    "minecraft:melon_seeds",
+    "minecraft:pumpkin_seeds",
+    "minecraft:pitcher_pod",
+    "minecraft:torchflower_seeds"
+  ],
+  "nonBonemealableFlowers": [
+    "minecraft:wither_rose",
+    "minecraft:torchflower"
+  ],
+  "allowFarmlandTrampling": true,
+  "bonemealableSugarcane": false,
+  "allowAlternateHoeUse": true,
+  "cropExperienceChance": 25
+}
