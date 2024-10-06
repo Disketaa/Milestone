@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:yellow_terracotta"
+  },
+  "result": {
+    "id": "minecraft:yellow_glazed_terracotta"
+  }
+}
