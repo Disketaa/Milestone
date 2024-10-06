@@ -1,0 +1,22 @@
+{
+  "plantEnable": true,
+  "plantLarge": true,
+  "blackListEnable": true,
+  "multiThread": true,
+  "allowSapling": true,
+  "allowCrop": true,
+  "allowMushroom": false,
+  "allowFungus": false,
+  "allowFlower": false,
+  "allowOther": false,
+  "showTitleOnOpConnected": false,
+  "ignoreShape": false,
+  "warnTaskQueue": true,
+  "autoBlackList": true,
+  "plantDelay": 40,
+  "avoidDense": 2,
+  "playerAround": 1,
+  "maxTask": 1000,
+  "language": "en_us",
+  "blackList": []
+}
