@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "glassitemframes:glass_item_frame"
+    },
+    "title": {
+      "translate": "advancements.society.craft_glass_item_frame.title"
+    },
+    "description": {
+      "translate": "advancements.society.craft_glass_item_frame.description"
+    }
+  },
+  "parent": "minecraft:society/root",
+  "criteria": {
+    "craft_glass_item_frame": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "glassitemframe:glass_item_frame"
+      }
+    },
+    "craft_glow_glass_item_frame": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "glassitemframe:glow_glass_item_frame"
+      }
+    },
+    "craft_glow_glass_item_frame_from_glow_item_frame": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "glassitemframe:glow_glass_item_frame_from_glow_item_frame"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_glass_item_frame",
+      "craft_glow_glass_item_frame",
+      "craft_glow_glass_item_frame_from_glow_item_frame"
+    ]
+  ]
+}

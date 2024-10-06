@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:farmland"
+    },
+    "title": {
+      "translate": "advancements.husbandry.collect_crop_with_hoe.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.collect_crop_with_hoe.description"
+    }
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "collect_crop": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:crops"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#minecraft:hoes"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect_crop"
+    ]
+  ]
+}
