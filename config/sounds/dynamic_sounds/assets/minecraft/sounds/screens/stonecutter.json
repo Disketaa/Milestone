@@ -2,5 +2,7 @@
   "keys": [
     "minecraft:stonecutter"
   ],
-  "soundEvent": "minecraft:entity.villager.work_mason"
+  "pitch": 0.8,
+  "volume": 0.1,
+  "soundEvent": "minecraft:ui.stonecutter.take_result"
 }

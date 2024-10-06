@@ -1,8 +1,11 @@
 {
 // Minecraft
+  "block.minecraft.stonecutter": "Резальный станок",
+  "container.stonecutter": "Резальный станок",
   "dataPack.milestone.description": "Стандартный набор данных Milestone",
   "debug.reload_datapacks.message": "Наборы пакетов перезагружены",
   "entity.minecraft.tropical_fish": "Рыбёшка",
+  "entity.minecraft.villager.mason": "Резчик",
   "item.durability": "§7Прочность: %s §7/ %s",
   "item.minecraft.smithing_template.armor_trim.applies_to": "Доспехам и инструментам",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Поместите броню или инструмент",
@@ -11,9 +14,12 @@
   "item.minecraft.tropical_fish_spawn_egg": "Яйцо призыва рыбёшки",
   "menu.options": "Настройки",
   "resourcePack.classic.description": "Устаревший внешний вид Minecraft",
+  "stat.minecraft.interact_with_stonecutter": "Взаимодействий с резальным станком",
   "subtitles.entity.tropical_fish.death": "Рыбёшка умирает",
   "subtitles.entity.tropical_fish.flop": "Рыбёшка плещется",
   "subtitles.entity.tropical_fish.hurt": "Рыбёшка ранена",
+  "subtitles.entity.villager.work_mason": "Резчик работает",
+  "subtitles.ui.stonecutter.take_result": "Резальный станок использован",
 
   "advancements.story.root.title": "История",
   "advancements.adventure.root.description": "Время хорошенько повеселиться",

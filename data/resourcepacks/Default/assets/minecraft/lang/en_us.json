@@ -1,5 +1,7 @@
 {
 // Minecraft
+  "block.minecraft.stonecutter": "Blockcutter",
+  "container.stonecutter": "Blockcutter",
   "dataPack.milestone.description": "The default data for Milestone",
   "debug.reload_datapacks.message": "Reloaded data packs",
   "entity.minecraft.tropical_fish": "Minnow",
@@ -11,9 +13,11 @@
   "item.minecraft.tropical_fish_spawn_egg": "Minnow Spawn Egg",
   "menu.options": "Options",
   "resourcePack.classic.description": "The classic look of Minecraft",
+  "stat.minecraft.interact_with_stonecutter": "Interactions with Blockcutter",
   "subtitles.entity.tropical_fish.death": "Minnow dies",
   "subtitles.entity.tropical_fish.flop": "Minnow flops",
   "subtitles.entity.tropical_fish.hurt": "Minnow hurts",
+  "subtitles.ui.stonecutter.take_result": "Blockcutter used",
 
   "trim_pattern.minecraft.coast": "Coast Trim",
   "trim_pattern.minecraft.dune": "Dune Trim",
