@@ -55,7 +55,7 @@
   "enchantment.nova_structures.photosynthesis.desc": "Repairs itself when is in direct view of the sun",
   "enchantment.nova_structures.piercing.desc": "Allows projectiles to pierce through",
   "enchantment.nova_structures.power.desc": "Increases the damage of projectiles",
-  "enchantment.nova_structures.traveler.desc": "Lets step up blocks with no jump",
+  "enchantment.nova_structures.traveler.desc": "Increases the movement speed and lets step up blocks",
   "enchantment.nova_structures.wax_wings.desc": "Negates durability loss while gliding slowly but raises it while gliding quickly",
   "enchantment.nova_structures.wither_coated.desc": "Inflicts wither damage on attack at the cost of higher durability loss"
 }
