@@ -65,6 +65,12 @@
       }
     },
     {
+      "model": "minecraft:item/broken_elytra",
+      "predicate": {
+        "broken": 1
+      }
+    },
+    {
       "model": "minecraft:item/broken_elytra_quartz_trim",
       "predicate": {
         "broken": 1,
