@@ -4,7 +4,7 @@
       "id": "minecraft:goat_horn"
     },
     "title": {
-      "translate": "advancements.challenge.use_all_goat_horns.title"
+      "translate": "advancements.challenge.use_all_goat_horns"
     },
     "description": {
       "translate": "advancements.challenge.use_all_goat_horns.description"

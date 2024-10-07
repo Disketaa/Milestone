@@ -4,7 +4,7 @@
       "id": "minecraft:torch"
     },
     "title": {
-      "translate": "advancements.exploration.locate_mineshaft.title"
+      "translate": "advancements.exploration.locate_mineshaft"
     },
     "description": {
       "translate": "advancements.exploration.locate_mineshaft.description"

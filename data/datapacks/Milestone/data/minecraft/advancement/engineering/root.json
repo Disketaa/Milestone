@@ -4,7 +4,7 @@
       "id": "minecraft:piston"
     },
     "title": {
-      "translate": "advancements.engineering.root.title"
+      "translate": "advancements.engineering.root"
     },
     "description": {
       "translate": "advancements.engineering.root.description"

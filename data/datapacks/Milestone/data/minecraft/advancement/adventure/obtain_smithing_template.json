@@ -4,7 +4,7 @@
       "id": "minecraft:sentry_armor_trim_smithing_template"
     },
     "title": {
-      "translate": "advancements.adventure.obtain_smithing_template.title"
+      "translate": "advancements.adventure.obtain_smithing_template"
     },
     "description": {
       "translate": "advancements.adventure.obtain_smithing_template.description"

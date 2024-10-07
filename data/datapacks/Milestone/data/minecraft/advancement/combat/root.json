@@ -1,7 +1,7 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.combat.root.title"
+      "translate": "advancements.combat.root"
     },
     "description": {
       "translate": "advancements.combat.root.description"

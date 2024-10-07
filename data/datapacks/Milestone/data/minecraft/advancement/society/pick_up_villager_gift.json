@@ -4,7 +4,7 @@
       "id": "minecraft:pumpkin_pie"
     },
     "title": {
-      "translate": "advancements.society.pick_up_villager_gift.title"
+      "translate": "advancements.society.pick_up_villager_gift"
     },
     "description": {
       "translate": "advancements.society.pick_up_villager_gift.description"

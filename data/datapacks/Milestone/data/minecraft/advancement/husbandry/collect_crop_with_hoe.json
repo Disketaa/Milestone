@@ -4,7 +4,7 @@
       "id": "minecraft:farmland"
     },
     "title": {
-      "translate": "advancements.husbandry.collect_crop_with_hoe.title"
+      "translate": "advancements.husbandry.collect_crop_with_hoe"
     },
     "description": {
       "translate": "advancements.husbandry.collect_crop_with_hoe.description"

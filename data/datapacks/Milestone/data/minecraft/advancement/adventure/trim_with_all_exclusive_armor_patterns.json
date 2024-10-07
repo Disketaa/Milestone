@@ -4,7 +4,7 @@
       "id": "minecraft:flow_armor_trim_smithing_template"
     },
     "title": {
-      "translate": "advancements.challenge.obtain_all_smithing_templates.title"
+      "translate": "advancements.challenge.obtain_all_smithing_templates"
     },
     "description": {
       "translate": "advancements.challenge.obtain_all_smithing_templates.description"

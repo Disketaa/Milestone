@@ -4,7 +4,7 @@
       "id": "minecraft:diamond_pickaxe"
     },
     "title": {
-      "translate": "advancements.exploration.all_mineshaft.title"
+      "translate": "advancements.exploration.all_mineshaft"
     },
     "description": {
       "translate": "advancements.exploration.all_mineshaft.description"

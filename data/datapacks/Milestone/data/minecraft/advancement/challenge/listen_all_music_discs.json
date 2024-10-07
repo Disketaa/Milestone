@@ -4,7 +4,7 @@
       "id": "minecraft:music_disc_creator_music_box"
     },
     "title": {
-      "translate": "advancements.challenge.listen_all_music_discs.title"
+      "translate": "advancements.challenge.listen_all_music_discs"
     },
     "description": {
       "translate": "advancements.challenge.listen_all_music_discs.description"

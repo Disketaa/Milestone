@@ -4,7 +4,7 @@
       "id": "minecraft:cartography_table"
     },
     "title": {
-      "translate": "advancements.exploration.root.title"
+      "translate": "advancements.exploration.root"
     },
     "description": {
       "translate": "advancements.exploration.root.description"

@@ -10,7 +10,7 @@
       "translate": "advancements.adventure.lightning_rod_with_villager_no_fire.description"
     }
   },
-  "parent": "minecraft:society/root",
+  "parent": "minecraft:story/obtain_copper",
   "criteria": {
     "lightning_rod_with_villager_no_fire": {
       "trigger": "minecraft:lightning_strike",
