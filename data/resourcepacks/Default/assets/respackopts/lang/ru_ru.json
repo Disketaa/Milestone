@@ -1,0 +1,23 @@
+{
+  "rpo.Default": "Настройки",
+  "rpo.Default.BlockModels": "Модели блоков",
+  "rpo.Default.BlockModels.tooltip": "Изменённые модели некоторых блоков\n§7©Disketaa",
+  "rpo.Default.ItemModels": "Модели предметов",
+  "rpo.Default.ItemModels.tooltip": "Шаблоны для инструментов\n§7©Disketaa\n§7©Stridey",
+  "rpo.Default.BlockTextures": "Текстуры блоков",
+  "rpo.Default.BlockTextures.tooltip": "Изменённые спрайты некоторых блоков\n§7©Disketaa\n§7©I_Am_Merp\n§7©Kemiu",
+  "rpo.Default.ItemTextures": "Текстуры предметов",
+  "rpo.Default.ItemTextures.tooltip": "Изменённые спрайты некоторых предметов\n§7©Disketaa\n§7©I_Am_Merp",
+  "rpo.Default.ParticleTextures": "Текстуры частичек",
+  "rpo.Default.ParticleTextures.tooltip": "Изменённые спрайты некоторых частиц\n§7©I_Am_Merp",
+  "rpo.Default.Entities": "Сущности",
+  "rpo.Default.Entities.tooltip": "Анимированные мобы, квадратные частички опыта\n§7©Disketaa\n§7©Fresh__LX",
+  "rpo.Default.Misc": "Разное",
+  "rpo.Default.Misc.tooltip": "Пиксельные тени\n§7©Disketaa",
+  "rpo.Default.GUI": "Интерфейс",
+  "rpo.Default.GUI.tooltip": "Изменённые панели интерфейса и иконок\n§7©Disketaa\n§7©Flatjim_",
+  "rpo.Default.Music": "Музыка",
+  "rpo.Default.Music.tooltip": "Новые композиции\n§7©Scott Buckley\n§7©Keys of Moon",
+  "rpo.Default.Sounds": "Звуки",
+  "rpo.Default.Sounds.tooltip": "Новые звуки\n§7©Disketaa"
+}

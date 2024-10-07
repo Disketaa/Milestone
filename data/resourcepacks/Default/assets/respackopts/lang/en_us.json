@@ -1,0 +1,23 @@
+{
+  "rpo.Default": "Settings",
+  "rpo.Default.BlockModels": "Block Models",
+  "rpo.Default.BlockModels.tooltip": "Changed models for some blocks\n§7©Disketaa",
+  "rpo.Default.ItemModels": "Item Models",
+  "rpo.Default.ItemModels.tooltip": "Trimmable tools\n§7©Disketaa\n§7©Stridey",
+  "rpo.Default.BlockTextures": "Block Textures",
+  "rpo.Default.BlockTextures.tooltip": "Changed sprites for some blocks\n§7©Disketaa\n§7©I_Am_Merp\n§7©Kemiu",
+  "rpo.Default.ItemTextures": "Item Textures",
+  "rpo.Default.ItemTextures.tooltip": "Changed sprites for some items\n§7©Disketaa\n§7©I_Am_Merp",
+  "rpo.Default.ParticleTextures": "Particle Textures",
+  "rpo.Default.ParticleTextures.tooltip": "Changed sprites for some particles\n§7©I_Am_Merp",
+  "rpo.Default.Entities": "Entities",
+  "rpo.Default.Entities.tooltip": "Animated mobs\n§7©Disketaa\n§7©Fresh__LX",
+  "rpo.Default.Misc": "Miscellaneous",
+  "rpo.Default.Misc.tooltip": "Pixel consistent shadows\n§7©Disketaa",
+  "rpo.Default.GUI": "Interface",
+  "rpo.Default.GUI.tooltip": "Changed widgets and icons\n§7©Disketaa\n§7©Flatjim_",
+  "rpo.Default.Music": "Music",
+  "rpo.Default.Music.tooltip": "Changed soundtracks\n§7©Scott Buckley\n§7©Keys of Moon",
+  "rpo.Default.Sounds": "Sounds",
+  "rpo.Default.Sounds.tooltip": "Changed sounds\n§7©Disketaa"
+}

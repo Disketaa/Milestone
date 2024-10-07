@@ -1,8 +1,10 @@
 {
   "emi.search": "Поиск...",
-  "tooltip.emi.chance.produce": "§7Шанс: %s%%",
+
+  "tag.item.c.stone_slabs": "Каменные плиты",
   "tag.item.minecraft.copper_blastables": "Выплавляемая медь",
   "tag.item.minecraft.copper_smeltables": "Переплавляемая медь",
+  "tag.item.minecraft.coral_blocks": "Коралловые блоки",
   "tag.item.minecraft.gold_blastables": "Выплавляемое золото",
   "tag.item.minecraft.gold_smeltables": "Переплавляемое золото",
   "tag.item.minecraft.iron_blastables": "Выплавляемое железо",
@@ -12,5 +14,6 @@
   "tag.item.minecraft.piglin_treasures": "Драгоценное у пиглинов",
   "tag.item.minecraft.waxed_copper_blastables": "Вощённая выплавляемая медь",
   "tag.item.minecraft.waxed_copper_smeltables": "Вощённая переплавляемая медь",
-  "tag.item.c.stone_slabs": "Каменные плиты"
+
+  "tooltip.emi.chance.produce": "§7Шанс: %s%%"
 }

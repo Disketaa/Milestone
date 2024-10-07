@@ -1,8 +1,10 @@
 {
   "emi.search": "Search...",
-  "tooltip.emi.chance.produce": "§7Chance: %s%%",
+
+  "tag.item.c.stone_slabs": "Stone Slabs",
   "tag.item.minecraft.copper_blastables": "Blastable Copper",
   "tag.item.minecraft.copper_smeltables": "Smeltable Copper",
+  "tag.item.minecraft.coral_blocks": "Coral Blocks",
   "tag.item.minecraft.gold_blastables": "Blastable Gold",
   "tag.item.minecraft.gold_smeltables": "Smeltable Gold",
   "tag.item.minecraft.iron_blastables": "Blastable Iron",
@@ -12,5 +14,6 @@
   "tag.item.minecraft.piglin_treasures": "Treasure for Piglins",
   "tag.item.minecraft.waxed_copper_blastables": "Waxed Blastable Copper",
   "tag.item.minecraft.waxed_copper_smeltables": "Waxed Smeltable Copper",
-  "tag.item.c.stone_slabs": "Stone Slabs"
+
+  "tooltip.emi.chance.produce": "§7Chance: %s%%"
 }
