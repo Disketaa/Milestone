@@ -7,10 +7,11 @@
   },
   "pattern": [
     "##",
+    "##",
     "##"
   ],
   "result": {
-    "id": "minecraft:copper_trapdoor",
+    "id": "minecraft:copper_door",
     "count": 2
   }
 }

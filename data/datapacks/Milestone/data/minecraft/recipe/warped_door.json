@@ -2,15 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:warped_planks"
     }
   },
   "pattern": [
     "##",
+    "##",
     "##"
   ],
   "result": {
-    "id": "minecraft:copper_trapdoor",
-    "count": 2
+    "id": "minecraft:warped_door",
+    "count": 4
   }
 }

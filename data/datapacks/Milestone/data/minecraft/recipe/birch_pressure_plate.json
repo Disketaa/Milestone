@@ -2,15 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:birch_planks"
     }
   },
   "pattern": [
-    "##",
     "##"
   ],
   "result": {
-    "id": "minecraft:copper_trapdoor",
+    "id": "minecraft:birch_pressure_plate",
     "count": 2
   }
 }

@@ -2,15 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:polished_blackstone"
     }
   },
   "pattern": [
-    "##",
     "##"
   ],
   "result": {
-    "id": "minecraft:copper_trapdoor",
+    "id": "minecraft:polished_blackstone_pressure_plate",
     "count": 2
   }
 }
