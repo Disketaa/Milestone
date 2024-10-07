@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blast_furnace"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_blast_furnace"
+    },
+    "description": {
+      "translate": "advancements.story.obtain_blast_furnace.description"
+    }
+  },
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "obtain_blast_furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blast_furnace"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_blast_furnace"
+    ]
+  ]
+}

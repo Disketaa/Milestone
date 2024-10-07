@@ -4,7 +4,7 @@
       "id": "minecraft:grass_block"
     },
     "title": {
-      "translate": "advancements.story.root.title"
+      "translate": "advancements.story.root"
     },
     "description": {
       "translate": "advancements.story.root.description"

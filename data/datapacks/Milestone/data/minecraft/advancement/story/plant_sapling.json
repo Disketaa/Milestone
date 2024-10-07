@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "advancements.story.plant_sapling"
+    },
+    "description": {
+      "translate": "advancements.story.plant_sapling.description"
+    }
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "plant_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:acacia_sapling",
+                "properties": {}
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:bamboo_sapling",
+                "properties": {}
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:birch_sapling",
+                "properties": {}
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:cherry_sapling",
+                "properties": {}
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:dark_oak_sapling",
+                "properties": {}
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:jungle_sapling",
+                "properties": {}
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:mangrove_propagule",
+                "properties": {}
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:oak_sapling",
+                "properties": {}
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "plant_sapling"
+    ]
+  ]
+}

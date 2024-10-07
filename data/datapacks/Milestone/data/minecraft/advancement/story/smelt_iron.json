@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.story.smelt_iron.title"
+    },
+    "description": {
+      "translate": "advancements.story.smelt_iron.description"
+    }
+  },
+  "parent": "minecraft:story/mine_stone",
+  "criteria": {
+    "obtain_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_iron"
+    ]
+  ]
+}

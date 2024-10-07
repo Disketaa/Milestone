@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "advancements.story.cure_zombie_villager.title"
+    },
+    "description": {
+      "translate": "advancements.story.cure_zombie_villager.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "minecraft:society/root",
+  "criteria": {
+    "cured_zombie": {
+      "trigger": "minecraft:cured_zombie_villager"
+    }
+  },
+  "requirements": [
+    [
+      "cured_zombie"
+    ]
+  ]
+}

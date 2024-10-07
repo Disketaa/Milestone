@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.story.use_spyglass"
+    },
+    "description": {
+      "translate": "advancements.story.use_spyglass.description"
+    }
+  },
+  "parent": "minecraft:story/obtain_gold",
+  "criteria": {
+    "use_spyglass": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_spyglass"
+    ]
+  ]
+}

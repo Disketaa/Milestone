@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stonecutter"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_stonecutter"
+    },
+    "description": {
+      "translate": "advancements.story.obtain_stonecutter.description"
+    }
+  },
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "obtain_stonecutter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stonecutter"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_stonecutter"
+    ]
+  ]
+}

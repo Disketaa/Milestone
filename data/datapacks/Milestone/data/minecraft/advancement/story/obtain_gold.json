@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_gold"
+    },
+    "description": {
+      "translate": "advancements.story.obtain_gold.description"
+    }
+  },
+  "parent": "minecraft:story/mine_stone",
+  "criteria": {
+    "obtain_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_gold"
+    ]
+  ]
+}
