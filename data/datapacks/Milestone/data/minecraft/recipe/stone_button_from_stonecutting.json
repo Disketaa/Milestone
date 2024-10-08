@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "c:stones"
+  },
+  "result": {
+    "id": "minecraft:stone_button"
+  }
+}

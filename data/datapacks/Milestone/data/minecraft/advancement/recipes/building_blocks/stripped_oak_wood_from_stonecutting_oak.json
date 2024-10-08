@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_wood"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:stripped_oak_wood_from_stonecutting_oak"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_oak_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stripped_oak_wood_from_stonecutting_oak"
+    ]
+  }
+}

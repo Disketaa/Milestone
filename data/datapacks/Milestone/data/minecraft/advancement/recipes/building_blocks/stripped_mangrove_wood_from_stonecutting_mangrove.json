@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mangrove_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_wood"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:stripped_mangrove_wood_from_stonecutting_mangrove"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mangrove_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stripped_mangrove_wood_from_stonecutting_mangrove"
+    ]
+  }
+}

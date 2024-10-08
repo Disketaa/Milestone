@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_crimson_stem"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:stripped_crimson_hyphae_from_stonecutting_stripped_crimson"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stripped_crimson_stem"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stripped_crimson_hyphae_from_stonecutting_stripped_crimson"
+    ]
+  }
+}
