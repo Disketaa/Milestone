@@ -2,7 +2,7 @@
   "keys": [
     "minecraft:stonecutter"
   ],
-  "pitch": 0.8,
+  "pitch": 0.9,
   "volume": 0.1,
   "soundEvent": "minecraft:ui.stonecutter.take_result"
 }
