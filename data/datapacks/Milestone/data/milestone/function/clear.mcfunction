@@ -1,1 +1,0 @@
-kill @n[name=Island-Marker,limit=1,distance=..8]

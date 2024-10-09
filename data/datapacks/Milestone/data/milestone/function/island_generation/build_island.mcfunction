@@ -1,5 +1,5 @@
-fill ~-1.5 ~ ~-1.5 ~1.5 ~2 ~1.5 dirt
-fill ~-1.5 ~3 ~-1.5 ~1.5 ~3 ~1.5 grass_block
+fill ~-1.5 ~ ~-1.5 ~1.5 ~2 ~1.5 dirt keep
+fill ~-1.5 ~3 ~-1.5 ~1.5 ~3 ~1.5 grass_block keep
 place feature milestone:patch_coarse_dirt ~ ~ ~
 place feature milestone:patch_rooted_dirt ~ ~ ~
 place feature milestone:patch_grass ~ ~3 ~

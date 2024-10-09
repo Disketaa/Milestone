@@ -38,6 +38,6 @@
     ]
   ],
   "rewards": {
-    "function": "milestone:load_player"
+    "function": "milestone:island_generation/step"
   }
 }
