@@ -81,7 +81,7 @@
   "container.stonecutter": "Резальный станок",
 
   "dataPack.milestone.description": "Стандартный набор данных Milestone",
-  "debug.reload_datapacks.message": "Наборы пакетов перезагружены",
+  "debug.reload_datapacks.message": "Наборы данных перезагружены",
 
   "entity.minecraft.tropical_fish": "Рыбёшка",
   "entity.minecraft.villager.mason": "Резчик",
