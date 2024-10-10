@@ -20,7 +20,7 @@ Guide-book and trimmable items.
 **0.4**\
 Custom world generation and structures.
 
-![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox.png?raw=true)
+![](https://github.com/Disketaa/Workspace/blob/main/Milestone/assets/icon_checkbox_filled.png?raw=true)
 **0.5**\
 Obtainable items and advancements.
 
