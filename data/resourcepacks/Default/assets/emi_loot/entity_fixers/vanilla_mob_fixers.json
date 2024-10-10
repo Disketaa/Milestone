@@ -1,0 +1,103 @@
+{
+  "minecraft:allay": {
+    "offset": -12,
+    "scale": 0.8
+  },
+  "minecraft:armadillo": {
+    "offset": -9
+  },
+  "minecraft:bat": {
+    "offset": -10
+  },
+  "minecraft:cat": {
+    "offset": -9
+  },
+  "minecraft:cave_spider": {
+    "offset": -9
+  },
+  "minecraft:chicken": {
+    "offset": -6,
+    "scale": 0.8
+  },
+  "minecraft:cod": {
+    "offset": -14,
+    "scale": 0.8
+  },
+  "minecraft:creeper": {
+    "offset": -2
+  },
+  "minecraft:dolphin": {
+    "offset": -9
+  },
+  "minecraft:enderman": {
+    "offset": 1
+  },
+  "minecraft:ghast": {
+    "offset": 2
+  },
+  "minecraft:glow_squid": {
+    "offset": -10,
+    "scale": 0.8
+  },
+  "minecraft:guardian": {
+    "offset": -7,
+    "scale": 1.1
+  },
+  "minecraft:iron_golem": {
+    "scale": 1.35,
+    "offset": 2
+  },
+  "minecraft:magma_cube": {
+    "offset": 1,
+    "scale": 0.3
+  },
+  "minecraft:parrot": {
+    "offset": -8
+  },
+  "minecraft:phantom": {
+    "offset": -9
+  },
+  "minecraft:pig": {
+    "offset": -4
+  },
+  "minecraft:pufferfish": {
+    "offset": -18,
+    "scale": 0.8,
+    "z": 90.0
+  },
+  "minecraft:rabbit": {
+    "offset": -14
+  },
+  "minecraft:salmon": {
+    "offset": -11,
+    "scale": 0.8
+  },
+  "minecraft:sheep": {
+    "offset": -3
+  },
+  "minecraft:shulker": {
+    "offset": -7,
+    "scale": 1.25
+  },
+  "minecraft:slime": {
+    "offset": 1,
+    "scale": 0.3
+  },
+  "minecraft:squid": {
+    "offset": -10,
+    "scale": 0.8
+  },
+  "minecraft:tropical_fish": {
+    "offset": -14,
+    "scale": 0.8
+  },
+  "minecraft:turtle": {
+    "offset": -6
+  },
+  "minecraft:warden": {
+    "offset": 3
+  },
+  "minecraft:wither": {
+    "offset": 5
+  }
+}
