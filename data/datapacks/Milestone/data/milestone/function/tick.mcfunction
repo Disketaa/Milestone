@@ -1,0 +1,2 @@
+tp @p[scores={IsLoaded=0}] 977a5c69-15a9-4f67-9029-c27e497a6378
+execute as 977a5c69-15a9-4f67-9029-c27e497a6378 at @s if entity @p[scores={IsLoaded=0}, distance=..2] run function milestone:island_generation/generate_island

@@ -1,0 +1,1 @@
+execute unless score @s IsLoaded matches 1 run scoreboard players set @s IsLoaded 0

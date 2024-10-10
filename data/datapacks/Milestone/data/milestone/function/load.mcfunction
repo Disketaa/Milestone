@@ -2,6 +2,7 @@ scoreboard objectives add IsLoaded dummy
 
 gamerule spawnRadius 0
 gamerule spawnChunkRadius 0
+setworldspawn 0 64 0
 
 datapack disable "custom_piglin_bartering:default_custom_piglin_barters"
 
