@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:mossy_cobblestone_slab"
+  },
+  "result": {
+    "id": "minecraft:stone_slab"
+  }
+}
