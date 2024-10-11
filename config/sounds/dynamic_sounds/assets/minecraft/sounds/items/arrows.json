@@ -2,7 +2,7 @@
   "keys": [
     "#minecraft:arrows"
   ],
-  "pitch": 0.7,
-  "soundEvent": "minecraft:entity.arrow.hit",
+  "pitch": 2.0,
+  "soundEvent": "minecraft:item.axe.strip",
   "volume": 0.3
 }
