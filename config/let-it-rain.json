@@ -1,0 +1,7 @@
+{
+  "keepRainChance": 50,
+  "keepThunderChance": 50,
+  "preserveWeatherTime": true,
+  "logRolls": false,
+  "resetThunderOnSleep": true
+}
