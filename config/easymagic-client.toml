@@ -16,7 +16,7 @@ render_enchanting_table_contents = "FLAT"
 #ENABLED: A tooltip always shows when a book is looked at.
 #Default Value: ENABLED
 #Allowed Values: DISABLED, CROUCHING, ENABLED
-chiseled_bookshelf_tooltip = "ENABLED"
+chiseled_bookshelf_tooltip = "CROUCHING"
 #Offset on x-axis for chiseled bookshelf book tooltips from original position.
 #Default Value: 0
 #Range: > -2147483648
