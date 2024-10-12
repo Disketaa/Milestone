@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:glass_bottle",
+  "right": {
+    "type": "item",
+    "id": "minecraft:bee_nest",
+    "remainder": "item:minecraft:bee_nest"
+  },
+  "output": "item:minecraft:honey_bottle"
+}
