@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:waxed_weathered_copper"
+  },
+  "result": {
+    "id": "metalfences:waxed_weathered_copper_fence",
+    "count": 7
+  }
+}

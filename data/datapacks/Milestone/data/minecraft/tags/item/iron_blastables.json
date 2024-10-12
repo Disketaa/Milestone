@@ -1,6 +1,8 @@
 {
   "values": [
     "minecraft:iron_block",
+    "metalfences:iron_fence",
+    "metalfences:iron_fence_gate",
     "minecraft:iron_door",
     "minecraft:iron_trapdoor",
     "minecraft:heavy_weighted_pressure_plate",

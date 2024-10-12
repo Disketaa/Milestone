@@ -1,0 +1,24 @@
+{
+  "block.metalfences.iron_fence": "Железный забор",
+  "block.metalfences.iron_fence_gate": "Железная калитка",
+
+  "block.metalfences.copper_fence": "Медный забор",
+  "block.metalfences.exposed_copper_fence": "Потемневший медный забор",
+  "block.metalfences.weathered_copper_fence": "Состаренный медный забор",
+  "block.metalfences.oxidized_copper_fence": "Окисленный медный забор",
+
+  "block.metalfences.waxed_copper_fence": "Вощёный медный забор",
+  "block.metalfences.waxed_exposed_copper_fence": "Вощёный потемневший медный забор",
+  "block.metalfences.waxed_weathered_copper_fence": "Вощёный состаренный медный забор",
+  "block.metalfences.waxed_oxidized_copper_fence": "Вощёный окисленный медный забор",
+
+  "block.metalfences.copper_fence_gate": "Медная калитка",
+  "block.metalfences.exposed_copper_fence_gate": "Потемневшая медная калитка",
+  "block.metalfences.weathered_copper_fence_gate": "Состаренная медная калитка",
+  "block.metalfences.oxidized_copper_fence_gate": "Окисленная медная калитка",
+
+  "block.metalfences.waxed_copper_fence_gate": "Вощёная медная калитка",
+  "block.metalfences.waxed_exposed_copper_fence_gate": "Вощёная потемневшая медная калитка",
+  "block.metalfences.waxed_weathered_copper_fence_gate": "Вощёная состаренная медная калитка",
+  "block.metalfences.waxed_oxidized_copper_fence_gate": "Вощёная окисленная медная калитка"
+}

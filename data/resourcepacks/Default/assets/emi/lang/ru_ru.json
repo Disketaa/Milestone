@@ -2,6 +2,10 @@
   "emi.search": "Поиск...",
 
   "tag.item.c.stone_slabs": "Каменные плиты",
+  "tag.item.metalfences.copper_fence_gates": "Медные калитки",
+  "tag.item.metalfences.copper_fences": "Медные заборы",
+  "tag.item.metalfences.metal_fence_gates": "Металлические калитки",
+  "tag.item.metalfences.metal_fences": "Металлические заборы",
   "tag.item.minecraft.copper_blastables": "Выплавляемая медь",
   "tag.item.minecraft.copper_smeltables": "Переплавляемая медь",
   "tag.item.minecraft.coral_blocks": "Коралловые блоки",

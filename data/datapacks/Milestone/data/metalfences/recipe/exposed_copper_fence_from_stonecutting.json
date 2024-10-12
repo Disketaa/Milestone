@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:exposed_copper"
+  },
+  "result": {
+    "id": "metalfences:exposed_copper_fence",
+    "count": 7
+  }
+}

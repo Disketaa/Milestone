@@ -2,6 +2,10 @@
   "emi.search": "Search...",
 
   "tag.item.c.stone_slabs": "Stone Slabs",
+  "tag.item.metalfences.copper_fence_gates": "Copper Fence Gates",
+  "tag.item.metalfences.copper_fences": "Copper Fences",
+  "tag.item.metalfences.metal_fence_gates": "Metal Fence Gates",
+  "tag.item.metalfences.metal_fences": "Metal Fence Gates",
   "tag.item.minecraft.copper_blastables": "Blastable Copper",
   "tag.item.minecraft.copper_smeltables": "Smeltable Copper",
   "tag.item.minecraft.coral_blocks": "Coral Blocks",

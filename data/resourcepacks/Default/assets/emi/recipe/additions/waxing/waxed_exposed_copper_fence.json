@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:metalfences:exposed_copper_fence",
+  "right": "item:minecraft:honeycomb",
+  "output": "item:metalfences:waxed_exposed_copper_fence"
+}

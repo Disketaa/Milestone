@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:copper_block"
+  },
+  "result": {
+    "id": "metalfences:copper_fence_gate",
+    "count": 8
+  }
+}

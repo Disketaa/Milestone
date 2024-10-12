@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "-": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "#-#",
+    "#-#"
+  ],
+  "result": {
+    "id": "metalfences:iron_fence",
+    "count": 3
+  }
+}
