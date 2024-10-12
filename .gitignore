@@ -11,6 +11,7 @@
 /config/immediatelyfast.json
 /config/indium-renderer.properties
 /config/iris.properties
+/config/jei
 /config/jei/world
 /config/moreculling.toml
 /config/ok_zoomer/config.toml
@@ -31,6 +32,7 @@
 /options.txt
 /profile.json
 /resourcepacks/
+/config/stack-to-nearby-chests/locked-slots
 /saves/
 /screenshots/
 /servers.dat
@@ -39,5 +41,7 @@
 /usercache.json
 /usernamecache.json
 /xaero/
+config/jade
+config/yosbr/config/jade/usernamecache.json
 Default.rpo
 realms_persistence.json
