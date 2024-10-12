@@ -16,5 +16,5 @@
   "allowFarmlandTrampling": true,
   "bonemealableSugarcane": false,
   "allowAlternateHoeUse": true,
-  "cropExperienceChance": 25
+  "cropExperienceChance": 50
 }
