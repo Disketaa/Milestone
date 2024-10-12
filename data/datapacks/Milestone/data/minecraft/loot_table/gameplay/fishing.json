@@ -8,7 +8,7 @@
           "type": "minecraft:loot_table",
           "value": "minecraft:gameplay/fishing/fish",
           "weight": 90,
-          "quality": -1
+          "quality": 0
         },
         {
           "type": "minecraft:loot_table",
