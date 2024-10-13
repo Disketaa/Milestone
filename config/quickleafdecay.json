@@ -7,5 +7,5 @@
   "minDecayDelay": 30,
   "maxDecayDelay": 100,
   "updateDiagonalLeaves": true,
-  "doDecayingLeavesEffects": true
+  "doDecayingLeavesEffects": false
 }
