@@ -1,0 +1,9 @@
+{
+  "snowKbMultiplier": 0.0,
+  "snowDamage": 0.001,
+  "snowTraditionalKb": true,
+  "eggKbMultiplier": 0.0,
+  "eggDamage": 0.001,
+  "eggTraditionalKb": true,
+  "fishingRodPullMultiplier": 0.1
+}
