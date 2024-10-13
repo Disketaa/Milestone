@@ -2,7 +2,7 @@
 	"waterSplash": true,
 	"cascades": true,
 	"waterfallSpray": true,
-	"fireflies": true,
+	"fireflies": false,
 	"fallingLeaves": true,
 	"caveDust": true,
 	"chestBubbles": true,
