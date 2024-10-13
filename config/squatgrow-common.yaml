@@ -10,7 +10,7 @@ hoeTakesDamage: false
 ignoreList: ['#minecraft:saplings', 'minecraft:brown_mushroom', 'minecraft:crimson_fungus',
   'minecraft:red_mushroom', 'minecraft:warped_fungus']
 randomTickMultiplier: 1
-range: 2
+range: 4
 requireHoe: false
 requirements:
   durabilityDamage: 1
