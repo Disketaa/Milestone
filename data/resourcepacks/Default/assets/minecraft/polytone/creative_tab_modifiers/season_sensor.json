@@ -1,0 +1,19 @@
+{
+  "targets": [
+    "redstone_blocks"
+  ],
+  "additions": [
+    {
+      "items": [
+        "sereneseasons:season_sensor"
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:daylight_detector"
+        ]
+      }
+    }
+  ]
+}

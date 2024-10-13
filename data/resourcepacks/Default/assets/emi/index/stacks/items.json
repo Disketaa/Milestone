@@ -2,10 +2,12 @@
   "removed": [
     "fluid:minecraft:lava",
     "fluid:minecraft:water",
+    "item:amendments:dye_bottle",
     "item:minecraft:bedrock",
     "item:minecraft:end_portal_frame",
     "item:minecraft:vault",
-    "item:minecraft:white_banner{\"minecraft:banner_patterns\":[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],\"minecraft:hide_additional_tooltip\":{},\"minecraft:item_name\":\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}"
+    "item:minecraft:white_banner{\"minecraft:banner_patterns\":[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],\"minecraft:hide_additional_tooltip\":{},\"minecraft:item_name\":\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}",
+    "item:moonlight:placeable_item"
   ],
 
   "filters": [

@@ -18,6 +18,10 @@
   "tag.item.minecraft.piglin_treasures": "Treasure for Piglins",
   "tag.item.minecraft.waxed_copper_blastables": "Waxed Blastable Copper",
   "tag.item.minecraft.waxed_copper_smeltables": "Waxed Smeltable Copper",
+  "tag.item.sereneseasons.autumn_crops": "Autumn Crops",
+  "tag.item.sereneseasons.spring_crops": "Spring Crops",
+  "tag.item.sereneseasons.summer_crops": "Summer Crops",
+  "tag.item.sereneseasons.winter_crops": "Winter Crops",
 
   "tooltip.emi.chance.produce": "§7Chance: %s%%"
 }

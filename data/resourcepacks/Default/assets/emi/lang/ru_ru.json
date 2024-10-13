@@ -18,6 +18,10 @@
   "tag.item.minecraft.piglin_treasures": "Драгоценное у пиглинов",
   "tag.item.minecraft.waxed_copper_blastables": "Вощённая выплавляемая медь",
   "tag.item.minecraft.waxed_copper_smeltables": "Вощённая переплавляемая медь",
+  "tag.item.sereneseasons.autumn_crops": "Растущее осенью",
+  "tag.item.sereneseasons.spring_crops": "Растущее весной",
+  "tag.item.sereneseasons.summer_crops": "Растущее летом",
+  "tag.item.sereneseasons.winter_crops": "Растущее зимой",
 
   "tooltip.emi.chance.produce": "§7Шанс: %s%%"
 }
