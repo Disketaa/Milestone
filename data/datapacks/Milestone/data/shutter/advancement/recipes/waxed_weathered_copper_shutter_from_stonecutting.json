@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_waxed_weathered_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_weathered_copper"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "shutter:waxed_weathered_copper_shutter_from_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_waxed_weathered_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "shutter:waxed_weathered_copper_shutter_from_stonecutting"
+    ]
+  }
+}

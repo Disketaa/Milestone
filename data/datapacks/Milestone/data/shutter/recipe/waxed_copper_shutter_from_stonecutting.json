@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:waxed_copper_block"
+  },
+  "result": {
+    "id": "shutter:waxed_copper_shutter",
+    "count": 7
+  }
+}

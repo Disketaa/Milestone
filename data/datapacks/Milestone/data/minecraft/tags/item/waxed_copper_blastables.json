@@ -9,6 +9,7 @@
     "metalfences:waxed_copper_fence",
     "metalfences:waxed_copper_fence_gate",
     "minecraft:waxed_copper_door",
+    "shutter:waxed_copper_shutter",
     "minecraft:waxed_copper_trapdoor",
     "minecraft:waxed_copper_bulb",
     "minecraft:waxed_exposed_copper",
@@ -20,6 +21,7 @@
     "metalfences:waxed_exposed_copper_fence",
     "metalfences:waxed_exposed_copper_fence_gate",
     "minecraft:waxed_exposed_copper_door",
+    "shutter:waxed_exposed_copper_shutter",
     "minecraft:waxed_exposed_copper_trapdoor",
     "minecraft:waxed_exposed_copper_bulb",
     "minecraft:waxed_weathered_copper",
@@ -31,6 +33,7 @@
     "metalfences:waxed_weathered_copper_fence",
     "metalfences:waxed_weathered_copper_fence_gate",
     "minecraft:waxed_weathered_copper_door",
+    "shutter:waxed_weathered_copper_shutter",
     "minecraft:waxed_weathered_copper_trapdoor",
     "minecraft:waxed_weathered_copper_bulb",
     "minecraft:waxed_oxidized_copper",
@@ -42,6 +45,7 @@
     "metalfences:waxed_oxidized_copper_fence",
     "metalfences:waxed_oxidized_copper_fence_gate",
     "minecraft:waxed_oxidized_copper_door",
+    "shutter:waxed_oxidized_copper_shutter",
     "minecraft:waxed_oxidized_copper_trapdoor",
     "minecraft:waxed_oxidized_copper_bulb"
   ]

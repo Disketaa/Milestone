@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cherry_planks"
+  },
+  "result": {
+    "id": "shutter:cherry_shutter"
+  }
+}

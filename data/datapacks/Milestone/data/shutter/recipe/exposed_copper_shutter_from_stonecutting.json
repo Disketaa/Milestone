@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:exposed_copper"
+  },
+  "result": {
+    "id": "shutter:exposed_copper_shutter",
+    "count": 7
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "targets": [
+    "building_blocks"
+  ],
+  "additions": [
+    {
+      "items": [
+        "shutter:acacia_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:acacia_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:bamboo_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:bamboo_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:birch_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:birch_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:cherry_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:cherry_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:copper_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:copper_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:crimson_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:crimson_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:dark_oak_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:dark_oak_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:exposed_copper_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:exposed_copper_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:iron_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:iron_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:jungle_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:jungle_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:mangrove_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:mangrove_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:oak_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:oak_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:oxidized_copper_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:oxidized_copper_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:spruce_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:spruce_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:warped_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:warped_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:waxed_copper_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:waxed_copper_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:waxed_exposed_copper_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:waxed_exposed_copper_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:waxed_oxidized_copper_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:waxed_oxidized_copper_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:waxed_weathered_copper_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:waxed_weathered_copper_door"
+        ]
+      }
+    },
+    {
+      "items": [
+        "shutter:weathered_copper_shutter"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:weathered_copper_door"
+        ]
+      }
+    }
+  ]
+}
