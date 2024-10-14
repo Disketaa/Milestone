@@ -12,6 +12,7 @@ onboardAccessibility:false
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.bridgingmod.toggle_bridging:key.keyboard.unknown
+key_key.clickthrough.toggle:key.keyboard.unknown
 key_key.clientsort.sort:key.keyboard.space
 key_key.freecam.toggle:key.keyboard.f6
 key_key.jei.toggleOverlay:key.keyboard.unknown
@@ -40,7 +41,7 @@ key_key.jei.previousCategory:key.keyboard.unknown
 key_key.jei.nextCategory:key.keyboard.unknown
 key_key.jei.closeRecipeGui:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.right.bracket
-key_key.spyglass-improvements.use:key.keyboard.c
+key_key.raised.options:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown
