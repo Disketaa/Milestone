@@ -1,12 +1,9 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:brain_coral"
-    }
-  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:brain_coral"
+  },
   "result": {
-    "id": "minecraft:brain_coral_fan",
-    "count": 3
+    "id": "minecraft:brain_coral_fan"
   }
 }

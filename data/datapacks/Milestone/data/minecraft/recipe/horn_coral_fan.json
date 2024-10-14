@@ -1,12 +1,9 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:horn_coral"
-    }
-  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:horn_coral"
+  },
   "result": {
-    "id": "minecraft:horn_coral_fan",
-    "count": 3
+    "id": "minecraft:horn_coral_fan"
   }
 }

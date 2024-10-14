@@ -1,12 +1,9 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bubble_coral"
-    }
-  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bubble_coral"
+  },
   "result": {
-    "id": "minecraft:bubble_coral_fan",
-    "count": 3
+    "id": "minecraft:bubble_coral_fan"
   }
 }

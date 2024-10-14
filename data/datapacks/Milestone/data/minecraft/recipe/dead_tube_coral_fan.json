@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dead_tube_coral"
+  },
+  "result": {
+    "id": "minecraft:dead_tube_coral_fan"
+  }
+}
