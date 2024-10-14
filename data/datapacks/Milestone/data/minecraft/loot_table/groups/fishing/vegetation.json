@@ -5,6 +5,15 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "minecraft:groups/misc/vegetation"
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:vine",
           "weight": 30,
