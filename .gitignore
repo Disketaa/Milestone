@@ -18,6 +18,8 @@
 /config/respackopts/
 /config/sodium*.json
 /config/sodium*.properties
+/config/stack-to-nearby-chests/locked-slots
+/config/vmp.properties
 /config/xaero*
 /crash-reports/
 /data/fabricDefaultResourcePacks.dat
@@ -32,7 +34,6 @@
 /options.txt
 /profile.json
 /resourcepacks/
-/config/stack-to-nearby-chests/locked-slots
 /saves/
 /screenshots/
 /servers.dat
