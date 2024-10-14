@@ -1,0 +1,107 @@
+{
+  config: {
+    enableFileWatcher: true,
+    stripComments: true,
+  },
+  command: {
+    commandNames: [
+      ""
+    ],
+  },
+  deathCoordinates: {
+    sendToDeadPlayer: false,
+    sendToServerLog: false,
+    sendToOtherAdmins: false,
+  },
+  restoreInventory: {
+    maxInventoriesSaved: 5,
+    restoreExperience: false,
+  },
+  perPlayer: {
+    defaultEnabledForPlayer: true,
+    playersCanChangeTheirOwnSetting: false,
+  },
+  droppedItemGlow: {
+    enabled: false,
+    glowVisibility: "dead_player_and_team",
+    noTeamIsValidTeam: false,
+  },
+  extendedDeathItemLifetime: {
+    enabled: true,
+    deathDropItemLifetimeSeconds: 900,
+    deathDropItemsNeverDespawn: false,
+  },
+  itemResilience: {
+    allDeathItemsAreFireProof: false,
+    allDeathItemsAreCactusProof: false,
+    allDeathItemsAreExplosionProof: false,
+    voidRecovery: {
+      mode: "last_grounded_position",
+      announce: false,
+    },
+  },
+  moveToOriginalSlots: {
+    enabled: true,
+  },
+  preserveExperienceOnDeath: {
+    enabled: "no",
+    preservedPercentage: 60,
+  },
+  preserveItemsOnDeath: {
+    enabled: "yes",
+    nbt: {
+      enabled: false,
+      nbtKey: "Soulbound",
+    },
+    alwaysDropped: {
+      items: [],
+      tags: [],
+    },
+    alwaysPreserved: {
+      items: [],
+      tags: [
+        "lenientdeath:safe",
+      ],
+    },
+    trinkets: {
+      overrideDestroyRule: false,
+    },
+    byItemType: {
+      enabled: true,
+      helmets: "preserve",
+      chestplates: "preserve",
+      elytras: "preserve",
+      leggings: "preserve",
+      boots: "preserve",
+      body: "ignore",
+      shields: "preserve",
+      otherEquippables: "ignore",
+      trinkets: "preserve",
+      swords: "preserve",
+      tridents: "preserve",
+      maces: "preserve",
+      bows: "preserve",
+      crossbows: "preserve",
+      otherProjectileLaunchers: "preserve",
+      pickaxes: "preserve",
+      shovels: "preserve",
+      axes: "preserve",
+      hoes: "preserve",
+      otherDiggingItems: "preserve",
+      otherTools: "preserve",
+      buckets: "drop",
+      food: "drop",
+      potions: "drop",
+      shulkerBoxes: "ignore",
+    },
+    randomizer: {
+      enabled: false,
+      splitStacks: true,
+      preservedPercentage: 25,
+      luckAdditiveFactor: 20,
+      luckMultiplierFactor: 0.0,
+    }
+  },
+  // Users: do not edit manually! Last saved mod version
+  "__version": "1.2.5+1.21.1",
+}
