@@ -3,17 +3,13 @@
 /command_history.txt
 /config/chatcalc.json
 /config/chunksfadein.properties
-/config/enhanced_bes.properties
 /config/entityculling.json
 /config/fabric/
-/config/ferritecore.mixin.properties
 /config/freecam.json5
-/config/immediatelyfast.json
 /config/indium-renderer.properties
 /config/iris.properties
 /config/jei
 /config/jei/world
-/config/moreculling.toml
 /config/ok_zoomer/config.toml
 /config/respackopts/
 /config/sodium*.json
