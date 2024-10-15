@@ -15,7 +15,6 @@
 /config/sodium*.json
 /config/sodium*.properties
 /config/stack-to-nearby-chests/locked-slots
-/config/threadtweak.json
 /config/vmp.properties
 /config/xaero*
 /crash-reports/
