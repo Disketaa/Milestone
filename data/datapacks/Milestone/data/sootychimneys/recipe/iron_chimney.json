@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:ingots/iron"
+    },
+    "-": {
+      "item": "minecraft:iron_trapdoor"
+    }
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    "#-#"
+  ],
+  "result": {
+    "id": "sootychimneys:iron_chimney"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "sootychimneys:dirty_brick_chimney"
+    },
+    "title": {
+      "translate": "advancements.sootychimneys.adventure.just_dont_breathe_it_in.title"
+    },
+    "description": {
+      "translate": "advancements.sootychimneys.adventure.just_dont_breathe_it_in.description"
+    }
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "scrape_soot": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#sootychimneys:sooty_chimneys"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#sootychimneys:soot_scrapers"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scrape_soot"
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "-": {
+      "item": "minecraft:iron_trapdoor"
+    }
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    "#-#"
+  ],
+  "result": {
+    "id": "sootychimneys:brick_chimney"
+  }
+}

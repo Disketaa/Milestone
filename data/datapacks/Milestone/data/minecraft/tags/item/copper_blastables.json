@@ -48,6 +48,8 @@
     "shutter:oxidized_copper_shutter",
     "minecraft:oxidized_copper_trapdoor",
     "minecraft:oxidized_copper_bulb",
+    "sootychimneys:copper_chimney",
+    "sootychimneys:dirty_copper_chimney",
     "#minecraft:copper_smeltables"
   ]
 }

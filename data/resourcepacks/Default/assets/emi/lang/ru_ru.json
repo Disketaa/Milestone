@@ -22,6 +22,7 @@
   "tag.item.sereneseasons.spring_crops": "Растущее весной",
   "tag.item.sereneseasons.summer_crops": "Растущее летом",
   "tag.item.sereneseasons.winter_crops": "Растущее зимой",
+  "tag.item.sootychimneys.soot_scrapers": "Можно соскребсти сажу",
 
   "tooltip.emi.chance.produce": "§7Шанс: %s%%"
 }

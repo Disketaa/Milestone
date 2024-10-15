@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "sootychimneys:dirty_cobblestone_chimney",
+    "remainder": "item:sootychimneys:cobblestone_chimney"
+  },
+  "right": "#item:sootychimneys:soot_scrapers",
+  "output": {
+    "type": "item",
+    "id": "minecraft:black_dye",
+    "chance": 0.75
+  }
+}

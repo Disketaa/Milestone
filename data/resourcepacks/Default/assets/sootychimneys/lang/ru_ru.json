@@ -1,0 +1,23 @@
+{
+  "advancements.sootychimneys.adventure.just_dont_breathe_it_in.title": "Трубочист",
+  "advancements.sootychimneys.adventure.just_dont_breathe_it_in.description": "Соскребите сажу с дымохода",
+
+  "stat.sootychimneys.soot_scraped": "Очищено дымоходов",
+
+  "block.sootychimneys.brick_chimney": "Кирпичный дымоход",
+  "block.sootychimneys.dirty_brick_chimney": "Загрязнённый кирпичный дымоход",
+  "block.sootychimneys.cobblestone_chimney": "Булыжный дымоход",
+  "block.sootychimneys.dirty_cobblestone_chimney": "Загрязнённый булыжный дымоход",
+  "block.sootychimneys.stone_brick_chimney": "Дымоход из каменного кирпича",
+  "block.sootychimneys.dirty_stone_brick_chimney": "Загрязнённый дымоход из каменного кирпича",
+  "block.sootychimneys.mud_brick_chimney": "Саманный дымоход",
+  "block.sootychimneys.dirty_mud_brick_chimney": "Загрязнённый саманный дымоход",
+  "block.sootychimneys.iron_chimney": "Железный дымоход",
+  "block.sootychimneys.dirty_iron_chimney": "Загрязнённый железный дымоход",
+  "block.sootychimneys.copper_chimney": "Медный дымоход",
+  "block.sootychimneys.dirty_copper_chimney": "Загрязнённый медный дымоход",
+  "block.sootychimneys.terracotta_chimney": "Терракотовый дымоход",
+  "block.sootychimneys.dirty_terracotta_chimney": "Загрязнённый терракотовый дымоход",
+  "message.sootychimneys.blocked": "§7Заслонка дымохода закрыта",
+  "message.sootychimneys.open": "Заслонка дымохода открыта"
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:axes",
+    "#minecraft:shovels",
+    {
+      "required": false,
+      "id": "create:sandpaper"
+    }
+  ]
+}
