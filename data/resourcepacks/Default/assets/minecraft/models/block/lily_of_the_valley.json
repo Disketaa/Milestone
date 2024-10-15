@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_tint",
+  "textures": {
+    "cross": "minecraft:block/lily_of_the_valley",
+    "cross_tint": "minecraft:block/lily_of_the_valley_overlay"
+  }
+}

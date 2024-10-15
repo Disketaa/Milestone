@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_tint",
+  "textures": {
+    "cross": "minecraft:block/allium",
+    "cross_tint": "minecraft:block/allium_overlay"
+  }
+}

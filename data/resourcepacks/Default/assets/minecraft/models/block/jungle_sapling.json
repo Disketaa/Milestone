@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_tint",
+  "textures": {
+    "cross": "minecraft:block/jungle_sapling",
+    "cross_tint": "minecraft:block/jungle_sapling_overlay"
+  }
+}

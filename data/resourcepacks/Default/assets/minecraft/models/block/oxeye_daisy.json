@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_tint",
+  "textures": {
+    "cross": "minecraft:block/oxeye_daisy",
+    "cross_tint": "minecraft:block/oxeye_daisy_overlay"
+  }
+}

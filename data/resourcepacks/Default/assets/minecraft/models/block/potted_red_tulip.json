@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flower_pot_cross_tint",
+  "textures": {
+    "plant": "minecraft:block/red_tulip",
+    "tint": "block/red_tulip_overlay"
+  }
+}

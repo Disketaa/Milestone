@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_tint",
+  "textures": {
+    "cross": "minecraft:block/acacia_sapling",
+    "cross_tint": "minecraft:block/acacia_sapling_overlay"
+  }
+}

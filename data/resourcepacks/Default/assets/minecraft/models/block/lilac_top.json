@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_tint",
+  "textures": {
+    "cross": "minecraft:block/lilac_top",
+    "cross_tint": "block/lilac_top_overlay"
+  }
+}

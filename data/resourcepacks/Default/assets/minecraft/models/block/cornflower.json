@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_tint",
+  "textures": {
+    "cross": "minecraft:block/cornflower",
+    "cross_tint": "block/cornflower_overlay"
+  }
+}

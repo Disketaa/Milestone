@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flower_pot_cross_tint",
+  "textures": {
+    "plant": "minecraft:block/dark_oak_sapling",
+    "tint": "block/dark_oak_sapling_overlay"
+  }
+}

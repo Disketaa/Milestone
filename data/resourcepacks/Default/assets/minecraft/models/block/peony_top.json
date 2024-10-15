@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_tint",
+  "textures": {
+    "cross": "minecraft:block/peony_top",
+    "cross_tint": "minecraft:block/peony_top_overlay"
+  }
+}

@@ -1,0 +1,15 @@
+{
+"targets": [
+   "acacia_sapling",
+   "dark_oak_sapling",
+   "jungle_sapling",
+   "oak_sapling",
+   "potted_acacia_sapling",
+   "potted_dark_oak_sapling",
+   "potted_jungle_sapling",
+   "potted_oak_sapling"
+],
+   "colormap": {
+      "1": "minecraft:foliage_color"
+   }
+}
