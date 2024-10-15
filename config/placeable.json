@@ -1,0 +1,40 @@
+{
+  "_comment": "DO NOT MODIFY THE VERSION VALUE!",
+  "version": 1,
+  "HOW_TO_DISABLE_PLANTS!!!": [
+    "Please remove the '//' at the beginning of the string.",
+    "For example, to disable the ability to place cactus anywhere,",
+    "change '//minecraft:cactus' to 'minecraft:cactus'"
+  ],
+  "disable_plants": [
+    "minecraft:acacia_sapling",
+    "minecraft:azalea",
+    "minecraft:bamboo_sapling",
+    "minecraft:beetroots",
+    "minecraft:birch_sapling",
+    "minecraft:brown_mushroom",
+    "minecraft:cactus",
+    "minecraft:carrots",
+    "minecraft:cherry_sapling",
+    "minecraft:cocoa",
+    "minecraft:crimson_fungus",
+    "minecraft:dark_oak_sapling",
+    "minecraft:flowering_azalea",
+    "minecraft:jungle_sapling",
+    "minecraft:lily_pad",
+    "minecraft:mangrove_propagule",
+    "minecraft:melon_stem",
+    "minecraft:nether_wart",
+    "minecraft:oak_sapling",
+    "minecraft:pitcher_crop",
+    "minecraft:potatoes",
+    "minecraft:pumpkin_stem",
+    "minecraft:red_mushroom",
+    "minecraft:spruce_sapling",
+    "minecraft:sugar_cane",
+    "minecraft:sweet_berry_bush",
+    "minecraft:torchflower_crop",
+    "minecraft:warped_fungus",
+    "minecraft:wheat"
+  ]
+}
