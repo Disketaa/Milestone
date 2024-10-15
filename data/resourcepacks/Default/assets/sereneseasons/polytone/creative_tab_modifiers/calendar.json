@@ -1,0 +1,19 @@
+{
+  "targets": [
+    "tools_and_utilities"
+  ],
+  "additions": [
+    {
+      "items": [
+        "sereneseasons:calendar"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:clock"
+        ]
+      }
+    }
+  ]
+}
