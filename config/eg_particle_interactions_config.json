@@ -13,34 +13,34 @@
 		"minecraft:powder_snow_bucket"
 	],
 	"maxCherryPetals_onPlace": 1,
-	"cherryPetal_onPlace": true,
+	"cherryPetal_onPlace": false,
 	"maxCherryPetals_onBreak": 3,
-	"cherryPetal_onBreak": true,
+	"cherryPetal_onBreak": false,
 	"cherryPetal_BlockItems": [
 		"minecraft:cherry_leaves",
 		"minecraft:cherry_sapling",
 		"minecraft:pink_petals"
 	],
 	"maxAzaleaLeaves_onPlace": 1,
-	"azaleaLeaf_onPlace": true,
+	"azaleaLeaf_onPlace": false,
 	"maxAzaleaLeaves_onBreak": 3,
-	"azaleaLeaf_onBreak": true,
+	"azaleaLeaf_onBreak": false,
 	"azaleaLeaf_BlockItems": [
 		"minecraft:azalea",
 		"minecraft:azalea_leaves"
 	],
 	"maxFloweringAzaleaLeaves_onPlace": 1,
-	"floweringAzaleaLeaf_onPlace": true,
+	"floweringAzaleaLeaf_onPlace": false,
 	"maxFloweringAzaleaLeaves_onBreak": 3,
-	"floweringAzaleaLeaf_onBreak": true,
+	"floweringAzaleaLeaf_onBreak": false,
 	"floweringAzaleaLeaf_BlockItems": [
 		"minecraft:flowering_azalea",
 		"minecraft:flowering_azalea_leaves"
 	],
 	"maxTintedLeaves_onPlace": 1,
-	"tintedLeaves_onPlace": true,
+	"tintedLeaves_onPlace": false,
 	"maxTintedLeaves_onBreak": 3,
-	"tintedLeaves_onBreak": true,
+	"tintedLeaves_onBreak": false,
 	"tintedLeaves_BlockItems": [
 		"minecraft:jungle_leaves",
 		"minecraft:oak_leaves",
