@@ -25,6 +25,9 @@
 	# Allows to increase or decrease the zoom by scrolling with the mouse wheel.
 	# default: true
 	zoom_scrolling = true
+	# Retains the interface when zooming.
+	# default: false
+	persistent_interface = false
 	# Adds zoom manipulation keys along with the zoom key. A game reboot will be required in order to apply the changes.
 	# default: true
 	extra_key_binds = true
@@ -40,18 +43,18 @@
 	# "BOTH": Zooming will act as a complete replacement of the spyglass zoom, requiring one to work and replacing its zoom as well.
 	# options: OFF, REQUIRE_ITEM, REPLACE_ZOOM, BOTH
 	# default: OFF
-	spyglass_mode = "BOTH"
+	spyglass_mode = "REQUIRE_ITEM"
 
 # Allows for precise tweaking of the zoom.
 [zoom_values]
 	# The divisor applied to the FOV's zoom multiplier. A higher value means more zoom.
 	# range: 2.2250738585072014E-308 - 1.7976931348623157E308
 	# default: 4.0
-	zoom_divisor = 3.0
+	zoom_divisor = 2.0
 	# The minimum zoom divisor that you can scroll down.
 	# range: 2.2250738585072014E-308 - 1.7976931348623157E308
 	# default: 1.0
-	minimum_zoom_divisor = 1.5
+	minimum_zoom_divisor = 2.0
 	# The maximum zoom divisor that you can scroll up.
 	# range: 2.2250738585072014E-308 - 1.7976931348623157E308
 	# default: 50.0
@@ -74,7 +77,7 @@
 	# The factor used for smooth zoom transitions. A lower value means a smoother transition, a higher value means a faster one.
 	# range: 2.2250738585072014E-308 - 1.0
 	# default: 0.6
-	smooth_transition_factor = 0.6
+	smooth_transition_factor = 0.5
 	# The minimum value which the linear zoom transition step can reach.
 	# range: 0.0 - 1.7976931348623157E308
 	# default: 0.16
@@ -89,6 +92,9 @@
 	# If pressed, the "Save Toolbar Activator" keybind will be unbound if there's a conflict with the zoom key.
 	# default: true
 	unbind_conflicting_key = false
+	# Hides the crosshair while zooming.
+	# default: true
+	hide_crosshair = true
 	# Allows for resetting the zoom with the middle mouse button.
 	# default: true
 	reset_zoom_with_mouse = true
@@ -100,8 +106,8 @@
 	use_spyglass_sounds = true
 	# Shows toasts when the server imposes a restriction.
 	# default: true
-	show_restriction_toasts = true
+	show_restriction_toasts = false
 	# Prints a random owo in the console when the game starts.
-	# default: false
+	# default: true
 	print_owo_on_start = false
 
