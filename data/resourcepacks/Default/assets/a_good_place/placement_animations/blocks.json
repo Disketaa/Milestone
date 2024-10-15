@@ -1,5 +1,14 @@
 {
-  "predicates": [],
+  "predicates": [
+    {
+      "type": "not",
+      "predicate":
+      {
+        "type": "matching_blocks",
+        "blocks": "#minecraft:sword_efficient"
+      }
+    }
+  ],
   "priority": 0,
   "duration": 2,
   "scale": 1.2,
