@@ -1,0 +1,21 @@
+{
+  "targets": [
+    "building_blocks"
+  ],
+  "additions": [
+    {
+      "items": [
+        "farmersdelight:tatami",
+        "farmersdelight:half_tatami_mat",
+        "farmersdelight:full_tatami_mat",
+        "farmersdelight:canvas_rug"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:bamboo_button"
+        ]
+      }
+    }
+  ]
+}

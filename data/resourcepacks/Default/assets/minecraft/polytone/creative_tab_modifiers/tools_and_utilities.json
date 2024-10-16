@@ -5,6 +5,18 @@
   "additions": [
     {
       "items": [
+        "minecraft:tropical_fish_bucket"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:cod_bucket"
+        ]
+      }
+    },
+    {
+      "items": [
         "minecraft:music_disc_11",
         "minecraft:music_disc_stal",
         "minecraft:music_disc_strad",
@@ -25,7 +37,6 @@
         "minecraft:music_disc_pigstep",
         "minecraft:music_disc_5"
       ],
-      "before": false,
       "predicate": {
         "type": "items_match",
         "items": [

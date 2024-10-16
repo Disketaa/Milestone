@@ -1,0 +1,39 @@
+{
+  "targets": [
+    "natural_blocks"
+  ],
+  "additions": [
+    {
+      "items": [
+        "farmersdelight:rich_soil",
+        "farmersdelight:rich_soil_farmland",
+        "farmersdelight:organic_compost"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:farmland"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:rice_bale",
+        "farmersdelight:straw_bale",
+        "farmersdelight:rice_bag",
+        "farmersdelight:potato_crate",
+        "farmersdelight:onion_crate",
+        "farmersdelight:carrot_crate",
+        "farmersdelight:beetroot_crate",
+        "farmersdelight:tomato_crate",
+        "farmersdelight:cabbage_crate"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:hay_block"
+        ]
+      }
+    }
+  ]
+}
