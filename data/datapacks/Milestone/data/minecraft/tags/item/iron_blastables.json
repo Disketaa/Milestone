@@ -7,6 +7,7 @@
     "shutter:iron_shutter",
     "minecraft:iron_trapdoor",
     "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:iron_bars",
     "minecraft:smithing_table",
     "minecraft:cauldron",
     "#minecraft:anvil",
@@ -20,7 +21,6 @@
     "minecraft:hopper_minecart",
     "minecraft:minecart",
     "minecraft:chain",
-    "minecraft:iron_bars",
     "#minecraft:iron_smeltables"
   ]
 }
