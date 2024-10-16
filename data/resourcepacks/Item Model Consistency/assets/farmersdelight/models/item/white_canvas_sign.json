@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_sign",
+  "textures": {
+    "all": "farmersdelight:entity/signs/canvas_white"
+  }
+}

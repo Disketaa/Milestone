@@ -1,0 +1,19 @@
+{
+  "parent": "farmersdelight:block/cooking_pot",
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [0, 135, 0],
+      "translation": [0, 2, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "gui": {
+      "rotation": [30, 135, 0],
+      "translation": [0, 1.5, 0],
+      "scale": [0.75, 0.75, 0.75]
+    },
+    "head": {
+      "rotation": [0, 0, 180],
+      "scale": [1.25, 1.25, 1.25]
+    }
+  }
+}

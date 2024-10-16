@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_hanging_sign",
+  "textures": {
+    "all": "farmersdelight:entity/signs/hanging/canvas_lime"
+  }
+}

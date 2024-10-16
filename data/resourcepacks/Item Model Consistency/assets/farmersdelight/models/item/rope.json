@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "top": "farmersdelight:block/rope_top",
+    "side": "farmersdelight:block/rope"
+  },
+  "elements": [
+    {
+      "from": [7, 0, 7],
+      "to": [9, 16, 9],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+      "faces": {
+        "north": {"uv": [9, 0, 7, 16], "texture": "#side"},
+        "east": {"uv": [7, 0, 9, 16], "texture": "#side"},
+        "south": {"uv": [9, 0, 7, 16], "texture": "#side"},
+        "west": {"uv": [7, 0, 9, 16], "texture": "#side"},
+        "up": {"uv": [7, 7, 9, 9], "rotation": 90, "texture": "#top"},
+        "down": {"uv": [7, 7, 9, 9], "rotation": 90, "texture": "#top"}
+      }
+    }
+  ]
+}
