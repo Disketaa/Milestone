@@ -1,0 +1,32 @@
+{
+  "targets": [
+    "functional_blocks"
+  ],
+  "additions": [
+    {
+      "items": [
+        "farmersdelight:stove"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "sootychimneys:brick_chimney"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:cutting_board",
+        "farmersdelight:skillet",
+        "farmersdelight:cooking_pot"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:soul_campfire"
+        ]
+      }
+    }
+  ]
+}
