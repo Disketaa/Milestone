@@ -1,4 +1,6 @@
 {
+  "effect.farmersdelight.comfort.desc": "§8| Regenerates health without food saturation",
+  "effect.farmersdelight.nourishment.desc": "§8| Prevents hunger loss unless damaged",
   "effect.minecraft.absorption.desc": "§8| Adds additional hearts that can not be regenerated",
   "effect.minecraft.bad_omen.desc": "§8| Causes an illager raid to start upon entering a village",
   "effect.minecraft.blindness.desc": "§8| Reduces the visibility, ability to sprint and critical hit",

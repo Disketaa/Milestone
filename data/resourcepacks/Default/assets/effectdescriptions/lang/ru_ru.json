@@ -1,4 +1,6 @@
 {
+  "effect.farmersdelight.comfort.desc": "§8| Восстанавливает здоровье без учёта сытости",
+  "effect.farmersdelight.nourishment.desc": "§8| Останавливает потерю сытости до получения урона",
   "effect.minecraft.absorption.desc": "§8| Добавляет сердца, которые не могут быть восстановлены",
   "effect.minecraft.bad_omen.desc": "§8| Вызывает нападение зловредов при входе в деревню",
   "effect.minecraft.blindness.desc": "§8| Ухудшает видимость, убирает возможность бега и нанесения критических ударов",
