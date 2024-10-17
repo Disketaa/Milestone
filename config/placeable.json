@@ -7,6 +7,17 @@
     "change '//minecraft:cactus' to 'minecraft:cactus'"
   ],
   "disable_plants": [
+    "farmersdelight:brown_mushroom_colony",
+    "farmersdelight:cabbages",
+    "farmersdelight:onions",
+    "farmersdelight:red_mushroom_colony",
+    "farmersdelight:rice",
+    "farmersdelight:tomatoes",
+    "farmersdelight:wild_cabbages",
+    "farmersdelight:wild_carrots",
+    "farmersdelight:wild_onions",
+    "farmersdelight:wild_potato",
+    "farmersdelight:wild_rice",
     "minecraft:acacia_sapling",
     "minecraft:azalea",
     "minecraft:bamboo_sapling",
