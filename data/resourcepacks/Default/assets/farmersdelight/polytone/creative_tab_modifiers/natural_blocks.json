@@ -34,6 +34,71 @@
           "minecraft:hay_block"
         ]
       }
+    },
+    {
+      "items": [
+        "farmersdelight:brown_mushroom_colony",
+        "farmersdelight:red_mushroom_colony"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:red_mushroom"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:sandy_shrub"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:short_grass"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:wild_potatoes",
+        "farmersdelight:wild_onions",
+        "farmersdelight:wild_carrots",
+        "farmersdelight:wild_beetroots",
+        "farmersdelight:wild_tomatoes",
+        "farmersdelight:wild_cabbages",
+        "farmersdelight:wild_rice"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wheat_seeds"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:tomato_seeds",
+        "farmersdelight:cabbage_seeds"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wheat_seeds"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:rice"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:nether_wart"
+        ]
+      }
     }
   ]
 }

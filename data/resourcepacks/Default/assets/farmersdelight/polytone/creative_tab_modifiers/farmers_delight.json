@@ -1,0 +1,11 @@
+{
+  "targets": [
+    "farmersdelight:farmersdelight"
+  ],
+  "removals": [
+    {
+      "type": "id_match",
+      "namespace": "farmersdelight"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "targets": [
+    "food_and_drinks"
+  ],
+  "removals": [
+    {
+      "type": "items_match",
+      "items": [
+        "minecraft:beetroot_soup",
+        "minecraft:cake",
+        "minecraft:cookie",
+        "minecraft:mushroom_stew",
+        "minecraft:pumpkin_pie",
+        "minecraft:rabbit_stew",
+        "minecraft:rotten_flesh",
+        "minecraft:spider_eye"
+      ]
+    }
+  ],
+  "additions": [
+    {
+      "items": [
+        "farmersdelight:pumpkin_slice"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:melon_slice"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:onion"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:poisonous_potato"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:tomato",
+        "farmersdelight:rotten_tomato",
+        "farmersdelight:cabbage",
+        "farmersdelight:cabbage_leaf"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:beetroot"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:kelp_roll",
+        "farmersdelight:kelp_roll_slice"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:dried_kelp"
+        ]
+      }
+    },
+    {
+      "items": [
+        "minecraft:rotten_flesh",
+        "minecraft:spider_eye"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:beef"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:minced_beef",
+        "farmersdelight:beef_patty",
+        "farmersdelight:bacon",
+        "farmersdelight:cooked_bacon",
+        "farmersdelight:mutton_chops",
+        "farmersdelight:cooked_mutton_chops",
+        "farmersdelight:chicken_cuts",
+        "farmersdelight:cooked_chicken_cuts",
+        "farmersdelight:cod_slice",
+        "farmersdelight:cooked_cod_slice",
+        "farmersdelight:salmon_slice",
+        "farmersdelight:cooked_salmon_slice",
+        "farmersdelight:ham",
+        "farmersdelight:smoked_ham",
+        "farmersdelight:barbecue_stick"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:pufferfish"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:wheat_dough",
+        "farmersdelight:dumplings"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:bread"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:hamburger",
+        "farmersdelight:bacon_sandwich",
+        "farmersdelight:chicken_sandwich",
+        "farmersdelight:egg_sandwich",
+        "farmersdelight:mutton_wrap",
+        "farmersdelight:cod_roll",
+        "farmersdelight:salmon_roll",
+        "farmersdelight:stuffed_potato",
+        "farmersdelight:cabbage_rolls",
+        "farmersdelight:cooked_rice",
+        "farmersdelight:fried_rice",
+        "farmersdelight:mushroom_rice",
+        "farmersdelight:steak_and_potatoes",
+        "farmersdelight:roasted_mutton_chops",
+        "farmersdelight:grilled_salmon",
+        "farmersdelight:fried_egg",
+        "farmersdelight:bacon_and_eggs",
+        "farmersdelight:raw_pasta",
+        "farmersdelight:vegetable_noodles",
+        "farmersdelight:pasta_with_meatballs",
+        "farmersdelight:pasta_with_mutton_chop",
+        "farmersdelight:squid_ink_pasta",
+        "farmersdelight:stuffed_pumpkin_block",
+        "farmersdelight:roast_chicken_block",
+        "farmersdelight:shepherds_pie_block",
+        "farmersdelight:honey_glazed_ham_block",
+        "farmersdelight:rice_roll_medley_block",
+        "farmersdelight:stuffed_pumpkin",
+        "farmersdelight:roast_chicken",
+        "farmersdelight:shepherds_pie",
+        "farmersdelight:honey_glazed_ham",
+        "farmersdelight:apple_pie",
+        "farmersdelight:sweet_berry_cheesecake",
+        "farmersdelight:chocolate_pie",
+        "minecraft:cake",
+        "farmersdelight:apple_pie_slice",
+        "farmersdelight:sweet_berry_cheesecake_slice",
+        "farmersdelight:chocolate_pie_slice",
+        "farmersdelight:cake_slice",
+        "farmersdelight:pie_crust",
+        "minecraft:pumpkin_pie",
+        "minecraft:cookie",
+        "farmersdelight:sweet_berry_cookie",
+        "farmersdelight:honey_cookie",
+        "farmersdelight:fruit_salad",
+        "farmersdelight:mixed_salad",
+        "farmersdelight:nether_salad",
+        "farmersdelight:ratatouille",
+        "farmersdelight:tomato_sauce",
+        "minecraft:mushroom_stew",
+        "farmersdelight:beef_stew",
+        "minecraft:rabbit_stew",
+        "farmersdelight:fish_stew",
+        "farmersdelight:baked_cod_stew",
+        "farmersdelight:horse_feed",
+        "farmersdelight:dog_food",
+        "farmersdelight:bone_broth",
+        "farmersdelight:pumpkin_soup",
+        "farmersdelight:vegetable_soup",
+        "minecraft:beetroot_soup",
+        "farmersdelight:chicken_soup",
+        "farmersdelight:noodle_soup"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:bread"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:melon_popsicle"
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:milk_bucket"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:milk_bottle"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:milk_bucket"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:apple_cider",
+        "farmersdelight:melon_juice",
+        "farmersdelight:hot_cocoa",
+        "farmersdelight:glow_berry_custard"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:honey_bottle"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "targets": [
+    "ingredients"
+  ],
+  "additions": [
+    {
+      "items": [
+        "farmersdelight:straw",
+        "farmersdelight:rice_panicle"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wheat"
+        ]
+      }
+    },
+    {
+      "items": [
+        "farmersdelight:canvas",
+        "farmersdelight:tree_bark"
+      ],
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:paper"
+        ]
+      }
+    }
+  ]
+}
