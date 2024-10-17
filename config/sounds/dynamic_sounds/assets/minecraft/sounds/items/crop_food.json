@@ -1,9 +1,23 @@
 {
   "keys": [
-    "#c:foods/vegetables",
-    "#c:foods/fruits",
     "#c:foods/berries",
-    "#c:foods/breads"
+    "#c:foods/breads",
+    "#c:foods/fruits",
+    "#c:foods/vegetables",
+    "farmersdelight:cabbage_rolls",
+    "farmersdelight:cooked_rice",
+    "farmersdelight:fried_rice",
+    "farmersdelight:horse_feed",
+    "farmersdelight:kelp_roll",
+    "farmersdelight:stuffed_pumpkin",
+    "farmersdelight:fruit_salad",
+    "farmersdelight:mixed_salad",
+    "farmersdelight:nether_salad",
+    "farmersdelight:ratatouille",
+    "farmersdelight:kelp_roll_slice",
+    "farmersdelight:mushroom_rice",
+    "farmersdelight:rice_panicle",
+    "farmersdelight:straw"
   ],
   "pitch": 1.76,
   "soundEvent": "minecraft:block.crop.break",

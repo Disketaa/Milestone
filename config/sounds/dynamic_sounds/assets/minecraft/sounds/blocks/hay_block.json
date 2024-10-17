@@ -20,6 +20,8 @@
     "volume": 1.0
   },
   "keys": [
+    "farmersdelight:rice_bale",
+    "farmersdelight:straw_bale",
     "minecraft:hay_block"
   ]
 }

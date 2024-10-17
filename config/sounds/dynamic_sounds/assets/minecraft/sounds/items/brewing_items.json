@@ -1,11 +1,17 @@
 {
   "keys": [
-    "minecraft:glass_bottle",
-    "minecraft:potion",
+    "farmersdelight:apple_cider",
+    "farmersdelight:glow_berry_custard",
+    "farmersdelight:hot_cocoa",
+    "farmersdelight:melon_juice",
+    "farmersdelight:milk_bottle",
     "minecraft:dragon_breath",
-    "minecraft:splash_potion",
+    "minecraft:glass_bottle",
+    "minecraft:lingering_potion",
+    "minecraft:milk_bucket",
     "minecraft:ominous_bottle",
-    "minecraft:lingering_potion"
+    "minecraft:potion",
+    "minecraft:splash_potion"
   ],
   "soundEvent": "minecraft:item.bottle.fill"
 }
