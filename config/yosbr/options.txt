@@ -4,7 +4,7 @@ guiScale:2
 maxFps:260
 realmsNotifications:false
 skipMultiplayerWarning:true
-resourcePacks:["vanilla","fabric","Item Model Consistency","Default"]
+resourcePacks:["vanilla","moonlight:mods_dynamic_assets","fabric","minecraft:supporteatinganimation"]
 joinedFirstServer:true
 hideBundleTutorial:false
 allowServerListing:true

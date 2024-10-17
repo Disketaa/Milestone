@@ -7,31 +7,32 @@
       "a_good_place:default_animations",
       "file/A Good Place Sample Pack.zip",
       "elytratrims:legacy",
-      "minecraft:supporteatinganimation",
-      "moonlight:mods_dynamic_assets",
-      "vanilla",
-      "fabric"
+      "moonlight:mods_dynamic_assets"
     ],
 
     "2": [
-      "Default"
+      "vanilla",
+      "fabric",
+      "minecraft:supporteatinganimation"
     ],
 
     "3": [
+      "Default",
       "Item Model Consistency"
     ],
 
     "$$1": {
-      "hidden": true,
-      "fixed_position": false
+      "hidden": true
     },
 
     "$$2": {
-      "fixed_position": false
+      "default_position": "bottom",
+      "required": true,
+      "hidden": true
     },
 
     "$$3": {
-      "fixed_position": false
+      "required": true
     }
   }
 }
