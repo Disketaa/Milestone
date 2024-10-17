@@ -1,0 +1,13 @@
+{
+    "version": 4,
+    "config": {
+        "stepHeight": 0.3,
+        "playerEjectTicks": 200.0,
+        "boostUnderwater": true,
+        "boostOnBlocks": true,
+        "boostOnIce": false,
+        "boostOnWater": true,
+        "onlyForPlayers": false,
+        "extraCollisionDetectionRange": 0.55
+    }
+}
