@@ -23,7 +23,7 @@
 	repair_with_other_item_bonus_durability = 0.12
 	#Costs for applying enchantments from enchanted books are halved.
 	#Default Value: true
-	halved_book_costs = true
+	halved_book_costs = false
 	#The additional cost in levels for each valid repair material an item is repaired with.
 	#Default Value: 1
 	#Range: > 0
