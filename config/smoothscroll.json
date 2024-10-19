@@ -1,0 +1,10 @@
+{
+  "note": "Safe values for settings are 0 - 1 (inclusive). 0 means animation off (infinite speed) and bigger values mean slower speed (up to 1). Press F3+T in a world to update config.",
+  "hotbarSpeed": 0.1,
+  "chatSpeed": 0.25,
+  "chatOpeningSpeed": 0.25,
+  "creativeScreenSpeed": 0.5,
+  "entryListSpeed": 0.5,
+  "enableMaskDebug": false,
+  "cfgVersion": 2.1
+}
