@@ -78,7 +78,7 @@
 		   If true, pressing the preview key will show the full preview instead.
 		   (default value: false)
 		*/
-		"swapModes": true,
+		"swapModes": false,
 		/* If on, the preview is always displayed, regardless of the preview key being pressed.
 		   (default value: false)
 		*/
