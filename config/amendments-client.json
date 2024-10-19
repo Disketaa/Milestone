@@ -14,7 +14,7 @@
     "brewing_stand_colors": true
   },
   "arrows": {
-    "crossbows_colors": true
+    "crossbows_colors": false
   },
   "tripwire_hook": {
     "fast_hooks": false
