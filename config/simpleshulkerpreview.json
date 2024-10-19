@@ -1,0 +1,41 @@
+{
+  "displayIcon": "FIRST",
+  "customName": "NEVER",
+  "iconPositionOptionsGeneral": {
+    "translateX": 12,
+    "translateY": 4,
+    "translateZ": 10,
+    "scale": 0
+  },
+  "stackSizeOptions": {
+    "minStackSize": 1,
+    "minStackCount": 1
+  },
+  "groupEnchantment": false,
+  "showCapacity": true,
+  "capacityBarOptions": {
+    "translateX": 2,
+    "translateY": 13,
+    "length": 13,
+    "width": 1,
+    "direction": "LEFT_TO_RIGHT",
+    "displayShadow": true,
+    "hideWhenEmpty": true,
+    "hideWhenFull": false
+  },
+  "disableMod": false,
+  "supportBundles": false,
+  "iconPositionOptionsBundle": {
+    "translateX": 12,
+    "translateY": 4,
+    "translateZ": 10,
+    "scale": 10
+  },
+  "iconPositionOptionsStacked": {
+    "translateX": 12,
+    "translateY": 4,
+    "translateZ": 10,
+    "scale": 10
+  },
+  "supportOtherContainers": false
+}
