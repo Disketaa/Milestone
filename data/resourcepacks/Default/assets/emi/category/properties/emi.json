@@ -11,44 +11,50 @@
   "minecraft:smoking": {
     "order": 3
   },
-  "minecraft:campfire_cooking": {
+  "farmersdelight:cooking": {
     "order": 4
   },
-  "minecraft:stonecutting": {
+  "minecraft:campfire_cooking": {
     "order": 5
   },
-  "minecraft:smithing": {
+  "farmersdelight:cutting": {
     "order": 6
   },
-  "emi:anvil_repairing": {
+  "minecraft:stonecutting": {
     "order": 7
   },
-  "emi:grinding": {
+  "minecraft:smithing": {
     "order": 8
+  },
+  "emi:anvil_repairing": {
+    "order": 9
+  },
+  "emi:grinding": {
+    "order": 10
   },
   "minecraft:brewing": {
     "order": 9
   },
   "emi_loot:mob_drops": {
-    "order": 10,
+    "order": 11,
     "icon": {
       "stack": "item:minecraft:spawner"
     }
   },
   "emi_loot:gameplay_drops": {
-    "order": 11,
+    "order": 12,
     "icon": {
       "stack": "item:minecraft:cartography_table"
     }
   },
   "emi_loot:chest_loot": {
-    "order": 12,
+    "order": 13,
     "icon": {
       "stack": "item:minecraft:barrel"
     }
   },
   "emi_loot:archaeology_drops": {
-    "order": 13,
+    "order": 14,
     "icon": {
       "stack": "item:minecraft:suspicious_gravel"
     }
@@ -67,26 +73,29 @@
   "emi:composting": {
     "order": 95
   },
+  "farmersdelight:decomposition": {
+    "order": 96
+  },
   "emi_loot:block_drops": {
-    "order": 96,
+    "order": 97,
     "icon": {
       "stack": "item:minecraft:dirt"
     }
   },
   "emi:info": {
-    "order": 97,
+    "order": 98,
     "icon": {
       "stack": "item:minecraft:knowledge_book"
     }
   },
   "emi:fuel": {
-    "order": 98,
+    "order": 99,
     "icon": {
       "stack": "item:minecraft:magma_block"
     }
   },
   "emi:tag": {
-    "order": 99,
+    "order": 100,
     "icon": {
       "stack": "item:minecraft:chiseled_bookshelf"
     }
