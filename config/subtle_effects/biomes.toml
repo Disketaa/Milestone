@@ -1,5 +1,6 @@
 # Don't change this! Version used to track needed updates.
 version = 0
+biomeColorRain = true
 biomeParticlesRadius = 32
 mushroomSporeBiomes = [
     "minecraft:mushroom_fields"

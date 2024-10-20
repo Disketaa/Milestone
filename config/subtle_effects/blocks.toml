@@ -47,6 +47,7 @@ endPortalParticles = true
 leavesDecayEffects = true
 farmlandDestroyEffects = true
 amethystSparkleDisplayType = "ON"
+amethystSparkleSounds = true
 floweringAzaleaPetals = true
 sculkBlockSculkDust = true
 sculkVeinSculkDust = true
