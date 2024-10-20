@@ -8,7 +8,7 @@
     "item_storage.normal_amount": 9,
     "item_storage": false,
     "harvest_tool": false,
-    "armor_stand": false,
+    "armor_stand": true,
     "fluid_storage.detailed": false,
     "next_entity_drop": false,
     "energy_storage": false,
@@ -38,7 +38,7 @@
     "entity_armor": true,
     "harvest_tool.creative": false,
     "horse_stats": false,
-    "item_tooltip": true,
+    "item_tooltip": false,
     "entity_health": true,
     "enchantment_power": false,
     "zombie_villager": false,
@@ -47,7 +47,7 @@
     "entity_health.icons_per_line": 10,
     "total_enchantment_power": false,
     "potion_effects": false,
-    "painting": false,
+    "painting": true,
     "chiseled_bookshelf": false
   },
   "jade_access": {
